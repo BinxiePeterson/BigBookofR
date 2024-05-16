@@ -10,26 +10,28 @@
 - chapters/Data Visualization.qmd
 - chapters/Economics.qmd
 - chapters/Español.qmd
-- chapters/Field specific.qmd
+- chapters/Field Specific.qmd
 - chapters/Finance.qmd
 - chapters/Geospatial.qmd
-- chapters/Getting cleaning and wrangling data.qmd
+- chapters/Getting Cleaning and Wrangling Data.qmd
 - chapters/Journalism.qmd
 - chapters/Life Sciences.qmd
 - chapters/Machine Learning.qmd
-- chapters/Network analysis.qmd
+- chapters/Network Analysis.qmd
+- chapters/Other Compendiums.qmd
 - chapters/Packages.qmd
 - chapters/People Analytics.qmd
+- chapters/Psychology.qmd
 - chapters/Reports.qmd
-- chapters/R package development.qmd
-- chapters/R programming.qmd
+- chapters/R Package Development.qmd
+- chapters/R Programming.qmd
 - chapters/Shiny.qmd
 - chapters/Social Science.qmd
-- chapters/Sport analytics.qmd
+- chapters/Sport Analytics.qmd
 - chapters/Statistics.qmd
 - chapters/Teaching.qmd
-- chapters/Text analysis.qmd
+- chapters/Text Analysis.qmd
 - chapters/Time Series Analysis and Forecasting.qmd
-- chapters/Version control.qmd
+- chapters/Version Control.qmd
 - chapters/Workflow.qmd
 - chapters/Other compendiums.qmd

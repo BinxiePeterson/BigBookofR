@@ -50,16 +50,6 @@ This book is my attempt to provide answers to these types of questions.
 
 Link: [https://howiuser.com/](https://howiuser.com/)
 
-## R Without Statistics
-
-- [David Keyes](https://twitter.com/rfortherest)
-
-R Without Statistics will show ways that R can be used beyond complex statistical analysis. Readers will learn about a range of uses for R, many of which they have likely never even considered.
-
-Link: [https://book.rwithoutstatistics.com/](https://book.rwithoutstatistics.com/)
-
-Physical copy available: https://amzn.to/3RBuKbO
-
 ## R Workflow for Reproducible Data Analysis and Reporting
 
 - Frank E Harrell Jr
@@ -67,6 +57,16 @@ Physical copy available: https://amzn.to/3RBuKbO
 This work is intended to foster best practices in reproducible data documentation and manipulation, statistical analysis, graphics, and reporting. It will enable the reader to efficiently produce attractive, readable, and reproducible research reports while keeping code concise and clear. Readers are also guided in choosing statistically efficient descriptive analyses that are consonant with the type of data being analyzed.
 
 Link: [http://hbiostat.org/rflow/](http://hbiostat.org/rflow/)
+
+## R for the Rest of Us
+
+- [David Keyes](https://twitter.com/rfortherest)
+
+R for the Rest of Us will show ways that R can be used beyond complex statistical analysis. Readers will learn about a range of uses for R, many of which they have likely never even considered.
+
+Link: [https://book.rfortherestofus.com/](https://book.rfortherestofus.com/)
+
+Physical copy available: https://amzn.to/3RBuKbO
 
 ## Reproducible Analytical Pipelines (RAP) Companion
 

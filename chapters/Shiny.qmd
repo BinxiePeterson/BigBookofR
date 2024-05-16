@@ -96,7 +96,7 @@ The book is a guide to help you understand the codes of five applications you wi
 
 Instead of spending hours and hours trying to understand, have the ideas, write the codes, apply application features, you can use the codes to quickly apply and learn the codes. There are many advanced features, it takes years to learn them, now you have it, hand on and work through it.
 
-Paid: Onlien version is a sample of the book, full paid version and all code available for purchase $250
+Paid: Online version is a sample of the book, full paid version and all code available for purchase $250
 
 Link: [https://kimloanrobinson.shinyapps.io/r_shiny_book_web/](https://kimloanrobinson.shinyapps.io/r_shiny_book_web/)
 

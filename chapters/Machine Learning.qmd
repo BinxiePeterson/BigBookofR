@@ -9,6 +9,15 @@ ecosystem.
 
 Link: [https://f0nzie.github.io/rtorch-minimal-book/](https://f0nzie.github.io/rtorch-minimal-book/)
 
+## Applied Machine Learning for Tabular Data
+
+- Max Kuhn
+- Kjell Johnson
+
+We want to create a practical guide to developing quality predictive models from tabular data. We’ll publish materials here as we create them and welcome community contributions in the form of discussions, suggestions, and edits. The book takes a holistic view of the predictive modeling process and focuses on a few areas that are usually left out of similar works. For example, the effectiveness of the model can be driven by how the predictors are represented. Because of this, we tightly couple feature engineering methods with machine learning models. Also, quite a lot of work happens after we have determined our best model and created the final fit. These post-modeling activities are an important part of the model development process and will be described in detail.
+
+Link: [https://aml4td.org/](https://aml4td.org/)
+
 ## Behavior Analysis with Machine Learning Using R
 
 - Enrique Garcia Ceja

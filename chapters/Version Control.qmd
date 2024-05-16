@@ -1,4 +1,4 @@
-# Version control
+# Version Control
 
 ## Git and Github for Advanced Ecological Data Analysis
 

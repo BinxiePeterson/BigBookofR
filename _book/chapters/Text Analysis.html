@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Big Book of R - 28&nbsp; Reports</title>
+<title>Big Book of R - 36&nbsp; Text Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../chapters/R Package Development.html" rel="next">
-<link href="../chapters/Psychology.html" rel="prev">
+<link href="../chapters/Time Series Analysis and Forecasting.html" rel="next">
+<link href="../chapters/Teaching.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -72,13 +72,13 @@ ul.task-list li input[type="checkbox"] {
 </head><body class="nav-sidebar floating"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
 
 
-<meta property="og:title" content="Big Book of R - 28&nbsp; Reports">
+<meta property="og:title" content="Big Book of R - 36&nbsp; Text Analysis">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://www.bigbookofr.com/images/big_book_social.png">
 <meta property="og:url" content="https://www.bigbookofr.com/">
 <meta property="og:site_name" content="Big Book of R">
 
-<meta name="twitter:title" content="Big Book of R - 28&nbsp; Reports">
+<meta name="twitter:title" content="Big Book of R - 36&nbsp; Text Analysis">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image:alt" content="400+ Free R programming books">
 <meta name="twitter:site" content="@oscarbaruffa">
@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/Reports.html"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Reports</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/Text Analysis.html"><span class="chapter-number">36</span>&nbsp; <span class="chapter-title">Text Analysis</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -318,7 +318,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/Reports.html" class="sidebar-item-text sidebar-link active">
+  <a href="../chapters/Reports.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Reports</span></span></a>
   </div>
 </li>
@@ -366,7 +366,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/Text Analysis.html" class="sidebar-item-text sidebar-link">
+  <a href="../chapters/Text Analysis.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">36</span>&nbsp; <span class="chapter-title">Text Analysis</span></span></a>
   </div>
 </li>
@@ -404,16 +404,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#getting-used-to-r-rstudio-and-r-markdown" id="toc-getting-used-to-r-rstudio-and-r-markdown" class="nav-link active" data-scroll-target="#getting-used-to-r-rstudio-and-r-markdown"><span class="header-section-number">28.1</span> Getting used to R, RStudio, and R Markdown</a></li>
-  <li><a href="#introduction-to-r-markdown" id="toc-introduction-to-r-markdown" class="nav-link" data-scroll-target="#introduction-to-r-markdown"><span class="header-section-number">28.2</span> Introduction to R Markdown</a></li>
-  <li><a href="#pimp-my-rmd-a-few-tips-for-r-markdown" id="toc-pimp-my-rmd-a-few-tips-for-r-markdown" class="nav-link" data-scroll-target="#pimp-my-rmd-a-few-tips-for-r-markdown"><span class="header-section-number">28.3</span> Pimp my RMD a few tips for R Markdown</a></li>
-  <li><a href="#r-markdown-cookbook" id="toc-r-markdown-cookbook" class="nav-link" data-scroll-target="#r-markdown-cookbook"><span class="header-section-number">28.4</span> R Markdown Cookbook</a></li>
-  <li><a href="#r-markdown-the-definitive-guide" id="toc-r-markdown-the-definitive-guide" class="nav-link" data-scroll-target="#r-markdown-the-definitive-guide"><span class="header-section-number">28.5</span> R Markdown The Definitive Guide</a></li>
-  <li><a href="#r-bookdownplus-textbook" id="toc-r-bookdownplus-textbook" class="nav-link" data-scroll-target="#r-bookdownplus-textbook"><span class="header-section-number">28.6</span> R bookdownplus Textbook</a></li>
-  <li><a href="#rmarkdown-for-scientists" id="toc-rmarkdown-for-scientists" class="nav-link" data-scroll-target="#rmarkdown-for-scientists"><span class="header-section-number">28.7</span> RMarkdown for Scientists</a></li>
-  <li><a href="#report-writing-for-data-science-in-r" id="toc-report-writing-for-data-science-in-r" class="nav-link" data-scroll-target="#report-writing-for-data-science-in-r"><span class="header-section-number">28.8</span> Report Writing for Data Science in R</a></li>
-  <li><a href="#reproducible-research-with-r-and-rstudio" id="toc-reproducible-research-with-r-and-rstudio" class="nav-link" data-scroll-target="#reproducible-research-with-r-and-rstudio"><span class="header-section-number">28.9</span> Reproducible Research with R and RStudio</a></li>
-  <li><a href="#knitr" id="toc-knitr" class="nav-link" data-scroll-target="#knitr"><span class="header-section-number">28.10</span> knitr</a></li>
+  <li><a href="#an-introduction-to-text-processing-and-analysis-with-r" id="toc-an-introduction-to-text-processing-and-analysis-with-r" class="nav-link active" data-scroll-target="#an-introduction-to-text-processing-and-analysis-with-r"><span class="header-section-number">36.1</span> An Introduction to Text Processing and Analysis with R</a></li>
+  <li><a href="#supervised-machine-learning-for-text-analysis-in-r" id="toc-supervised-machine-learning-for-text-analysis-in-r" class="nav-link" data-scroll-target="#supervised-machine-learning-for-text-analysis-in-r"><span class="header-section-number">36.2</span> Supervised Machine Learning for Text Analysis in R</a></li>
+  <li><a href="#text-mining-with-tidy-data-principles" id="toc-text-mining-with-tidy-data-principles" class="nav-link" data-scroll-target="#text-mining-with-tidy-data-principles"><span class="header-section-number">36.3</span> Text Mining With Tidy Data Principles</a></li>
+  <li><a href="#text-mining-for-information-professionals-an-uncharted-territory" id="toc-text-mining-for-information-professionals-an-uncharted-territory" class="nav-link" data-scroll-target="#text-mining-for-information-professionals-an-uncharted-territory"><span class="header-section-number">36.4</span> Text Mining for Information Professionals: An Uncharted Territory</a></li>
+  <li><a href="#text-mining-for-social-scientists" id="toc-text-mining-for-social-scientists" class="nav-link" data-scroll-target="#text-mining-for-social-scientists"><span class="header-section-number">36.5</span> Text Mining for Social Scientists</a></li>
+  <li><a href="#text-mining-with-r" id="toc-text-mining-with-r" class="nav-link" data-scroll-target="#text-mining-with-r"><span class="header-section-number">36.6</span> Text Mining with R</a></li>
   </ul>
 </nav>
     </div>
@@ -422,7 +418,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Reports</span></h1>
+<h1 class="title"><span class="chapter-number">36</span>&nbsp; <span class="chapter-title">Text Analysis</span></h1>
 </div>
 
 
@@ -439,93 +435,56 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="getting-used-to-r-rstudio-and-r-markdown" class="level2" data-number="28.1">
-<h2 data-number="28.1" class="anchored" data-anchor-id="getting-used-to-r-rstudio-and-r-markdown"><span class="header-section-number">28.1</span> Getting used to R, RStudio, and R Markdown</h2>
+<section id="an-introduction-to-text-processing-and-analysis-with-r" class="level2" data-number="36.1">
+<h2 data-number="36.1" class="anchored" data-anchor-id="an-introduction-to-text-processing-and-analysis-with-r"><span class="header-section-number">36.1</span> An Introduction to Text Processing and Analysis with R</h2>
 <ul>
-<li>Chester Ismay</li>
+<li><a href="https://m-clark.github.io">Michael Clark</a></li>
 </ul>
-<p>This resource is designed to provide new users to R, RStudio, and R Markdown with the introductory steps needed to begin their own reproducible research. A review of many of the common R errors encountered (and what they mean in layman’s terms) will also provided be provided.</p>
-<p>Link: <a href="https://bookdown.org/chesterismay/rbasics/">https://bookdown.org/chesterismay/rbasics/</a></p>
+<p>Dealing with text is typically not even considered in the applied statistical training of most disciplines. This is in direct contrast with how often it has to be dealt with prior to more common analysis, or how interesting it might be to have text be the focus of analysis. This document and corresponding workshop will aim to provide a sense of the things one can do with text, and the sorts of analyses that might be useful.</p>
+<p>Link: <a href="https://m-clark.github.io/text-analysis-with-R/">https://m-clark.github.io/text-analysis-with-R/</a></p>
 </section>
-<section id="introduction-to-r-markdown" class="level2" data-number="28.2">
-<h2 data-number="28.2" class="anchored" data-anchor-id="introduction-to-r-markdown"><span class="header-section-number">28.2</span> Introduction to R Markdown</h2>
+<section id="supervised-machine-learning-for-text-analysis-in-r" class="level2" data-number="36.2">
+<h2 data-number="36.2" class="anchored" data-anchor-id="supervised-machine-learning-for-text-analysis-in-r"><span class="header-section-number">36.2</span> Supervised Machine Learning for Text Analysis in R</h2>
 <ul>
-<li>Michael Clark</li>
+<li><a href="https://twitter.com/Emil_Hvitfeldt">Emil Hvitfeldt</a></li>
+<li><a href="https://twitter.com/juliasilge">Julia Silge</a></li>
 </ul>
-<p>The goal is for you to be able to get quickly started with your own document, and understand the possibilities available to you. You will get a feel for the basic mechanics at play, as well as have ideas on how to customize the result to your own tastes.</p>
-<p>Link: <a href="https://m-clark.github.io/Introduction-to-Rmarkdown/">https://m-clark.github.io/Introduction-to-Rmarkdown/</a></p>
+<p>Modeling as a statistical practice can encompass a wide variety of activities. This book focuses on supervised or predictive modeling for text, using text data to make predictions about the world around us. We use the tidymodels framework for modeling, a consistent and flexible collection of R packages developed to encourage good statistical practice.</p>
+<p>Link: <a href="https://smltar.com/">https://smltar.com/</a></p>
 </section>
-<section id="pimp-my-rmd-a-few-tips-for-r-markdown" class="level2" data-number="28.3">
-<h2 data-number="28.3" class="anchored" data-anchor-id="pimp-my-rmd-a-few-tips-for-r-markdown"><span class="header-section-number">28.3</span> Pimp my RMD a few tips for R Markdown</h2>
+<section id="text-mining-with-tidy-data-principles" class="level2" data-number="36.3">
+<h2 data-number="36.3" class="anchored" data-anchor-id="text-mining-with-tidy-data-principles"><span class="header-section-number">36.3</span> Text Mining With Tidy Data Principles</h2>
 <ul>
-<li>Yan Holtz</li>
+<li><a href="https://twitter.com/juliasilge">Julia Silge</a></li>
 </ul>
-<p>R markdown creates interactive reports from R code. This post provides a few tips I use on a daily basis to improve the appearance of output documents.</p>
-<p>Link: <a href="https://holtzy.github.io/Pimp-my-rmd/">https://holtzy.github.io/Pimp-my-rmd/</a></p>
+<p>Text data sets are diverse and ubiquitous, and tidy data principles provide an approach to make text mining easier, more effective, and consistent with tools already in wide use. In this tutorial, you will develop your text mining skills using the tidytext package in R, along with other tidyverse tools.</p>
+<p>Link: <a href="https://juliasilge.shinyapps.io/learntidytext/">https://juliasilge.shinyapps.io/learntidytext/</a></p>
 </section>
-<section id="r-markdown-cookbook" class="level2" data-number="28.4">
-<h2 data-number="28.4" class="anchored" data-anchor-id="r-markdown-cookbook"><span class="header-section-number">28.4</span> R Markdown Cookbook</h2>
+<section id="text-mining-for-information-professionals-an-uncharted-territory" class="level2" data-number="36.4">
+<h2 data-number="36.4" class="anchored" data-anchor-id="text-mining-for-information-professionals-an-uncharted-territory"><span class="header-section-number">36.4</span> Text Mining for Information Professionals: An Uncharted Territory</h2>
 <ul>
-<li><a href="https://yihui.org/">Yihui Xie</a></li>
-<li><a href="https://twitter.com/chrisderv">Christophe Dervieux</a></li>
-<li><a href="https://twitter.com/emilyriederer">Emily Riederer</a></li>
+<li><a href="https://twitter.com/lamba_manika">Manika Lamba</a></li>
+<li><a href="https://twitter.com/drmadhusudhan">Margam Madhusudhan</a></li>
 </ul>
-<p>This book showcases short, practical examples of lesser-known tips and tricks to helps users get the most out of these tools. After reading this book, you will understand how R Markdown documents are transformed from plain text and how you may customize nearly every step of this processing. For example, you will learn how to dynamically create content from R code, reference code in other documents or chunks, control the formatting with customer templates, fine-tune how your code is processed, and incorporate multiple languages into your analysis.</p>
-<p>Link: <a href="https://bookdown.org/yihui/rmarkdown-cookbook/">https://bookdown.org/yihui/rmarkdown-cookbook/</a></p>
+<p>This book focuses on a basic theoretical framework dealing with the problems, solutions, and applications of text mining and its various facets in a very practical form of case studies, use cases, and stories. From understanding different types and forms of data to case studies showing the application of each text mining approach on data retrieved from various resources, this book is a must-read for all library professionals interested in text mining and its application in libraries. Additionally, this book will also be helpful to archivists, digital curators, or any other humanities and social science professionals who want to understand the basic theory behind text data, text mining, and various tools and techniques available to solve and visualize their research problems. Authors’ book website: https://textmining-infopros.github.io/</p>
+<p>Link: <a href="https://www.amazon.com/Text-Mining-for-Information-Professionals_-An-Uncharted-Territory/dp/3030850846">https://www.amazon.com/Text-Mining-for-Information-Professionals_-An-Uncharted-Territory/dp/3030850846</a></p>
 </section>
-<section id="r-markdown-the-definitive-guide" class="level2" data-number="28.5">
-<h2 data-number="28.5" class="anchored" data-anchor-id="r-markdown-the-definitive-guide"><span class="header-section-number">28.5</span> R Markdown The Definitive Guide</h2>
+<section id="text-mining-for-social-scientists" class="level2" data-number="36.5">
+<h2 data-number="36.5" class="anchored" data-anchor-id="text-mining-for-social-scientists"><span class="header-section-number">36.5</span> Text Mining for Social Scientists</h2>
 <ul>
-<li><a href="https://yihui.org/">Yihui Xie</a></li>
-<li><a href="https://github.com/jjallaire">J. J. Allaire</a></li>
-<li><a href="https://twitter.com/StatGarrett">Garrett Grolemund</a></li>
+<li><a href="https://twitter.com/felixlennert">Felix Lennert</a></li>
 </ul>
-<p>The first official book authored by the core R Markdown developers that provides a comprehensive and accurate reference to the R Markdown ecosystem. With R Markdown, you can easily create reproducible data analysis reports, presentations, dashboards, interactive applications, books, dissertations, websites, and journal articles, while enjoying the simplicity of Markdown and the great power of R and other languages.</p>
-<p>Link: <a href="https://bookdown.org/yihui/rmarkdown/">https://bookdown.org/yihui/rmarkdown/</a></p>
+<p>This script will cover the pre-processing of text, the implementation of supervised and unsupervised approaches to text, and in the end, I will briefly touch upon word embeddings and how social science can use them for inquiry.</p>
+<p>Link: <a href="https://bookdown.org/f_lennert/text-mining-book/">https://bookdown.org/f_lennert/text-mining-book/</a></p>
 </section>
-<section id="r-bookdownplus-textbook" class="level2" data-number="28.6">
-<h2 data-number="28.6" class="anchored" data-anchor-id="r-bookdownplus-textbook"><span class="header-section-number">28.6</span> R bookdownplus Textbook</h2>
+<section id="text-mining-with-r" class="level2" data-number="36.6">
+<h2 data-number="36.6" class="anchored" data-anchor-id="text-mining-with-r"><span class="header-section-number">36.6</span> Text Mining with R</h2>
 <ul>
-<li>Peng Zhao</li>
+<li><a href="https://twitter.com/juliasilge">Julia Silge</a></li>
+<li><a href="https://twitter.com/drob">David Robinson</a></li>
 </ul>
-<p>‘bookdownplus’ is an extension of ‘bookdown’. It is a collection of multiple templates, which I have been collecting since years ago on the basis of LaTeX, and have been tailoring them so that I can work happily under the umbrella of ‘bookdown’. ‘bookdownplus’ helps you (and me) write varied types of books and documents. This book you are reading at the moment was exactly produced by ‘bookdownplus’.</p>
-<p>Link: <a href="https://bookdown.org/baydap/bookdownplus/">https://bookdown.org/baydap/bookdownplus/</a></p>
-</section>
-<section id="rmarkdown-for-scientists" class="level2" data-number="28.7">
-<h2 data-number="28.7" class="anchored" data-anchor-id="rmarkdown-for-scientists"><span class="header-section-number">28.7</span> RMarkdown for Scientists</h2>
-<ul>
-<li>Nicholas Tierney</li>
-</ul>
-<p>This is a book on rmarkdown, aimed for scientists. It was initially developed as a 3 hour workshop, but is now developed into a resource that will grow and change over time as a living book.</p>
-<p>Link: <a href="https://rmd4sci.njtierney.com/">https://rmd4sci.njtierney.com/</a></p>
-</section>
-<section id="report-writing-for-data-science-in-r" class="level2" data-number="28.8">
-<h2 data-number="28.8" class="anchored" data-anchor-id="report-writing-for-data-science-in-r"><span class="header-section-number">28.8</span> Report Writing for Data Science in R</h2>
-<ul>
-<li>[Roger D. Peng]](https://twitter.com/rdpeng)</li>
-</ul>
-<p>This book teaches the fundamental concepts and tools behind reporting modern data analyses in a reproducible manner. As data analyses become increasingly complex, the need for clear and reproducible report writing is greater than ever.</p>
-<p>Paid: Free or pay what you want $10</p>
-<p>Link: <a href="https://leanpub.com/reportwriting">https://leanpub.com/reportwriting</a></p>
-</section>
-<section id="reproducible-research-with-r-and-rstudio" class="level2" data-number="28.9">
-<h2 data-number="28.9" class="anchored" data-anchor-id="reproducible-research-with-r-and-rstudio"><span class="header-section-number">28.9</span> Reproducible Research with R and RStudio</h2>
-<ul>
-<li>Christopher Gandrud</li>
-</ul>
-<p>This book present all the Tools for Gathering and Analyzing Data and Presenting Results Reproducible Research with R and RStudio through practical examples.</p>
-<p>The book can be reproduced by using the R package bookdown. You can buy a copy at:</p>
-<p><a href="https://www.routledge.com/Reproducible-Research-with-R-and-RStudio/Gandrud/p/book/9780367143985" class="uri">https://www.routledge.com/Reproducible-Research-with-R-and-RStudio/Gandrud/p/book/9780367143985</a></p>
-<p>Link: <a href="https://github.com/christophergandrud/Rep-Res-Book%3E%20Also,%20you%20can%20buy%20the%20copy.">https://github.com/christophergandrud/Rep-Res-Book&gt; Also, you can buy the copy.</a></p>
-</section>
-<section id="knitr" class="level2" data-number="28.10">
-<h2 data-number="28.10" class="anchored" data-anchor-id="knitr"><span class="header-section-number">28.10</span> knitr</h2>
-<ul>
-<li><a href="https://yihui.org/">Yihui Xie</a></li>
-</ul>
-<p>Dynamic documents with R and knitr!</p>
-<p>The knitr package was designed to be a transparent engine for dynamic report generation with R, solve some long-standing problems in Sweave, and combine features in other add-on packages into one package.</p>
-<p>Link: <a href="https://yihui.org/knitr/">https://yihui.org/knitr/</a></p>
+<p>This book serves as an introduction of text mining using the tidytext package and other tidy tools in R. The functions provided by the tidytext package are relatively simple; what is important are the possible applications. Thus, this book provides compelling examples of real text mining problems.</p>
+<p>Link: <a href="https://www.tidytextmining.com/">https://www.tidytextmining.com/</a></p>
 
 
 </section>
@@ -963,13 +922,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../chapters/Psychology.html" class="pagination-link" aria-label="Psychology">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Psychology</span></span>
+      <a href="../chapters/Teaching.html" class="pagination-link" aria-label="Teaching">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">35</span>&nbsp; <span class="chapter-title">Teaching</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../chapters/R Package Development.html" class="pagination-link" aria-label="R Package Development">
-        <span class="nav-page-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">R Package Development</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../chapters/Time Series Analysis and Forecasting.html" class="pagination-link" aria-label="Time Series Analysis and Forecasting">
+        <span class="nav-page-text"><span class="chapter-number">37</span>&nbsp; <span class="chapter-title">Time Series Analysis and Forecasting</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

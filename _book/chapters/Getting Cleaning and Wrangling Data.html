@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Big Book of R - 28&nbsp; Reports</title>
+<title>Big Book of R - 19&nbsp; Getting, Cleaning and Wrangling Data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../chapters/R Package Development.html" rel="next">
-<link href="../chapters/Psychology.html" rel="prev">
+<link href="../chapters/Journalism.html" rel="next">
+<link href="../chapters/Geospatial.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -72,13 +72,13 @@ ul.task-list li input[type="checkbox"] {
 </head><body class="nav-sidebar floating"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
 
 
-<meta property="og:title" content="Big Book of R - 28&nbsp; Reports">
+<meta property="og:title" content="Big Book of R - 19&nbsp; Getting, Cleaning and Wrangling Data">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://www.bigbookofr.com/images/big_book_social.png">
 <meta property="og:url" content="https://www.bigbookofr.com/">
 <meta property="og:site_name" content="Big Book of R">
 
-<meta name="twitter:title" content="Big Book of R - 28&nbsp; Reports">
+<meta name="twitter:title" content="Big Book of R - 19&nbsp; Getting, Cleaning and Wrangling Data">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image:alt" content="400+ Free R programming books">
 <meta name="twitter:site" content="@oscarbaruffa">
@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/Reports.html"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Reports</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/Getting Cleaning and Wrangling Data.html"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Getting, Cleaning and Wrangling Data</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -264,7 +264,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/Getting Cleaning and Wrangling Data.html" class="sidebar-item-text sidebar-link">
+  <a href="../chapters/Getting Cleaning and Wrangling Data.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Getting, Cleaning and Wrangling Data</span></span></a>
   </div>
 </li>
@@ -318,7 +318,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/Reports.html" class="sidebar-item-text sidebar-link active">
+  <a href="../chapters/Reports.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Reports</span></span></a>
   </div>
 </li>
@@ -404,16 +404,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#getting-used-to-r-rstudio-and-r-markdown" id="toc-getting-used-to-r-rstudio-and-r-markdown" class="nav-link active" data-scroll-target="#getting-used-to-r-rstudio-and-r-markdown"><span class="header-section-number">28.1</span> Getting used to R, RStudio, and R Markdown</a></li>
-  <li><a href="#introduction-to-r-markdown" id="toc-introduction-to-r-markdown" class="nav-link" data-scroll-target="#introduction-to-r-markdown"><span class="header-section-number">28.2</span> Introduction to R Markdown</a></li>
-  <li><a href="#pimp-my-rmd-a-few-tips-for-r-markdown" id="toc-pimp-my-rmd-a-few-tips-for-r-markdown" class="nav-link" data-scroll-target="#pimp-my-rmd-a-few-tips-for-r-markdown"><span class="header-section-number">28.3</span> Pimp my RMD a few tips for R Markdown</a></li>
-  <li><a href="#r-markdown-cookbook" id="toc-r-markdown-cookbook" class="nav-link" data-scroll-target="#r-markdown-cookbook"><span class="header-section-number">28.4</span> R Markdown Cookbook</a></li>
-  <li><a href="#r-markdown-the-definitive-guide" id="toc-r-markdown-the-definitive-guide" class="nav-link" data-scroll-target="#r-markdown-the-definitive-guide"><span class="header-section-number">28.5</span> R Markdown The Definitive Guide</a></li>
-  <li><a href="#r-bookdownplus-textbook" id="toc-r-bookdownplus-textbook" class="nav-link" data-scroll-target="#r-bookdownplus-textbook"><span class="header-section-number">28.6</span> R bookdownplus Textbook</a></li>
-  <li><a href="#rmarkdown-for-scientists" id="toc-rmarkdown-for-scientists" class="nav-link" data-scroll-target="#rmarkdown-for-scientists"><span class="header-section-number">28.7</span> RMarkdown for Scientists</a></li>
-  <li><a href="#report-writing-for-data-science-in-r" id="toc-report-writing-for-data-science-in-r" class="nav-link" data-scroll-target="#report-writing-for-data-science-in-r"><span class="header-section-number">28.8</span> Report Writing for Data Science in R</a></li>
-  <li><a href="#reproducible-research-with-r-and-rstudio" id="toc-reproducible-research-with-r-and-rstudio" class="nav-link" data-scroll-target="#reproducible-research-with-r-and-rstudio"><span class="header-section-number">28.9</span> Reproducible Research with R and RStudio</a></li>
-  <li><a href="#knitr" id="toc-knitr" class="nav-link" data-scroll-target="#knitr"><span class="header-section-number">28.10</span> knitr</a></li>
+  <li><a href="#recipes-for-mining-twitter-data-with-rtweet" id="toc-recipes-for-mining-twitter-data-with-rtweet" class="nav-link active" data-scroll-target="#recipes-for-mining-twitter-data-with-rtweet"><span class="header-section-number">19.1</span> 21 Recipes for Mining Twitter Data with rtweet</a></li>
+  <li><a href="#a-beginners-guide-to-clean-data" id="toc-a-beginners-guide-to-clean-data" class="nav-link" data-scroll-target="#a-beginners-guide-to-clean-data"><span class="header-section-number">19.2</span> A Beginner’s Guide to Clean Data</a></li>
+  <li><a href="#data-wrangling-essentials" id="toc-data-wrangling-essentials" class="nav-link" data-scroll-target="#data-wrangling-essentials"><span class="header-section-number">19.3</span> Data Wrangling Essentials</a></li>
+  <li><a href="#data-wrangling-and-visualization-guide" id="toc-data-wrangling-and-visualization-guide" class="nav-link" data-scroll-target="#data-wrangling-and-visualization-guide"><span class="header-section-number">19.4</span> Data Wrangling and Visualization Guide</a></li>
+  <li><a href="#flexible-imputation-of-missing-data" id="toc-flexible-imputation-of-missing-data" class="nav-link" data-scroll-target="#flexible-imputation-of-missing-data"><span class="header-section-number">19.5</span> Flexible Imputation of Missing Data</a></li>
+  <li><a href="#fundamentals-of-wrangling-healthcare-data-with-r" id="toc-fundamentals-of-wrangling-healthcare-data-with-r" class="nav-link" data-scroll-target="#fundamentals-of-wrangling-healthcare-data-with-r"><span class="header-section-number">19.6</span> Fundamentals of Wrangling Healthcare Data with R</a></li>
+  <li><a href="#handling-strings-with-r" id="toc-handling-strings-with-r" class="nav-link" data-scroll-target="#handling-strings-with-r"><span class="header-section-number">19.7</span> Handling Strings With R</a></li>
+  <li><a href="#spreadsheet-munging-strategies" id="toc-spreadsheet-munging-strategies" class="nav-link" data-scroll-target="#spreadsheet-munging-strategies"><span class="header-section-number">19.8</span> Spreadsheet Munging Strategies</a></li>
+  <li><a href="#text-mining-with-tidy-data-principles" id="toc-text-mining-with-tidy-data-principles" class="nav-link" data-scroll-target="#text-mining-with-tidy-data-principles"><span class="header-section-number">19.9</span> Text Mining With Tidy Data Principles</a></li>
+  <li><a href="#text-mining-with-r" id="toc-text-mining-with-r" class="nav-link" data-scroll-target="#text-mining-with-r"><span class="header-section-number">19.10</span> Text Mining with R</a></li>
+  <li><a href="#web-scraping-with-r" id="toc-web-scraping-with-r" class="nav-link" data-scroll-target="#web-scraping-with-r"><span class="header-section-number">19.11</span> Web Scraping with R</a></li>
   </ul>
 </nav>
     </div>
@@ -422,7 +423,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Reports</span></h1>
+<h1 class="title"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Getting, Cleaning and Wrangling Data</span></h1>
 </div>
 
 
@@ -439,93 +440,97 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="getting-used-to-r-rstudio-and-r-markdown" class="level2" data-number="28.1">
-<h2 data-number="28.1" class="anchored" data-anchor-id="getting-used-to-r-rstudio-and-r-markdown"><span class="header-section-number">28.1</span> Getting used to R, RStudio, and R Markdown</h2>
+<section id="recipes-for-mining-twitter-data-with-rtweet" class="level2" data-number="19.1">
+<h2 data-number="19.1" class="anchored" data-anchor-id="recipes-for-mining-twitter-data-with-rtweet"><span class="header-section-number">19.1</span> 21 Recipes for Mining Twitter Data with rtweet</h2>
 <ul>
-<li>Chester Ismay</li>
+<li>Bob Rudis</li>
 </ul>
-<p>This resource is designed to provide new users to R, RStudio, and R Markdown with the introductory steps needed to begin their own reproducible research. A review of many of the common R errors encountered (and what they mean in layman’s terms) will also provided be provided.</p>
-<p>Link: <a href="https://bookdown.org/chesterismay/rbasics/">https://bookdown.org/chesterismay/rbasics/</a></p>
+<p>The recipes contained in this book use the rtweet package by Michael W. Kearney.</p>
+<p>Link: <a href="https://rud.is/books/21-recipes/">https://rud.is/books/21-recipes/</a></p>
 </section>
-<section id="introduction-to-r-markdown" class="level2" data-number="28.2">
-<h2 data-number="28.2" class="anchored" data-anchor-id="introduction-to-r-markdown"><span class="header-section-number">28.2</span> Introduction to R Markdown</h2>
+<section id="a-beginners-guide-to-clean-data" class="level2" data-number="19.2">
+<h2 data-number="19.2" class="anchored" data-anchor-id="a-beginners-guide-to-clean-data"><span class="header-section-number">19.2</span> A Beginner’s Guide to Clean Data</h2>
 <ul>
-<li>Michael Clark</li>
+<li>Benjamin Greve</li>
 </ul>
-<p>The goal is for you to be able to get quickly started with your own document, and understand the possibilities available to you. You will get a feel for the basic mechanics at play, as well as have ideas on how to customize the result to your own tastes.</p>
-<p>Link: <a href="https://m-clark.github.io/Introduction-to-Rmarkdown/">https://m-clark.github.io/Introduction-to-Rmarkdown/</a></p>
+<p>This book will help you to become a better data scientist by showing you the things that can go wrong when working with data - particularly low-quality data. A key difference between a junior and a senior data scientist is the awareness of potential pitfalls. The experienced data scientist will expect them, navigate around them and avoid costly iteration cycles. After reading this book, you will be able to spot data quality problems and deal with them before they can break your work, saving yourself a lot of time.</p>
+<p>Link: <a href="https://b-greve.gitbook.io/beginners-guide-to-clean-data/">https://b-greve.gitbook.io/beginners-guide-to-clean-data/</a></p>
 </section>
-<section id="pimp-my-rmd-a-few-tips-for-r-markdown" class="level2" data-number="28.3">
-<h2 data-number="28.3" class="anchored" data-anchor-id="pimp-my-rmd-a-few-tips-for-r-markdown"><span class="header-section-number">28.3</span> Pimp my RMD a few tips for R Markdown</h2>
+<section id="data-wrangling-essentials" class="level2" data-number="19.3">
+<h2 data-number="19.3" class="anchored" data-anchor-id="data-wrangling-essentials"><span class="header-section-number">19.3</span> Data Wrangling Essentials</h2>
 <ul>
-<li>Yan Holtz</li>
+<li>Mark Banghart</li>
 </ul>
-<p>R markdown creates interactive reports from R code. This post provides a few tips I use on a daily basis to improve the appearance of output documents.</p>
-<p>Link: <a href="https://holtzy.github.io/Pimp-my-rmd/">https://holtzy.github.io/Pimp-my-rmd/</a></p>
+<p>The R and Python communities have developed a set of tools in the tidyverse and the pandas packages respectively designed to wrangle table data. The intuitive nature of these packages makes learning to use them easy and the code easy to read and understand. These tools allow researchers to quickly and accurately complete data preparation for a wide variety of analysis. It is the application of these packages and their approaches to wrangling that are the subject of this book.</p>
+<p>The Data Wrangling Essentials title was chosen to emphasize both the use of these new tools and the importance of the work of gathering and preparing data.</p>
+<p>Link: <a href="https://www.ssc.wisc.edu/sscc/pubs/DWE/book/">https://www.ssc.wisc.edu/sscc/pubs/DWE/book/</a></p>
 </section>
-<section id="r-markdown-cookbook" class="level2" data-number="28.4">
-<h2 data-number="28.4" class="anchored" data-anchor-id="r-markdown-cookbook"><span class="header-section-number">28.4</span> R Markdown Cookbook</h2>
+<section id="data-wrangling-and-visualization-guide" class="level2" data-number="19.4">
+<h2 data-number="19.4" class="anchored" data-anchor-id="data-wrangling-and-visualization-guide"><span class="header-section-number">19.4</span> Data Wrangling and Visualization Guide</h2>
 <ul>
-<li><a href="https://yihui.org/">Yihui Xie</a></li>
-<li><a href="https://twitter.com/chrisderv">Christophe Dervieux</a></li>
-<li><a href="https://twitter.com/emilyriederer">Emily Riederer</a></li>
+<li>Max Ricciardelli</li>
 </ul>
-<p>This book showcases short, practical examples of lesser-known tips and tricks to helps users get the most out of these tools. After reading this book, you will understand how R Markdown documents are transformed from plain text and how you may customize nearly every step of this processing. For example, you will learn how to dynamically create content from R code, reference code in other documents or chunks, control the formatting with customer templates, fine-tune how your code is processed, and incorporate multiple languages into your analysis.</p>
-<p>Link: <a href="https://bookdown.org/yihui/rmarkdown-cookbook/">https://bookdown.org/yihui/rmarkdown-cookbook/</a></p>
+<p>These modules are here to present a succinct guide to using R, RStudio, and R Markdown for data wrangling and visualization. This guide is meant for those who have little to no experience in programming. My purpose in designing these modules is to provide a brief yet clear guide to learning the basic theory of these tools and how to apply them in practice.</p>
+<p>Link: <a href="https://bookdown.org/max_ricciardelli/wrangling_modules/">https://bookdown.org/max_ricciardelli/wrangling_modules/</a></p>
 </section>
-<section id="r-markdown-the-definitive-guide" class="level2" data-number="28.5">
-<h2 data-number="28.5" class="anchored" data-anchor-id="r-markdown-the-definitive-guide"><span class="header-section-number">28.5</span> R Markdown The Definitive Guide</h2>
+<section id="flexible-imputation-of-missing-data" class="level2" data-number="19.5">
+<h2 data-number="19.5" class="anchored" data-anchor-id="flexible-imputation-of-missing-data"><span class="header-section-number">19.5</span> Flexible Imputation of Missing Data</h2>
 <ul>
-<li><a href="https://yihui.org/">Yihui Xie</a></li>
-<li><a href="https://github.com/jjallaire">J. J. Allaire</a></li>
-<li><a href="https://twitter.com/StatGarrett">Garrett Grolemund</a></li>
+<li>Stef van Buuren</li>
 </ul>
-<p>The first official book authored by the core R Markdown developers that provides a comprehensive and accurate reference to the R Markdown ecosystem. With R Markdown, you can easily create reproducible data analysis reports, presentations, dashboards, interactive applications, books, dissertations, websites, and journal articles, while enjoying the simplicity of Markdown and the great power of R and other languages.</p>
-<p>Link: <a href="https://bookdown.org/yihui/rmarkdown/">https://bookdown.org/yihui/rmarkdown/</a></p>
+<p>Multiple imputation of missing data has become one of the great academic industries. Many analysts now employ multiple imputation on a regular basis as a generic solution to the omnipresent missing-data problem, and a substantial group of practitioners are doing the calculations in mice. This book aspires to combine a state-of-the-art overview of the field with a set of how-to instructions for practical data analysis.</p>
+<p>Link: <a href="https://stefvanbuuren.name/fimd/">https://stefvanbuuren.name/fimd/</a></p>
 </section>
-<section id="r-bookdownplus-textbook" class="level2" data-number="28.6">
-<h2 data-number="28.6" class="anchored" data-anchor-id="r-bookdownplus-textbook"><span class="header-section-number">28.6</span> R bookdownplus Textbook</h2>
+<section id="fundamentals-of-wrangling-healthcare-data-with-r" class="level2" data-number="19.6">
+<h2 data-number="19.6" class="anchored" data-anchor-id="fundamentals-of-wrangling-healthcare-data-with-r"><span class="header-section-number">19.6</span> Fundamentals of Wrangling Healthcare Data with R</h2>
 <ul>
-<li>Peng Zhao</li>
+<li>J. Kyle Armstrong</li>
 </ul>
-<p>‘bookdownplus’ is an extension of ‘bookdown’. It is a collection of multiple templates, which I have been collecting since years ago on the basis of LaTeX, and have been tailoring them so that I can work happily under the umbrella of ‘bookdown’. ‘bookdownplus’ helps you (and me) write varied types of books and documents. This book you are reading at the moment was exactly produced by ‘bookdownplus’.</p>
-<p>Link: <a href="https://bookdown.org/baydap/bookdownplus/">https://bookdown.org/baydap/bookdownplus/</a></p>
+<p>In this course we will review some of the tools of the trade, namely, R’s tidyverse (Wickham and Grolemund 2017; Winter 2019) - a collection of R packages designed with a common framework to aide in common data wrangling and data management tasks.</p>
+<p>Data Wrangling is one subset set of skills within the Data Science Process. We will carefully investigate how decisions made while collecting and preparing the data have down-stream effects on model performance.</p>
+<p>Link: <a href="https://bookdown.org/jkylearmstrong/jeff_data_wrangling/">https://bookdown.org/jkylearmstrong/jeff_data_wrangling/</a></p>
 </section>
-<section id="rmarkdown-for-scientists" class="level2" data-number="28.7">
-<h2 data-number="28.7" class="anchored" data-anchor-id="rmarkdown-for-scientists"><span class="header-section-number">28.7</span> RMarkdown for Scientists</h2>
+<section id="handling-strings-with-r" class="level2" data-number="19.7">
+<h2 data-number="19.7" class="anchored" data-anchor-id="handling-strings-with-r"><span class="header-section-number">19.7</span> Handling Strings With R</h2>
 <ul>
-<li>Nicholas Tierney</li>
+<li>Gaston Sanchez</li>
 </ul>
-<p>This is a book on rmarkdown, aimed for scientists. It was initially developed as a 3 hour workshop, but is now developed into a resource that will grow and change over time as a living book.</p>
-<p>Link: <a href="https://rmd4sci.njtierney.com/">https://rmd4sci.njtierney.com/</a></p>
+<p>Handling character strings in R? Wait a second… you exclaim, R is not a scripting language like Perl, Python, or Ruby. Why would you want to use R for handling and processing text? Well, because sooner or later (I would say sooner than later) you will have to deal with some kind of string manipulation for your data analysis. So it’s better to be prepared for such tasks and know how to perform them inside the R environment.</p>
+<p>Paid: Free preview of first 4 chapters $20</p>
+<p>Link: <a href="https://www.gastonsanchez.com/r4strings/">https://www.gastonsanchez.com/r4strings/</a></p>
 </section>
-<section id="report-writing-for-data-science-in-r" class="level2" data-number="28.8">
-<h2 data-number="28.8" class="anchored" data-anchor-id="report-writing-for-data-science-in-r"><span class="header-section-number">28.8</span> Report Writing for Data Science in R</h2>
+<section id="spreadsheet-munging-strategies" class="level2" data-number="19.8">
+<h2 data-number="19.8" class="anchored" data-anchor-id="spreadsheet-munging-strategies"><span class="header-section-number">19.8</span> Spreadsheet Munging Strategies</h2>
 <ul>
-<li>[Roger D. Peng]](https://twitter.com/rdpeng)</li>
+<li>Duncan Garmonsway</li>
 </ul>
-<p>This book teaches the fundamental concepts and tools behind reporting modern data analyses in a reproducible manner. As data analyses become increasingly complex, the need for clear and reproducible report writing is greater than ever.</p>
-<p>Paid: Free or pay what you want $10</p>
-<p>Link: <a href="https://leanpub.com/reportwriting">https://leanpub.com/reportwriting</a></p>
+<p>This is a work-in-progress book about getting data out of spreadsheets, no matter how peculiar. The book is designed primarily for R users who have to extract data from spreadsheets and who are already familiar with the tidyverse. It has a cookbook structure, and can be used as a reference, but readers who begin in the middle might have to work backwards from time to time.</p>
+<p>Link: <a href="https://nacnudus.github.io/spreadsheet-munging-strategies/">https://nacnudus.github.io/spreadsheet-munging-strategies/</a></p>
 </section>
-<section id="reproducible-research-with-r-and-rstudio" class="level2" data-number="28.9">
-<h2 data-number="28.9" class="anchored" data-anchor-id="reproducible-research-with-r-and-rstudio"><span class="header-section-number">28.9</span> Reproducible Research with R and RStudio</h2>
+<section id="text-mining-with-tidy-data-principles" class="level2" data-number="19.9">
+<h2 data-number="19.9" class="anchored" data-anchor-id="text-mining-with-tidy-data-principles"><span class="header-section-number">19.9</span> Text Mining With Tidy Data Principles</h2>
 <ul>
-<li>Christopher Gandrud</li>
+<li><a href="https://twitter.com/juliasilge">Julia Silge</a></li>
 </ul>
-<p>This book present all the Tools for Gathering and Analyzing Data and Presenting Results Reproducible Research with R and RStudio through practical examples.</p>
-<p>The book can be reproduced by using the R package bookdown. You can buy a copy at:</p>
-<p><a href="https://www.routledge.com/Reproducible-Research-with-R-and-RStudio/Gandrud/p/book/9780367143985" class="uri">https://www.routledge.com/Reproducible-Research-with-R-and-RStudio/Gandrud/p/book/9780367143985</a></p>
-<p>Link: <a href="https://github.com/christophergandrud/Rep-Res-Book%3E%20Also,%20you%20can%20buy%20the%20copy.">https://github.com/christophergandrud/Rep-Res-Book&gt; Also, you can buy the copy.</a></p>
+<p>Text data sets are diverse and ubiquitous, and tidy data principles provide an approach to make text mining easier, more effective, and consistent with tools already in wide use. In this tutorial, you will develop your text mining skills using the tidytext package in R, along with other tidyverse tools.</p>
+<p>Link: <a href="https://juliasilge.shinyapps.io/learntidytext/">https://juliasilge.shinyapps.io/learntidytext/</a></p>
 </section>
-<section id="knitr" class="level2" data-number="28.10">
-<h2 data-number="28.10" class="anchored" data-anchor-id="knitr"><span class="header-section-number">28.10</span> knitr</h2>
+<section id="text-mining-with-r" class="level2" data-number="19.10">
+<h2 data-number="19.10" class="anchored" data-anchor-id="text-mining-with-r"><span class="header-section-number">19.10</span> Text Mining with R</h2>
 <ul>
-<li><a href="https://yihui.org/">Yihui Xie</a></li>
+<li><a href="https://twitter.com/juliasilge">Julia Silge</a></li>
+<li><a href="https://twitter.com/drob">David Robinson</a></li>
 </ul>
-<p>Dynamic documents with R and knitr!</p>
-<p>The knitr package was designed to be a transparent engine for dynamic report generation with R, solve some long-standing problems in Sweave, and combine features in other add-on packages into one package.</p>
-<p>Link: <a href="https://yihui.org/knitr/">https://yihui.org/knitr/</a></p>
+<p>This book serves as an introduction of text mining using the tidytext package and other tidy tools in R. The functions provided by the tidytext package are relatively simple; what is important are the possible applications. Thus, this book provides compelling examples of real text mining problems.</p>
+<p>Link: <a href="https://www.tidytextmining.com/">https://www.tidytextmining.com/</a></p>
+</section>
+<section id="web-scraping-with-r" class="level2" data-number="19.11">
+<h2 data-number="19.11" class="anchored" data-anchor-id="web-scraping-with-r"><span class="header-section-number">19.11</span> Web Scraping with R</h2>
+<ul>
+<li><a href="https://github.com/steviep42">Steve Pittard</a></li>
+</ul>
+<p>Web Scraping with R. . A rich source of examples and instruction.</p>
+<p>Link: <a href="https://steviep42.github.io/webscraping/book/">https://steviep42.github.io/webscraping/book/</a></p>
 
 
 </section>
@@ -963,13 +968,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../chapters/Psychology.html" class="pagination-link" aria-label="Psychology">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Psychology</span></span>
+      <a href="../chapters/Geospatial.html" class="pagination-link" aria-label="Geospatial">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Geospatial</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../chapters/R Package Development.html" class="pagination-link" aria-label="R Package Development">
-        <span class="nav-page-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">R Package Development</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../chapters/Journalism.html" class="pagination-link" aria-label="Journalism">
+        <span class="nav-page-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Journalism</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

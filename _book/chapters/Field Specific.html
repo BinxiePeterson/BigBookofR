@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Big Book of R - 28&nbsp; Reports</title>
+<title>Big Book of R - 16&nbsp; Field Specific</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../chapters/R Package Development.html" rel="next">
-<link href="../chapters/Psychology.html" rel="prev">
+<link href="../chapters/Finance.html" rel="next">
+<link href="../chapters/Español.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -72,13 +72,13 @@ ul.task-list li input[type="checkbox"] {
 </head><body class="nav-sidebar floating"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
 
 
-<meta property="og:title" content="Big Book of R - 28&nbsp; Reports">
+<meta property="og:title" content="Big Book of R - 16&nbsp; Field Specific">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://www.bigbookofr.com/images/big_book_social.png">
 <meta property="og:url" content="https://www.bigbookofr.com/">
 <meta property="og:site_name" content="Big Book of R">
 
-<meta name="twitter:title" content="Big Book of R - 28&nbsp; Reports">
+<meta name="twitter:title" content="Big Book of R - 16&nbsp; Field Specific">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image:alt" content="400+ Free R programming books">
 <meta name="twitter:site" content="@oscarbaruffa">
@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/Reports.html"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Reports</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/Field Specific.html"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Field Specific</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -246,7 +246,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/Field Specific.html" class="sidebar-item-text sidebar-link">
+  <a href="../chapters/Field Specific.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Field Specific</span></span></a>
   </div>
 </li>
@@ -318,7 +318,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/Reports.html" class="sidebar-item-text sidebar-link active">
+  <a href="../chapters/Reports.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Reports</span></span></a>
   </div>
 </li>
@@ -404,16 +404,29 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#getting-used-to-r-rstudio-and-r-markdown" id="toc-getting-used-to-r-rstudio-and-r-markdown" class="nav-link active" data-scroll-target="#getting-used-to-r-rstudio-and-r-markdown"><span class="header-section-number">28.1</span> Getting used to R, RStudio, and R Markdown</a></li>
-  <li><a href="#introduction-to-r-markdown" id="toc-introduction-to-r-markdown" class="nav-link" data-scroll-target="#introduction-to-r-markdown"><span class="header-section-number">28.2</span> Introduction to R Markdown</a></li>
-  <li><a href="#pimp-my-rmd-a-few-tips-for-r-markdown" id="toc-pimp-my-rmd-a-few-tips-for-r-markdown" class="nav-link" data-scroll-target="#pimp-my-rmd-a-few-tips-for-r-markdown"><span class="header-section-number">28.3</span> Pimp my RMD a few tips for R Markdown</a></li>
-  <li><a href="#r-markdown-cookbook" id="toc-r-markdown-cookbook" class="nav-link" data-scroll-target="#r-markdown-cookbook"><span class="header-section-number">28.4</span> R Markdown Cookbook</a></li>
-  <li><a href="#r-markdown-the-definitive-guide" id="toc-r-markdown-the-definitive-guide" class="nav-link" data-scroll-target="#r-markdown-the-definitive-guide"><span class="header-section-number">28.5</span> R Markdown The Definitive Guide</a></li>
-  <li><a href="#r-bookdownplus-textbook" id="toc-r-bookdownplus-textbook" class="nav-link" data-scroll-target="#r-bookdownplus-textbook"><span class="header-section-number">28.6</span> R bookdownplus Textbook</a></li>
-  <li><a href="#rmarkdown-for-scientists" id="toc-rmarkdown-for-scientists" class="nav-link" data-scroll-target="#rmarkdown-for-scientists"><span class="header-section-number">28.7</span> RMarkdown for Scientists</a></li>
-  <li><a href="#report-writing-for-data-science-in-r" id="toc-report-writing-for-data-science-in-r" class="nav-link" data-scroll-target="#report-writing-for-data-science-in-r"><span class="header-section-number">28.8</span> Report Writing for Data Science in R</a></li>
-  <li><a href="#reproducible-research-with-r-and-rstudio" id="toc-reproducible-research-with-r-and-rstudio" class="nav-link" data-scroll-target="#reproducible-research-with-r-and-rstudio"><span class="header-section-number">28.9</span> Reproducible Research with R and RStudio</a></li>
-  <li><a href="#knitr" id="toc-knitr" class="nav-link" data-scroll-target="#knitr"><span class="header-section-number">28.10</span> knitr</a></li>
+  <li><a href="#an-open-source-active-learning-curriculum-for-data-science-in-engineering" id="toc-an-open-source-active-learning-curriculum-for-data-science-in-engineering" class="nav-link active" data-scroll-target="#an-open-source-active-learning-curriculum-for-data-science-in-engineering"><span class="header-section-number">16.1</span> An Open-Source Active Learning Curriculum for Data Science in Engineering</a></li>
+  <li><a href="#audit-analytics-with-r" id="toc-audit-analytics-with-r" class="nav-link" data-scroll-target="#audit-analytics-with-r"><span class="header-section-number">16.2</span> Audit Analytics with R</a></li>
+  <li><a href="#building-energy-statistical-modelling" id="toc-building-energy-statistical-modelling" class="nav-link" data-scroll-target="#building-energy-statistical-modelling"><span class="header-section-number">16.3</span> Building energy statistical modelling</a></li>
+  <li><a href="#computer-age-calculus-with-r" id="toc-computer-age-calculus-with-r" class="nav-link" data-scroll-target="#computer-age-calculus-with-r"><span class="header-section-number">16.4</span> Computer-age Calculus with R</a></li>
+  <li><a href="#computing-matrix-algebra" id="toc-computing-matrix-algebra" class="nav-link" data-scroll-target="#computing-matrix-algebra"><span class="header-section-number">16.5</span> Computing Matrix Algebra</a></li>
+  <li><a href="#crime-by-the-numbers-a-criminologists-guide-to-r" id="toc-crime-by-the-numbers-a-criminologists-guide-to-r" class="nav-link" data-scroll-target="#crime-by-the-numbers-a-criminologists-guide-to-r"><span class="header-section-number">16.6</span> Crime by the Numbers A Criminologist’s Guide to R</a></li>
+  <li><a href="#cryptocurrency-research-open-source-r-tutorial" id="toc-cryptocurrency-research-open-source-r-tutorial" class="nav-link" data-scroll-target="#cryptocurrency-research-open-source-r-tutorial"><span class="header-section-number">16.7</span> Cryptocurrency Research Open Source R Tutorial</a></li>
+  <li><a href="#customer-intelligence-with-r" id="toc-customer-intelligence-with-r" class="nav-link" data-scroll-target="#customer-intelligence-with-r"><span class="header-section-number">16.8</span> Customer Intelligence with R</a></li>
+  <li><a href="#data-science-in-education-using-r" id="toc-data-science-in-education-using-r" class="nav-link" data-scroll-target="#data-science-in-education-using-r"><span class="header-section-number">16.9</span> Data Science in Education Using R</a></li>
+  <li><a href="#data-skills-for-reproducible-science" id="toc-data-skills-for-reproducible-science" class="nav-link" data-scroll-target="#data-skills-for-reproducible-science"><span class="header-section-number">16.10</span> Data Skills for Reproducible Science</a></li>
+  <li><a href="#discrete-data-analysis-with-r-visualization-and-modeling-techniques-for-categorical-and-count-data" id="toc-discrete-data-analysis-with-r-visualization-and-modeling-techniques-for-categorical-and-count-data" class="nav-link" data-scroll-target="#discrete-data-analysis-with-r-visualization-and-modeling-techniques-for-categorical-and-count-data"><span class="header-section-number">16.11</span> Discrete Data Analysis with R Visualization and Modeling Techniques for Categorical and Count Data</a></li>
+  <li><a href="#hierarchical-compartmental-reserving-models" id="toc-hierarchical-compartmental-reserving-models" class="nav-link" data-scroll-target="#hierarchical-compartmental-reserving-models"><span class="header-section-number">16.12</span> Hierarchical Compartmental Reserving Models</a></li>
+  <li><a href="#how-to-be-a-modern-scientist" id="toc-how-to-be-a-modern-scientist" class="nav-link" data-scroll-target="#how-to-be-a-modern-scientist"><span class="header-section-number">16.13</span> How to be a modern scientist</a></li>
+  <li><a href="#introduction-to-econometrics-with-r" id="toc-introduction-to-econometrics-with-r" class="nav-link" data-scroll-target="#introduction-to-econometrics-with-r"><span class="header-section-number">16.14</span> Introduction to Econometrics with R</a></li>
+  <li><a href="#linear-algebra-for-data-science-with-examples-in-r" id="toc-linear-algebra-for-data-science-with-examples-in-r" class="nav-link" data-scroll-target="#linear-algebra-for-data-science-with-examples-in-r"><span class="header-section-number">16.15</span> Linear Algebra for Data Science with examples in R</a></li>
+  <li><a href="#open-forensic-science-in-r" id="toc-open-forensic-science-in-r" class="nav-link" data-scroll-target="#open-forensic-science-in-r"><span class="header-section-number">16.16</span> Open Forensic Science in R</a></li>
+  <li><a href="#public-policy-analytics-code-context-for-data-science-in-government" id="toc-public-policy-analytics-code-context-for-data-science-in-government" class="nav-link" data-scroll-target="#public-policy-analytics-code-context-for-data-science-in-government"><span class="header-section-number">16.17</span> Public Policy Analytics Code &amp; Context for Data Science in Government</a></li>
+  <li><a href="#r-programming-for-actuarial-science" id="toc-r-programming-for-actuarial-science" class="nav-link" data-scroll-target="#r-programming-for-actuarial-science"><span class="header-section-number">16.18</span> R Programming for Actuarial Science</a></li>
+  <li><a href="#r-programming-with-minecraft" id="toc-r-programming-with-minecraft" class="nav-link" data-scroll-target="#r-programming-with-minecraft"><span class="header-section-number">16.19</span> R Programming with Minecraft</a></li>
+  <li><a href="#r-for-excel-users" id="toc-r-for-excel-users" class="nav-link" data-scroll-target="#r-for-excel-users"><span class="header-section-number">16.20</span> R for Excel users</a></li>
+  <li><a href="#r-for-seo" id="toc-r-for-seo" class="nav-link" data-scroll-target="#r-for-seo"><span class="header-section-number">16.21</span> R for SEO</a></li>
+  <li><a href="#r-for-water-resources-data-science" id="toc-r-for-water-resources-data-science" class="nav-link" data-scroll-target="#r-for-water-resources-data-science"><span class="header-section-number">16.22</span> R for Water Resources Data Science</a></li>
+  <li><a href="#technical-foundations-of-informatics" id="toc-technical-foundations-of-informatics" class="nav-link" data-scroll-target="#technical-foundations-of-informatics"><span class="header-section-number">16.23</span> Technical Foundations of Informatics</a></li>
   </ul>
 </nav>
     </div>
@@ -422,7 +435,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Reports</span></h1>
+<h1 class="title"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Field Specific</span></h1>
 </div>
 
 
@@ -439,93 +452,220 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="getting-used-to-r-rstudio-and-r-markdown" class="level2" data-number="28.1">
-<h2 data-number="28.1" class="anchored" data-anchor-id="getting-used-to-r-rstudio-and-r-markdown"><span class="header-section-number">28.1</span> Getting used to R, RStudio, and R Markdown</h2>
+<section id="an-open-source-active-learning-curriculum-for-data-science-in-engineering" class="level2" data-number="16.1">
+<h2 data-number="16.1" class="anchored" data-anchor-id="an-open-source-active-learning-curriculum-for-data-science-in-engineering"><span class="header-section-number">16.1</span> An Open-Source Active Learning Curriculum for Data Science in Engineering</h2>
 <ul>
-<li>Chester Ismay</li>
+<li><a href="www.zdelrosario.com">Zachary del Rosario</a></li>
 </ul>
-<p>This resource is designed to provide new users to R, RStudio, and R Markdown with the introductory steps needed to begin their own reproducible research. A review of many of the common R errors encountered (and what they mean in layman’s terms) will also provided be provided.</p>
-<p>Link: <a href="https://bookdown.org/chesterismay/rbasics/">https://bookdown.org/chesterismay/rbasics/</a></p>
+<p>This work provides open-source content for an active learning curriculum in data science. The scope of the content is sufficient for a full-semester introduction to scientifically reproducible statistical computation, data wrangling, visualization, basic statistical literacy, and data-driven modeling. The content is broken into short exercises that introduce new concepts, and longer challenges that encourage students to develop those skills in an open-ended context.</p>
+<p>Link: <a href="https://zdelrosario.github.io/data-science-curriculum/index.html">https://zdelrosario.github.io/data-science-curriculum/index.html</a></p>
 </section>
-<section id="introduction-to-r-markdown" class="level2" data-number="28.2">
-<h2 data-number="28.2" class="anchored" data-anchor-id="introduction-to-r-markdown"><span class="header-section-number">28.2</span> Introduction to R Markdown</h2>
+<section id="audit-analytics-with-r" class="level2" data-number="16.2">
+<h2 data-number="16.2" class="anchored" data-anchor-id="audit-analytics-with-r"><span class="header-section-number">16.2</span> Audit Analytics with R</h2>
 <ul>
-<li>Michael Clark</li>
+<li>Jonathan Lin</li>
 </ul>
-<p>The goal is for you to be able to get quickly started with your own document, and understand the possibilities available to you. You will get a feel for the basic mechanics at play, as well as have ideas on how to customize the result to your own tastes.</p>
-<p>Link: <a href="https://m-clark.github.io/Introduction-to-Rmarkdown/">https://m-clark.github.io/Introduction-to-Rmarkdown/</a></p>
+<p>This is the website for Audit Analytics in R. This audience of this book is for:</p>
+<p>Audit leaders who are looking to design their environment to encourage cultivate collaboration and sustainability. Audit data analytics practitioners, who are looking to leverage R in their data analytics tasks. You will learn what tools and technologies are well suited for a modern audit analytics toolkit, as well as learn skills with R to perform data analytics tasks. Consider this book to be your roadmap of practical items to implement and follow.</p>
+<p>Link: <a href="https://auditanalytics.jonlin.ca/">https://auditanalytics.jonlin.ca/</a></p>
 </section>
-<section id="pimp-my-rmd-a-few-tips-for-r-markdown" class="level2" data-number="28.3">
-<h2 data-number="28.3" class="anchored" data-anchor-id="pimp-my-rmd-a-few-tips-for-r-markdown"><span class="header-section-number">28.3</span> Pimp my RMD a few tips for R Markdown</h2>
+<section id="building-energy-statistical-modelling" class="level2" data-number="16.3">
+<h2 data-number="16.3" class="anchored" data-anchor-id="building-energy-statistical-modelling"><span class="header-section-number">16.3</span> Building energy statistical modelling</h2>
 <ul>
-<li>Yan Holtz</li>
+<li>Simon Rouchier</li>
 </ul>
-<p>R markdown creates interactive reports from R code. This post provides a few tips I use on a daily basis to improve the appearance of output documents.</p>
-<p>Link: <a href="https://holtzy.github.io/Pimp-my-rmd/">https://holtzy.github.io/Pimp-my-rmd/</a></p>
+<p>The topic of this book is statistical modelling and inference applied to building energy performance assessment. It has two target audiences: building energy researchers and practitioners who need a gentle introduction to statistical modelling; statisticians who may be interested in applications to energy performance.</p>
+<p>Link: <a href="https://buildingenergygeeks.org/index.html">https://buildingenergygeeks.org/index.html</a></p>
 </section>
-<section id="r-markdown-cookbook" class="level2" data-number="28.4">
-<h2 data-number="28.4" class="anchored" data-anchor-id="r-markdown-cookbook"><span class="header-section-number">28.4</span> R Markdown Cookbook</h2>
+<section id="computer-age-calculus-with-r" class="level2" data-number="16.4">
+<h2 data-number="16.4" class="anchored" data-anchor-id="computer-age-calculus-with-r"><span class="header-section-number">16.4</span> Computer-age Calculus with R</h2>
 <ul>
-<li><a href="https://yihui.org/">Yihui Xie</a></li>
-<li><a href="https://twitter.com/chrisderv">Christophe Dervieux</a></li>
-<li><a href="https://twitter.com/emilyriederer">Emily Riederer</a></li>
+<li>Daniel Kaplan</li>
 </ul>
-<p>This book showcases short, practical examples of lesser-known tips and tricks to helps users get the most out of these tools. After reading this book, you will understand how R Markdown documents are transformed from plain text and how you may customize nearly every step of this processing. For example, you will learn how to dynamically create content from R code, reference code in other documents or chunks, control the formatting with customer templates, fine-tune how your code is processed, and incorporate multiple languages into your analysis.</p>
-<p>Link: <a href="https://bookdown.org/yihui/rmarkdown-cookbook/">https://bookdown.org/yihui/rmarkdown-cookbook/</a></p>
+<p>R is closely associated with statistics, but not with calculus. It turns out that R is an excellent language for doing calculus.</p>
+<p>This book shows how to do common calculus calculations using R.</p>
+<p>Link: <a href="https://dtkaplan.github.io/RforCalculus/">https://dtkaplan.github.io/RforCalculus/</a></p>
 </section>
-<section id="r-markdown-the-definitive-guide" class="level2" data-number="28.5">
-<h2 data-number="28.5" class="anchored" data-anchor-id="r-markdown-the-definitive-guide"><span class="header-section-number">28.5</span> R Markdown The Definitive Guide</h2>
+<section id="computing-matrix-algebra" class="level2" data-number="16.5">
+<h2 data-number="16.5" class="anchored" data-anchor-id="computing-matrix-algebra"><span class="header-section-number">16.5</span> Computing Matrix Algebra</h2>
 <ul>
-<li><a href="https://yihui.org/">Yihui Xie</a></li>
-<li><a href="https://github.com/jjallaire">J. J. Allaire</a></li>
-<li><a href="https://twitter.com/StatGarrett">Garrett Grolemund</a></li>
+<li><a href="https://twitter.com/mariodetoma">Mario De Toma</a></li>
 </ul>
-<p>The first official book authored by the core R Markdown developers that provides a comprehensive and accurate reference to the R Markdown ecosystem. With R Markdown, you can easily create reproducible data analysis reports, presentations, dashboards, interactive applications, books, dissertations, websites, and journal articles, while enjoying the simplicity of Markdown and the great power of R and other languages.</p>
-<p>Link: <a href="https://bookdown.org/yihui/rmarkdown/">https://bookdown.org/yihui/rmarkdown/</a></p>
+<p>“Nobody can be a poet without feeling strong affection for words, at the same time nobody can be serious about data science without becoming close friend to matrices.”</p>
+<p>This book is actually a cheat sheet about computing matrix algebra operations such as matrix multiplication, inversion and factorization.</p>
+<p>It is written foR (aspiring) data scientists where with “foR” (capital letter R) I mean the side of data science addicted to R and its gorgeous ecosystem especially including Rcpp, RcppArmadillo and RcppEigen.</p>
+<p>Link: <a href="https://leanpub.com/computingmatrixalgebra">https://leanpub.com/computingmatrixalgebra</a></p>
 </section>
-<section id="r-bookdownplus-textbook" class="level2" data-number="28.6">
-<h2 data-number="28.6" class="anchored" data-anchor-id="r-bookdownplus-textbook"><span class="header-section-number">28.6</span> R bookdownplus Textbook</h2>
+<section id="crime-by-the-numbers-a-criminologists-guide-to-r" class="level2" data-number="16.6">
+<h2 data-number="16.6" class="anchored" data-anchor-id="crime-by-the-numbers-a-criminologists-guide-to-r"><span class="header-section-number">16.6</span> Crime by the Numbers A Criminologist’s Guide to R</h2>
 <ul>
-<li>Peng Zhao</li>
+<li><a href="https://twitter.com/JacobKaplanCrim">Jacob Kaplan</a></li>
 </ul>
-<p>‘bookdownplus’ is an extension of ‘bookdown’. It is a collection of multiple templates, which I have been collecting since years ago on the basis of LaTeX, and have been tailoring them so that I can work happily under the umbrella of ‘bookdown’. ‘bookdownplus’ helps you (and me) write varied types of books and documents. This book you are reading at the moment was exactly produced by ‘bookdownplus’.</p>
-<p>Link: <a href="https://bookdown.org/baydap/bookdownplus/">https://bookdown.org/baydap/bookdownplus/</a></p>
+<p>This book introduces the programming language R and is meant for undergrads or graduate students studying criminology. R is a programming language that is well-suited to the type of work frequently done in criminology - taking messy data and turning it into useful information. While R is a useful tool for many fields of study, this book focuses on the skills criminologists should know and uses crime data for the example data sets.</p>
+<p>Link: <a href="https://crimebythenumbers.com/">https://crimebythenumbers.com/</a></p>
 </section>
-<section id="rmarkdown-for-scientists" class="level2" data-number="28.7">
-<h2 data-number="28.7" class="anchored" data-anchor-id="rmarkdown-for-scientists"><span class="header-section-number">28.7</span> RMarkdown for Scientists</h2>
+<section id="cryptocurrency-research-open-source-r-tutorial" class="level2" data-number="16.7">
+<h2 data-number="16.7" class="anchored" data-anchor-id="cryptocurrency-research-open-source-r-tutorial"><span class="header-section-number">16.7</span> Cryptocurrency Research Open Source R Tutorial</h2>
 <ul>
-<li>Nicholas Tierney</li>
+<li><a href="https://www.linkedin.com/in/esclaponriccardo/">Riccardo (Ricky) Esclapon</a></li>
+<li><a href="https://www.linkedin.com/in/john-chandler-johnson-361a666/">John Chandler Johnson</a></li>
+<li><a href="https://www.linkedin.com/in/kai-r-larsen-4413a01/">Kai R. Larsen</a></li>
 </ul>
-<p>This is a book on rmarkdown, aimed for scientists. It was initially developed as a 3 hour workshop, but is now developed into a resource that will grow and change over time as a living book.</p>
-<p>Link: <a href="https://rmd4sci.njtierney.com/">https://rmd4sci.njtierney.com/</a></p>
+<p>The tutorial is in R. For those without experience programming in R we have a high-level version to help you learn before attempting the full version. Scroll down for a breakdown of the individual sections for an overview of what you will learn throughout.</p>
+<p>You will get more familiar with tools from the tidyverse, including dplyr, ggplot2, tibble and purrr. These tools provide an excellent complete ecosystem to do data science in R.</p>
+<p>You will learn to create machine learning models and how to fairly assess their performance.</p>
+<p>Cryptocurrency Data: You will learn these tools analyzing the latest cryptocurrency data. The tutorial automatically refreshes every 12 hours and the data is publicly available and refreshed hourly.</p>
+<p>Link: <a href="https://cryptocurrencyresearch.org/">https://cryptocurrencyresearch.org/</a></p>
 </section>
-<section id="report-writing-for-data-science-in-r" class="level2" data-number="28.8">
-<h2 data-number="28.8" class="anchored" data-anchor-id="report-writing-for-data-science-in-r"><span class="header-section-number">28.8</span> Report Writing for Data Science in R</h2>
+<section id="customer-intelligence-with-r" class="level2" data-number="16.8">
+<h2 data-number="16.8" class="anchored" data-anchor-id="customer-intelligence-with-r"><span class="header-section-number">16.8</span> Customer Intelligence with R</h2>
+<p>Customer Intelligence with R’ (CI with R) is for learning the basic application of customer activation, development, retention, and segmentation (CADRS) with R. It is aimed to be educational outside of the academia.</p>
+<p>Link: <a href="https://ciwr-businessintelligenceservices-7059ba5c59c64196a9a6337d14fc5.gitlab.io/">https://ciwr-businessintelligenceservices-7059ba5c59c64196a9a6337d14fc5.gitlab.io/</a></p>
+</section>
+<section id="data-science-in-education-using-r" class="level2" data-number="16.9">
+<h2 data-number="16.9" class="anchored" data-anchor-id="data-science-in-education-using-r"><span class="header-section-number">16.9</span> Data Science in Education Using R</h2>
 <ul>
-<li>[Roger D. Peng]](https://twitter.com/rdpeng)</li>
+<li>Ryan A. Estrellado</li>
+<li>Emily A. Bovee</li>
+<li><a href="https://twitter.com/kierisi">Jesse Mostipak</a></li>
+<li><a href="https://twitter.com/ivelasq3">Isabella C. Velásquez</a></li>
 </ul>
-<p>This book teaches the fundamental concepts and tools behind reporting modern data analyses in a reproducible manner. As data analyses become increasingly complex, the need for clear and reproducible report writing is greater than ever.</p>
+<p>Dear Data Scientists, Educators, and Data Scientists who are Educators:</p>
+<p>This book is a warm welcome and an invitation. If you’re a data scientist in education or an educator in data science, your role isn’t exactly straightforward. This book is our contribution to a growing movement to merge the paths of data analysis and education. We wrote this book to make your first step on that path a little clearer and a little less scary.</p>
+<p>Link: <a href="https://datascienceineducation.com/">https://datascienceineducation.com/</a></p>
+</section>
+<section id="data-skills-for-reproducible-science" class="level2" data-number="16.10">
+<h2 data-number="16.10" class="anchored" data-anchor-id="data-skills-for-reproducible-science"><span class="header-section-number">16.10</span> Data Skills for Reproducible Science</h2>
+<ul>
+<li><a href="https://psyteachr.github.io/">PsyTeachR team, University of Glasgow</a></li>
+</ul>
+<p>This course provides an overview of skills needed for reproducible research and open science using the statistical programming language R. Students will learn about data visualisation, data tidying and wrangling, archiving, iteration and functions, probability and data simulations, general linear models, and reproducible workflows. Learning is reinforced through weekly assignments that involve working with different types of data.</p>
+<p>Link: <a href="https://psyteachr.github.io/msc-data-skills/">https://psyteachr.github.io/msc-data-skills/</a></p>
+</section>
+<section id="discrete-data-analysis-with-r-visualization-and-modeling-techniques-for-categorical-and-count-data" class="level2" data-number="16.11">
+<h2 data-number="16.11" class="anchored" data-anchor-id="discrete-data-analysis-with-r-visualization-and-modeling-techniques-for-categorical-and-count-data"><span class="header-section-number">16.11</span> Discrete Data Analysis with R Visualization and Modeling Techniques for Categorical and Count Data</h2>
+<ul>
+<li>Michael Friendly</li>
+<li>David Meyer</li>
+</ul>
+<p>Presents an applied treatment of modern methods for the analysis of categorical data, both discrete response data and frequency data.</p>
+<p>It explains how to use graphical methods for exploring data, spotting unusual features, visualizing fitted models, and presenting results.</p>
+<p>Link: <a href="http://ddar.datavis.ca/">http://ddar.datavis.ca/</a></p>
+</section>
+<section id="hierarchical-compartmental-reserving-models" class="level2" data-number="16.12">
+<h2 data-number="16.12" class="anchored" data-anchor-id="hierarchical-compartmental-reserving-models"><span class="header-section-number">16.12</span> Hierarchical Compartmental Reserving Models</h2>
+<ul>
+<li><a href="https://magesblog.com">Markus Gesmann</a></li>
+<li>Jake Morris</li>
+</ul>
+<p>Hierarchical compartmental reserving models provide a parametric framework for describing aggregate insurance claims processes using differential equations. We discuss how these models can be specified in a fully Bayesian modeling framework to jointly fit paid and outstanding claims development data, taking into account the random nature of claims and underlying latent process parameters. We demonstrate how modelers can utilize their expertise to describe specific development features and incorporate prior knowledge into parameter estimation. We also explore the subtle yet important difference between modeling incremental and cumulative claims payments. Finally, we discuss parameter variation across multiple dimensions and introduce an approach to incorporate market cycle data such as rate changes into the modeling process. Examples and case studies are shown using the probabilistic programming language Stan via the brms package in R.</p>
+<p>Link: <a href="https://compartmentalmodels.gitlab.io/researchpaper/index.html">https://compartmentalmodels.gitlab.io/researchpaper/index.html</a></p>
+</section>
+<section id="how-to-be-a-modern-scientist" class="level2" data-number="16.13">
+<h2 data-number="16.13" class="anchored" data-anchor-id="how-to-be-a-modern-scientist"><span class="header-section-number">16.13</span> How to be a modern scientist</h2>
+<ul>
+<li><a href="https://twitter.com/jtleek">Jeffrey Leek</a></li>
+</ul>
+<p>A book about how to be a scientist the modern, open-source way. The face of academia is changing. It is no longer sufficient to just publish or perish. We are now in an era where Twitter, Github, Figshare, and Alt Metrics are regular parts of the scientific workflow. Here I give high level advice about which tools to use, how to use them, and what to look out for. This book is appropriate for scientists at all levels who want to stay on top of the current technological developments affecting modern scientific careers.</p>
 <p>Paid: Free or pay what you want $10</p>
-<p>Link: <a href="https://leanpub.com/reportwriting">https://leanpub.com/reportwriting</a></p>
+<p>Link: <a href="https://leanpub.com/modernscientist">https://leanpub.com/modernscientist</a></p>
 </section>
-<section id="reproducible-research-with-r-and-rstudio" class="level2" data-number="28.9">
-<h2 data-number="28.9" class="anchored" data-anchor-id="reproducible-research-with-r-and-rstudio"><span class="header-section-number">28.9</span> Reproducible Research with R and RStudio</h2>
+<section id="introduction-to-econometrics-with-r" class="level2" data-number="16.14">
+<h2 data-number="16.14" class="anchored" data-anchor-id="introduction-to-econometrics-with-r"><span class="header-section-number">16.14</span> Introduction to Econometrics with R</h2>
 <ul>
-<li>Christopher Gandrud</li>
+<li>Christoph Hanck</li>
+<li>Martin Arnold</li>
+<li>Alexander Gerber</li>
+<li>Martin Schmelzer</li>
 </ul>
-<p>This book present all the Tools for Gathering and Analyzing Data and Presenting Results Reproducible Research with R and RStudio through practical examples.</p>
-<p>The book can be reproduced by using the R package bookdown. You can buy a copy at:</p>
-<p><a href="https://www.routledge.com/Reproducible-Research-with-R-and-RStudio/Gandrud/p/book/9780367143985" class="uri">https://www.routledge.com/Reproducible-Research-with-R-and-RStudio/Gandrud/p/book/9780367143985</a></p>
-<p>Link: <a href="https://github.com/christophergandrud/Rep-Res-Book%3E%20Also,%20you%20can%20buy%20the%20copy.">https://github.com/christophergandrud/Rep-Res-Book&gt; Also, you can buy the copy.</a></p>
+<p>Beginners with little background in statistics and econometrics often have a hard time understanding the benefits of having programming skills for learning and applying Econometrics. Introduction to Econometrics with R is an interactive companion to the well-received textbook Introduction to Econometrics by James H. Stock and Mark W. Watson (2015). It gives a gentle introduction to the essentials of R programming and guides students in implementing the empirical applications presented throughout the textbook using the newly acquired skills. This is supported by interactive programming exercises and integration of interactive visualizations of central concepts which are based on the flexible JavaScript library D3.js.</p>
+<p>Link: <a href="https://www.econometrics-with-r.org/">https://www.econometrics-with-r.org/</a></p>
 </section>
-<section id="knitr" class="level2" data-number="28.10">
-<h2 data-number="28.10" class="anchored" data-anchor-id="knitr"><span class="header-section-number">28.10</span> knitr</h2>
+<section id="linear-algebra-for-data-science-with-examples-in-r" class="level2" data-number="16.15">
+<h2 data-number="16.15" class="anchored" data-anchor-id="linear-algebra-for-data-science-with-examples-in-r"><span class="header-section-number">16.15</span> Linear Algebra for Data Science with examples in R</h2>
 <ul>
-<li><a href="https://yihui.org/">Yihui Xie</a></li>
+<li>Shaina Race Bennett</li>
 </ul>
-<p>Dynamic documents with R and knitr!</p>
-<p>The knitr package was designed to be a transparent engine for dynamic report generation with R, solve some long-standing problems in Sweave, and combine features in other add-on packages into one package.</p>
-<p>Link: <a href="https://yihui.org/knitr/">https://yihui.org/knitr/</a></p>
+<p>This course is meant to instill a working knowledge of linear algebra terminology and to lay the foundations of advanced data mining techniques like Principal Component Analysis, Factor Analysis, Collaborative Filtering, Correspondence Analysis, Network Analysis, Support Vector Machines and many more.</p>
+<p>Link: <a href="https://shainarace.github.io/LinearAlgebra/index.html">https://shainarace.github.io/LinearAlgebra/index.html</a></p>
+</section>
+<section id="open-forensic-science-in-r" class="level2" data-number="16.16">
+<h2 data-number="16.16" class="anchored" data-anchor-id="open-forensic-science-in-r"><span class="header-section-number">16.16</span> Open Forensic Science in R</h2>
+<ul>
+<li>Sam Tyner, Ph.D (editor)</li>
+</ul>
+<p>This book is for anyone looking to do forensic science analysis in a data-driven and open way. Whether you are a student, teacher, or scientist, this book is for you. We take the latest research, primarily from the Center for Statistics and Applications in Forensic Evidence (CSAFE) and the National Institute of Standards and Technology (NIST) and show you how to solve forensic science problems in R.</p>
+<p>Link: <a href="https://sctyner.github.io/OpenForSciR/">https://sctyner.github.io/OpenForSciR/</a></p>
+</section>
+<section id="public-policy-analytics-code-context-for-data-science-in-government" class="level2" data-number="16.17">
+<h2 data-number="16.17" class="anchored" data-anchor-id="public-policy-analytics-code-context-for-data-science-in-government"><span class="header-section-number">16.17</span> Public Policy Analytics Code &amp; Context for Data Science in Government</h2>
+<ul>
+<li>Ken Steif, Ph.D</li>
+</ul>
+<p>The goal of this book is to make data science accessible to social scientists and City Planners, in particular. I hope to convince readers that one with strong domain expertise plus intermediate data skills can have a greater impact in government than the sharpest computer scientist who has never studied economics, sociology, public health, political science, criminology etc.</p>
+<p>Link: <a href="https://urbanspatial.github.io/PublicPolicyAnalytics/">https://urbanspatial.github.io/PublicPolicyAnalytics/</a></p>
+</section>
+<section id="r-programming-for-actuarial-science" class="level2" data-number="16.18">
+<h2 data-number="16.18" class="anchored" data-anchor-id="r-programming-for-actuarial-science"><span class="header-section-number">16.18</span> R Programming for Actuarial Science</h2>
+<ul>
+<li>Alfred Kume</li>
+<li>Peter McQuire</li>
+</ul>
+<p>Professional resource providing an introduction to R coding for actuarial and financial mathematics applications, with real-life examples</p>
+<p>R Programming for Actuarial Science provides a grounding in R programming applied to the mathematical and statistical methods that are of relevance for actuarial work.</p>
+<p>Link: <a href="https://www.wiley.com/en-ae/R+Programming+for+Actuarial+Science-p-9781119754992">https://www.wiley.com/en-ae/R+Programming+for+Actuarial+Science-p-9781119754992</a></p>
+</section>
+<section id="r-programming-with-minecraft" class="level2" data-number="16.19">
+<h2 data-number="16.19" class="anchored" data-anchor-id="r-programming-with-minecraft"><span class="header-section-number">16.19</span> R Programming with Minecraft</h2>
+<ul>
+<li>Brooke Anderson</li>
+<li>Karl Broman</li>
+<li>Gergely Daróczi</li>
+<li>Mario Inchiosa</li>
+<li>David Smith</li>
+<li>Ali Zaidi</li>
+</ul>
+<p>Minecraft is awesome fun, especially in creative mode, where you can build all sorts of crazy stuff. But ambitious building projects can be really tedious to create by hand. With the miner R package, you can write R code to manipulate your Minecraft world and create even more awesome stuff.</p>
+<p>Here’s an introduction Rstats NYC conference talk on it: https://www.youtube.com/watch?v=r_JgPF8MJpY</p>
+<p>Link: <a href="https://kbroman.org/miner_book/?s=09">https://kbroman.org/miner_book/?s=09</a></p>
+</section>
+<section id="r-for-excel-users" class="level2" data-number="16.20">
+<h2 data-number="16.20" class="anchored" data-anchor-id="r-for-excel-users"><span class="header-section-number">16.20</span> R for Excel users</h2>
+<ul>
+<li>Julie Lowndes</li>
+<li>Allison Horst</li>
+</ul>
+<p>This course is for Excel users who want to add or integrate R and RStudio into their existing data analysis toolkit. It is a friendly intro to becoming a modern R user, full of tidyverse, RMarkdown, GitHub, collaboration &amp; reproducibility.</p>
+<p>Link: <a href="https://rstudio-conf-2020.github.io/r-for-excel/">https://rstudio-conf-2020.github.io/r-for-excel/</a></p>
+</section>
+<section id="r-for-seo" class="level2" data-number="16.21">
+<h2 data-number="16.21" class="anchored" data-anchor-id="r-for-seo"><span class="header-section-number">16.21</span> R for SEO</h2>
+<ul>
+<li><a href="https://twitter.com/tuf">François Joly</a></li>
+</ul>
+<p>Even though R’ is a terrific option for SEO, there are simply not enough resources out there. This guide is not here to deliver a course about R, there are plenty already. This guide is meant to be as practical as possible. How things should be done in an “R-ish way” is not the purpose of this guide. Grab what you want to grab and feel free to submit your own solution.</p>
+<p>Link: <a href="https://www.rforseo.com/">https://www.rforseo.com/</a></p>
+</section>
+<section id="r-for-water-resources-data-science" class="level2" data-number="16.22">
+<h2 data-number="16.22" class="anchored" data-anchor-id="r-for-water-resources-data-science"><span class="header-section-number">16.22</span> R for Water Resources Data Science</h2>
+<ul>
+<li><a href="https://ryanpeek.org/">Ryan Peek</a></li>
+<li><a href="https://www.richpauloo.com/">Rich Pauloo</a></li>
+</ul>
+<p>Consists of 2 courses</p>
+<p>Introductory: This course is most relevant and targeted at folks who work with data, from analysts and program staff to engineers and scientists. This course provides an introduction to the power and possibility of a reproducible programming language (R) by demonstrating how to import, explore, visualize, analyze, and communicate different types of data. Using water resources based examples, this course guides participants through basic data science skills and strategies for continued learning and use of R.</p>
+<p>Intermediate: In this course, we will move more quickly, assume familiarity with basic R skills, and also assume that the participant has working experience with more complex workflows, operations, and code-bases. Each module in this course functions as a “stand-alone” lesson, and can be read linearly, or out of order according to your needs and interests. Each module doesn’t necessarily require familiarity with the previous module.</p>
+<p>This course emphasizes intermediate scripting skills like iteration, functional programming, writing functions, and controlling project workflows for better reproducibility and efficiency. Approaches to working with more complex data structures like lists and timeseries data, the fundamentals of building Shiny Apps, pulling water resources data from APIs, intermediate mapmaking and spatial data processing, integrating version control in projects with git.</p>
+<p>Link: <a href="https://www.r4wrds.com/">https://www.r4wrds.com/</a></p>
+</section>
+<section id="technical-foundations-of-informatics" class="level2" data-number="16.23">
+<h2 data-number="16.23" class="anchored" data-anchor-id="technical-foundations-of-informatics"><span class="header-section-number">16.23</span> Technical Foundations of Informatics</h2>
+<ul>
+<li>Michael Freeman</li>
+<li>Joel Ross</li>
+</ul>
+<p>This book covers the foundation skills necessary to start writing computer programs to work with data using modern and reproducible techniques. It requires no technical background. These materials were developed for the INFO 201: Technical Foundations of Informatics course taught at the University of Washington Information School; however they have been structured to be an online resource for anyone hoping to learn to work with information using programmatic approaches.</p>
+<p>Link: <a href="https://info201.github.io/">https://info201.github.io/</a></p>
 
 
 </section>
@@ -963,13 +1103,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../chapters/Psychology.html" class="pagination-link" aria-label="Psychology">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Psychology</span></span>
+      <a href="../chapters/Español.html" class="pagination-link" aria-label="Español">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Español</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../chapters/R Package Development.html" class="pagination-link" aria-label="R Package Development">
-        <span class="nav-page-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">R Package Development</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../chapters/Finance.html" class="pagination-link" aria-label="Finance">
+        <span class="nav-page-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Finance</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -1,4 +1,4 @@
-# Getting, cleaning and wrangling data
+# Getting, Cleaning and Wrangling Data
 
 ## 21 Recipes for Mining Twitter Data with rtweet
 

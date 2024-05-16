@@ -1,4 +1,4 @@
-# Network analysis
+# Network Analysis
 
 ## Awesome network analysis
 
@@ -27,6 +27,14 @@ Link: [https://ona-book.org/](https://ona-book.org/)
 [Oscar Baruffa: Note this resource is a bit out of date, but because there are so few available on this topic, and it might still be good as a reference, it'll stay in Big Book of R for now.]
 
 Link: [https://web.archive.org/web/20210414173702/http://sachaepskamp.com/files/Cookbook.html](https://web.archive.org/web/20210414173702/http://sachaepskamp.com/files/Cookbook.html)
+
+## R for Social Network Analysis
+
+- David Schoch
+
+The goal of the book is to gather the most important topics in SNA in one place. “Important” is of course very subjective and it is not clear how to draw the line of what should be included and what not. We will start with the low hanging fruits, meaning repurposing our own material. That is, material from our workshops and courses (for instance what is already available here). This should cover the most generally relevant topics in SNA. Everything beyond that will be added over time as we (or the community!) deems necessary.
+
+Link: [https://schochastics.github.io/R4SNA/](https://schochastics.github.io/R4SNA/)
 
 ## Statistical Analysis of Network Data with R
 

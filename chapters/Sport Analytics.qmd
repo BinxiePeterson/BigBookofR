@@ -1,4 +1,4 @@
-# Sport analytics
+# Sport Analytics
 
 ## Basketball Data Science with Applications in R
 

@@ -1,4 +1,4 @@
-# Field specific
+# Field Specific
 
 ## An Open-Source Active Learning Curriculum for Data Science in Engineering
 
@@ -79,6 +79,14 @@ cryptocurrency data. The tutorial automatically refreshes every 12 hours
 and the data is publicly available and refreshed hourly.
 
 Link: [https://cryptocurrencyresearch.org/](https://cryptocurrencyresearch.org/)
+
+## Customer Intelligence with R
+
+
+
+Customer Intelligence with R’ (CI with R) is for learning the basic application of customer activation, development, retention, and segmentation (CADRS) with R. It is aimed to be educational outside of the academia.
+
+Link: [https://ciwr-businessintelligenceservices-7059ba5c59c64196a9a6337d14fc5.gitlab.io/](https://ciwr-businessintelligenceservices-7059ba5c59c64196a9a6337d14fc5.gitlab.io/)
 
 ## Data Science in Education Using R
 
@@ -183,6 +191,17 @@ Link: [https://sctyner.github.io/OpenForSciR/](https://sctyner.github.io/OpenFor
 The goal of this book is to make data science accessible to social scientists and City Planners, in particular. I hope to convince readers that one with strong domain expertise plus intermediate data skills can have a greater impact in government than the sharpest computer scientist who has never studied economics, sociology, public health, political science, criminology etc.
 
 Link: [https://urbanspatial.github.io/PublicPolicyAnalytics/](https://urbanspatial.github.io/PublicPolicyAnalytics/)
+
+## R Programming for Actuarial Science
+
+- Alfred Kume
+- Peter McQuire
+
+Professional resource providing an introduction to R coding for actuarial and financial mathematics applications, with real-life examples
+
+R Programming for Actuarial Science provides a grounding in R programming applied to the mathematical and statistical methods that are of relevance for actuarial work.
+
+Link: [https://www.wiley.com/en-ae/R+Programming+for+Actuarial+Science-p-9781119754992](https://www.wiley.com/en-ae/R+Programming+for+Actuarial+Science-p-9781119754992)
 
 ## R Programming with Minecraft
 

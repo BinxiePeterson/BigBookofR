@@ -1,4 +1,4 @@
-# Text analysis
+# Text Analysis
 
 ## An Introduction to Text Processing and Analysis with R
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Big Book of R - 28&nbsp; Reports</title>
+<title>Big Book of R - 33&nbsp; Sport Analytics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../chapters/R Package Development.html" rel="next">
-<link href="../chapters/Psychology.html" rel="prev">
+<link href="../chapters/Statistics.html" rel="next">
+<link href="../chapters/Social Science.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -72,13 +72,13 @@ ul.task-list li input[type="checkbox"] {
 </head><body class="nav-sidebar floating"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
 
 
-<meta property="og:title" content="Big Book of R - 28&nbsp; Reports">
+<meta property="og:title" content="Big Book of R - 33&nbsp; Sport Analytics">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://www.bigbookofr.com/images/big_book_social.png">
 <meta property="og:url" content="https://www.bigbookofr.com/">
 <meta property="og:site_name" content="Big Book of R">
 
-<meta name="twitter:title" content="Big Book of R - 28&nbsp; Reports">
+<meta name="twitter:title" content="Big Book of R - 33&nbsp; Sport Analytics">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image:alt" content="400+ Free R programming books">
 <meta name="twitter:site" content="@oscarbaruffa">
@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/Reports.html"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Reports</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/Sport Analytics.html"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">Sport Analytics</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -318,7 +318,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/Reports.html" class="sidebar-item-text sidebar-link active">
+  <a href="../chapters/Reports.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Reports</span></span></a>
   </div>
 </li>
@@ -348,7 +348,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/Sport Analytics.html" class="sidebar-item-text sidebar-link">
+  <a href="../chapters/Sport Analytics.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">Sport Analytics</span></span></a>
   </div>
 </li>
@@ -404,16 +404,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#getting-used-to-r-rstudio-and-r-markdown" id="toc-getting-used-to-r-rstudio-and-r-markdown" class="nav-link active" data-scroll-target="#getting-used-to-r-rstudio-and-r-markdown"><span class="header-section-number">28.1</span> Getting used to R, RStudio, and R Markdown</a></li>
-  <li><a href="#introduction-to-r-markdown" id="toc-introduction-to-r-markdown" class="nav-link" data-scroll-target="#introduction-to-r-markdown"><span class="header-section-number">28.2</span> Introduction to R Markdown</a></li>
-  <li><a href="#pimp-my-rmd-a-few-tips-for-r-markdown" id="toc-pimp-my-rmd-a-few-tips-for-r-markdown" class="nav-link" data-scroll-target="#pimp-my-rmd-a-few-tips-for-r-markdown"><span class="header-section-number">28.3</span> Pimp my RMD a few tips for R Markdown</a></li>
-  <li><a href="#r-markdown-cookbook" id="toc-r-markdown-cookbook" class="nav-link" data-scroll-target="#r-markdown-cookbook"><span class="header-section-number">28.4</span> R Markdown Cookbook</a></li>
-  <li><a href="#r-markdown-the-definitive-guide" id="toc-r-markdown-the-definitive-guide" class="nav-link" data-scroll-target="#r-markdown-the-definitive-guide"><span class="header-section-number">28.5</span> R Markdown The Definitive Guide</a></li>
-  <li><a href="#r-bookdownplus-textbook" id="toc-r-bookdownplus-textbook" class="nav-link" data-scroll-target="#r-bookdownplus-textbook"><span class="header-section-number">28.6</span> R bookdownplus Textbook</a></li>
-  <li><a href="#rmarkdown-for-scientists" id="toc-rmarkdown-for-scientists" class="nav-link" data-scroll-target="#rmarkdown-for-scientists"><span class="header-section-number">28.7</span> RMarkdown for Scientists</a></li>
-  <li><a href="#report-writing-for-data-science-in-r" id="toc-report-writing-for-data-science-in-r" class="nav-link" data-scroll-target="#report-writing-for-data-science-in-r"><span class="header-section-number">28.8</span> Report Writing for Data Science in R</a></li>
-  <li><a href="#reproducible-research-with-r-and-rstudio" id="toc-reproducible-research-with-r-and-rstudio" class="nav-link" data-scroll-target="#reproducible-research-with-r-and-rstudio"><span class="header-section-number">28.9</span> Reproducible Research with R and RStudio</a></li>
-  <li><a href="#knitr" id="toc-knitr" class="nav-link" data-scroll-target="#knitr"><span class="header-section-number">28.10</span> knitr</a></li>
+  <li><a href="#basketball-data-science-with-applications-in-r" id="toc-basketball-data-science-with-applications-in-r" class="nav-link active" data-scroll-target="#basketball-data-science-with-applications-in-r"><span class="header-section-number">33.1</span> Basketball Data Science with Applications in R</a></li>
+  <li><a href="#coding-for-sports-analytics-get-started-resources" id="toc-coding-for-sports-analytics-get-started-resources" class="nav-link" data-scroll-target="#coding-for-sports-analytics-get-started-resources"><span class="header-section-number">33.2</span> Coding for sports analytics get started resources</a></li>
+  <li><a href="#exploring-baseball-data-with-r" id="toc-exploring-baseball-data-with-r" class="nav-link" data-scroll-target="#exploring-baseball-data-with-r"><span class="header-section-number">33.3</span> Exploring Baseball Data with R</a></li>
+  <li><a href="#introduction-to-empirical-bayes-examples-from-baseball-statistics" id="toc-introduction-to-empirical-bayes-examples-from-baseball-statistics" class="nav-link" data-scroll-target="#introduction-to-empirical-bayes-examples-from-baseball-statistics"><span class="header-section-number">33.4</span> Introduction to Empirical Bayes: Examples from Baseball Statistics</a></li>
+  <li><a href="#introduction-to-nfl-analytics-with-r" id="toc-introduction-to-nfl-analytics-with-r" class="nav-link" data-scroll-target="#introduction-to-nfl-analytics-with-r"><span class="header-section-number">33.5</span> Introduction to NFL Analytics with R</a></li>
+  <li><a href="#stats-in-sports" id="toc-stats-in-sports" class="nav-link" data-scroll-target="#stats-in-sports"><span class="header-section-number">33.6</span> Stats in sports</a></li>
+  <li><a href="#visualising-wrc-rally-stages-with-rayshader-and-r-a-rallydatajunkie-adventure" id="toc-visualising-wrc-rally-stages-with-rayshader-and-r-a-rallydatajunkie-adventure" class="nav-link" data-scroll-target="#visualising-wrc-rally-stages-with-rayshader-and-r-a-rallydatajunkie-adventure"><span class="header-section-number">33.7</span> Visualising WRC Rally Stages With rayshader and R A RallyDataJunkie Adventure</a></li>
+  <li><a href="#visualising-wrc-rally-timing-and-results-data-a-rallydatajunkie-adventure" id="toc-visualising-wrc-rally-timing-and-results-data-a-rallydatajunkie-adventure" class="nav-link" data-scroll-target="#visualising-wrc-rally-timing-and-results-data-a-rallydatajunkie-adventure"><span class="header-section-number">33.8</span> Visualising WRC Rally Timing and Results Data A RallyDataJunkie Adventure</a></li>
+  <li><a href="#wrangling-f1-data-with-r-a-data-junkies-guide" id="toc-wrangling-f1-data-with-r-a-data-junkies-guide" class="nav-link" data-scroll-target="#wrangling-f1-data-with-r-a-data-junkies-guide"><span class="header-section-number">33.9</span> Wrangling F1 Data With R A Data Junkie’s Guide</a></li>
   </ul>
 </nav>
     </div>
@@ -422,7 +421,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Reports</span></h1>
+<h1 class="title"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">Sport Analytics</span></h1>
 </div>
 
 
@@ -439,93 +438,79 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="getting-used-to-r-rstudio-and-r-markdown" class="level2" data-number="28.1">
-<h2 data-number="28.1" class="anchored" data-anchor-id="getting-used-to-r-rstudio-and-r-markdown"><span class="header-section-number">28.1</span> Getting used to R, RStudio, and R Markdown</h2>
+<section id="basketball-data-science-with-applications-in-r" class="level2" data-number="33.1">
+<h2 data-number="33.1" class="anchored" data-anchor-id="basketball-data-science-with-applications-in-r"><span class="header-section-number">33.1</span> Basketball Data Science with Applications in R</h2>
 <ul>
-<li>Chester Ismay</li>
+<li>Paola Zuccolotto</li>
+<li>Marica Manisera</li>
 </ul>
-<p>This resource is designed to provide new users to R, RStudio, and R Markdown with the introductory steps needed to begin their own reproducible research. A review of many of the common R errors encountered (and what they mean in layman’s terms) will also provided be provided.</p>
-<p>Link: <a href="https://bookdown.org/chesterismay/rbasics/">https://bookdown.org/chesterismay/rbasics/</a></p>
+<p>Using data from one season of NBA games, Basketball Data Science: With Applications in R is the perfect book for anyone interested in learning and applying data analytics in basketball. Whether assessing the spatial performance of an NBA player’s shots or doing an analysis of the impact of high pressure game situations on the probability of scoring, this book discusses a variety of case studies and hands-on examples using a custom R package. The codes are supplied so readers can reproduce the analyses themselves or create their own. Assuming a basic statistical knowledge, Basketball Data Science with R is suitable for students, technicians, coaches, data analysts and applied researchers.</p>
+<p>Link: <a href="https://www.routledge.com/Basketball-Data-Science-With-Applications-in-R/Zuccolotto-Manisera/p/book/9781138600799">https://www.routledge.com/Basketball-Data-Science-With-Applications-in-R/Zuccolotto-Manisera/p/book/9781138600799</a></p>
 </section>
-<section id="introduction-to-r-markdown" class="level2" data-number="28.2">
-<h2 data-number="28.2" class="anchored" data-anchor-id="introduction-to-r-markdown"><span class="header-section-number">28.2</span> Introduction to R Markdown</h2>
-<ul>
-<li>Michael Clark</li>
-</ul>
-<p>The goal is for you to be able to get quickly started with your own document, and understand the possibilities available to you. You will get a feel for the basic mechanics at play, as well as have ideas on how to customize the result to your own tastes.</p>
-<p>Link: <a href="https://m-clark.github.io/Introduction-to-Rmarkdown/">https://m-clark.github.io/Introduction-to-Rmarkdown/</a></p>
+<section id="coding-for-sports-analytics-get-started-resources" class="level2" data-number="33.2">
+<h2 data-number="33.2" class="anchored" data-anchor-id="coding-for-sports-analytics-get-started-resources"><span class="header-section-number">33.2</span> Coding for sports analytics get started resources</h2>
+<p>Given the lack of sport-focussed R books, I’ve added this collection of blog posts.</p>
+<p>Link: <a href="https://brendankent.com/2020/09/15/coding-for-sports-analytics-resources-to-get-started/">https://brendankent.com/2020/09/15/coding-for-sports-analytics-resources-to-get-started/</a></p>
 </section>
-<section id="pimp-my-rmd-a-few-tips-for-r-markdown" class="level2" data-number="28.3">
-<h2 data-number="28.3" class="anchored" data-anchor-id="pimp-my-rmd-a-few-tips-for-r-markdown"><span class="header-section-number">28.3</span> Pimp my RMD a few tips for R Markdown</h2>
+<section id="exploring-baseball-data-with-r" class="level2" data-number="33.3">
+<h2 data-number="33.3" class="anchored" data-anchor-id="exploring-baseball-data-with-r"><span class="header-section-number">33.3</span> Exploring Baseball Data with R</h2>
 <ul>
-<li>Yan Holtz</li>
+<li>Max Marchi</li>
+<li>Jim Albert</li>
+<li>Max Marchi</li>
+<li>Benjamin S. Baumer</li>
 </ul>
-<p>R markdown creates interactive reports from R code. This post provides a few tips I use on a daily basis to improve the appearance of output documents.</p>
-<p>Link: <a href="https://holtzy.github.io/Pimp-my-rmd/">https://holtzy.github.io/Pimp-my-rmd/</a></p>
+<p>This book introduces R to sabermetricians, baseball enthusiasts, and students interested in exploring the richness of baseball data. It equips you with the necessary skills and software tools to perform all the analysis steps, from importing the data to transforming them into an appropriate format to visualizing the data via graphs to performing a statistical analysis.</p>
+<p>Link: <a href="https://baseballwithr.wordpress.com/about/">https://baseballwithr.wordpress.com/about/</a></p>
 </section>
-<section id="r-markdown-cookbook" class="level2" data-number="28.4">
-<h2 data-number="28.4" class="anchored" data-anchor-id="r-markdown-cookbook"><span class="header-section-number">28.4</span> R Markdown Cookbook</h2>
+<section id="introduction-to-empirical-bayes-examples-from-baseball-statistics" class="level2" data-number="33.4">
+<h2 data-number="33.4" class="anchored" data-anchor-id="introduction-to-empirical-bayes-examples-from-baseball-statistics"><span class="header-section-number">33.4</span> Introduction to Empirical Bayes: Examples from Baseball Statistics</h2>
 <ul>
-<li><a href="https://yihui.org/">Yihui Xie</a></li>
-<li><a href="https://twitter.com/chrisderv">Christophe Dervieux</a></li>
-<li><a href="https://twitter.com/emilyriederer">Emily Riederer</a></li>
+<li><a href="https://twitter.com/drob">David Robinson</a></li>
 </ul>
-<p>This book showcases short, practical examples of lesser-known tips and tricks to helps users get the most out of these tools. After reading this book, you will understand how R Markdown documents are transformed from plain text and how you may customize nearly every step of this processing. For example, you will learn how to dynamically create content from R code, reference code in other documents or chunks, control the formatting with customer templates, fine-tune how your code is processed, and incorporate multiple languages into your analysis.</p>
-<p>Link: <a href="https://bookdown.org/yihui/rmarkdown-cookbook/">https://bookdown.org/yihui/rmarkdown-cookbook/</a></p>
+<p>Learn to use empirical Bayesian methods for estimating binomial proportions, through a series of examples drawn from baseball statistics. These methods are effective in estimating click-through rates on ads, success rates of experiments, and other examples common in modern data science. You’ll learn both the theory and the practice behind empirical Bayesian methods, including computing credible intervals, performing Bayesian A/B testing, and fitting mixture models. Each example comes with R code that can be used to analyze your own data.</p>
+<p>Link: <a href="https://drob.gumroad.com/l/empirical-bayes">https://drob.gumroad.com/l/empirical-bayes</a></p>
 </section>
-<section id="r-markdown-the-definitive-guide" class="level2" data-number="28.5">
-<h2 data-number="28.5" class="anchored" data-anchor-id="r-markdown-the-definitive-guide"><span class="header-section-number">28.5</span> R Markdown The Definitive Guide</h2>
+<section id="introduction-to-nfl-analytics-with-r" class="level2" data-number="33.5">
+<h2 data-number="33.5" class="anchored" data-anchor-id="introduction-to-nfl-analytics-with-r"><span class="header-section-number">33.5</span> Introduction to NFL Analytics with R</h2>
 <ul>
-<li><a href="https://yihui.org/">Yihui Xie</a></li>
-<li><a href="https://github.com/jjallaire">J. J. Allaire</a></li>
-<li><a href="https://twitter.com/StatGarrett">Garrett Grolemund</a></li>
+<li>Bradley J. Congelio</li>
 </ul>
-<p>The first official book authored by the core R Markdown developers that provides a comprehensive and accurate reference to the R Markdown ecosystem. With R Markdown, you can easily create reproducible data analysis reports, presentations, dashboards, interactive applications, books, dissertations, websites, and journal articles, while enjoying the simplicity of Markdown and the great power of R and other languages.</p>
-<p>Link: <a href="https://bookdown.org/yihui/rmarkdown/">https://bookdown.org/yihui/rmarkdown/</a></p>
+<p>This is the best resource an aspiring data scientist looking to work with football data can use. It has something for all levels, including data analysis, visualization, advanced modeling, and more. The code and the insights in Introduction to NFL Analytics with R are invaluable and can help everyone from beginners to those who have worked with data for years</p>
+<p>Link: <a href="https://bradcongelio.com/nfl-analytics-with-r-book/">https://bradcongelio.com/nfl-analytics-with-r-book/</a></p>
 </section>
-<section id="r-bookdownplus-textbook" class="level2" data-number="28.6">
-<h2 data-number="28.6" class="anchored" data-anchor-id="r-bookdownplus-textbook"><span class="header-section-number">28.6</span> R bookdownplus Textbook</h2>
+<section id="stats-in-sports" class="level2" data-number="33.6">
+<h2 data-number="33.6" class="anchored" data-anchor-id="stats-in-sports"><span class="header-section-number">33.6</span> Stats in sports</h2>
 <ul>
-<li>Peng Zhao</li>
+<li><a href="https://github.com/zbinney">Zachary Binney</a></li>
 </ul>
-<p>‘bookdownplus’ is an extension of ‘bookdown’. It is a collection of multiple templates, which I have been collecting since years ago on the basis of LaTeX, and have been tailoring them so that I can work happily under the umbrella of ‘bookdown’. ‘bookdownplus’ helps you (and me) write varied types of books and documents. This book you are reading at the moment was exactly produced by ‘bookdownplus’.</p>
-<p>Link: <a href="https://bookdown.org/baydap/bookdownplus/">https://bookdown.org/baydap/bookdownplus/</a></p>
+<p>Materials for the Statistics in Sports class for first-year undergrads at Oxford College of Emory University. This course is unique in that it assumes no background. It covers an introduction to sports analytics and R for Baseball, Basketball, Football, Soccer and Sports business analytics.</p>
+<p>Link: <a href="https://github.com/zbinney/Stats_in_Sports_2021">https://github.com/zbinney/Stats_in_Sports_2021</a></p>
 </section>
-<section id="rmarkdown-for-scientists" class="level2" data-number="28.7">
-<h2 data-number="28.7" class="anchored" data-anchor-id="rmarkdown-for-scientists"><span class="header-section-number">28.7</span> RMarkdown for Scientists</h2>
+<section id="visualising-wrc-rally-stages-with-rayshader-and-r-a-rallydatajunkie-adventure" class="level2" data-number="33.7">
+<h2 data-number="33.7" class="anchored" data-anchor-id="visualising-wrc-rally-stages-with-rayshader-and-r-a-rallydatajunkie-adventure"><span class="header-section-number">33.7</span> Visualising WRC Rally Stages With rayshader and R A RallyDataJunkie Adventure</h2>
 <ul>
-<li>Nicholas Tierney</li>
+<li>Tony Hirst</li>
 </ul>
-<p>This is a book on rmarkdown, aimed for scientists. It was initially developed as a 3 hour workshop, but is now developed into a resource that will grow and change over time as a living book.</p>
-<p>Link: <a href="https://rmd4sci.njtierney.com/">https://rmd4sci.njtierney.com/</a></p>
+<p>Taking a simple rally route dataset, what can we do with it? This book describes a wide range of techniques for working with geodata, including routes and elevantion rasters. From 2D and 3D mapping, to a wide range of route analysis techniques, the techniques described are also relevant to a wide range of othr route analysis contexts, including ecological trail analysis.</p>
+<p>Link: <a href="https://rallydatajunkie.com/visualising-rally-stages">https://rallydatajunkie.com/visualising-rally-stages</a></p>
 </section>
-<section id="report-writing-for-data-science-in-r" class="level2" data-number="28.8">
-<h2 data-number="28.8" class="anchored" data-anchor-id="report-writing-for-data-science-in-r"><span class="header-section-number">28.8</span> Report Writing for Data Science in R</h2>
+<section id="visualising-wrc-rally-timing-and-results-data-a-rallydatajunkie-adventure" class="level2" data-number="33.8">
+<h2 data-number="33.8" class="anchored" data-anchor-id="visualising-wrc-rally-timing-and-results-data-a-rallydatajunkie-adventure"><span class="header-section-number">33.8</span> Visualising WRC Rally Timing and Results Data A RallyDataJunkie Adventure</h2>
 <ul>
-<li>[Roger D. Peng]](https://twitter.com/rdpeng)</li>
+<li>Tony Hirst</li>
 </ul>
-<p>This book teaches the fundamental concepts and tools behind reporting modern data analyses in a reproducible manner. As data analyses become increasingly complex, the need for clear and reproducible report writing is greater than ever.</p>
-<p>Paid: Free or pay what you want $10</p>
-<p>Link: <a href="https://leanpub.com/reportwriting">https://leanpub.com/reportwriting</a></p>
+<p>A handy guide to visualising a wide range of motorsport timing and results data, concentrating on rally data associated with the FIA World Rally Championship (WRC).</p>
+<p>Link: <a href="https://rallydatajunkie.com/visualising-wrc-rally-results/">https://rallydatajunkie.com/visualising-wrc-rally-results/</a></p>
 </section>
-<section id="reproducible-research-with-r-and-rstudio" class="level2" data-number="28.9">
-<h2 data-number="28.9" class="anchored" data-anchor-id="reproducible-research-with-r-and-rstudio"><span class="header-section-number">28.9</span> Reproducible Research with R and RStudio</h2>
+<section id="wrangling-f1-data-with-r-a-data-junkies-guide" class="level2" data-number="33.9">
+<h2 data-number="33.9" class="anchored" data-anchor-id="wrangling-f1-data-with-r-a-data-junkies-guide"><span class="header-section-number">33.9</span> Wrangling F1 Data With R A Data Junkie’s Guide</h2>
 <ul>
-<li>Christopher Gandrud</li>
+<li>Tony Hirst</li>
 </ul>
-<p>This book present all the Tools for Gathering and Analyzing Data and Presenting Results Reproducible Research with R and RStudio through practical examples.</p>
-<p>The book can be reproduced by using the R package bookdown. You can buy a copy at:</p>
-<p><a href="https://www.routledge.com/Reproducible-Research-with-R-and-RStudio/Gandrud/p/book/9780367143985" class="uri">https://www.routledge.com/Reproducible-Research-with-R-and-RStudio/Gandrud/p/book/9780367143985</a></p>
-<p>Link: <a href="https://github.com/christophergandrud/Rep-Res-Book%3E%20Also,%20you%20can%20buy%20the%20copy.">https://github.com/christophergandrud/Rep-Res-Book&gt; Also, you can buy the copy.</a></p>
-</section>
-<section id="knitr" class="level2" data-number="28.10">
-<h2 data-number="28.10" class="anchored" data-anchor-id="knitr"><span class="header-section-number">28.10</span> knitr</h2>
-<ul>
-<li><a href="https://yihui.org/">Yihui Xie</a></li>
-</ul>
-<p>Dynamic documents with R and knitr!</p>
-<p>The knitr package was designed to be a transparent engine for dynamic report generation with R, solve some long-standing problems in Sweave, and combine features in other add-on packages into one package.</p>
-<p>Link: <a href="https://yihui.org/knitr/">https://yihui.org/knitr/</a></p>
+<p>If you’re attracted by F1’s passion to push engineering and technology to the limit, this book will help you grab a range of Formula One datasets by the scruff of the neck and wrangle a wide variety of insights from them.</p>
+<p>Using the latest in open source data analysis and visualisation techniques, you’ll learn how to extract the stories that often go unnoticed from whatever Formula One data you can lay your hands on. And maybe, just maybe, you’ll be able to use the skills you learn along the way outside of the F1 context…</p>
+<p>Link: <a href="https://leanpub.com/wranglingf1datawithr">https://leanpub.com/wranglingf1datawithr</a></p>
 
 
 </section>
@@ -963,13 +948,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../chapters/Psychology.html" class="pagination-link" aria-label="Psychology">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Psychology</span></span>
+      <a href="../chapters/Social Science.html" class="pagination-link" aria-label="Social Science">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">Social Science</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../chapters/R Package Development.html" class="pagination-link" aria-label="R Package Development">
-        <span class="nav-page-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">R Package Development</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../chapters/Statistics.html" class="pagination-link" aria-label="Statistics">
+        <span class="nav-page-text"><span class="chapter-number">34</span>&nbsp; <span class="chapter-title">Statistics</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

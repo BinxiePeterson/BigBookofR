@@ -44,7 +44,7 @@ for (chapter in chapters) {
   if (chapter %in% chapter_info$chapters) {
     qmd_content <- paste0(qmd_content, chapter_info %>%
                             filter(chapters == chapter) %>%
-                            pull(introduction), "\n")
+                            pull(introduction), "\n\n")
   }
   
   # Loop through each entry in the chapter
