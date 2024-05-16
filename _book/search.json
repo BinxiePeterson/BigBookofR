@@ -9524,7 +9524,7 @@
     "href": "chapters/Career and Community.html",
     "title": "4  Career and Community",
     "section": "",
-    "text": "4.1 Ace The Data Science Interview\nAuthored by two Ex-Facebook employees, Ace the Data Science Interview is the best way to prepare for Data Science, Data Analyst, and Machine Learning interviews, so that you can land your dream job at FAANG, tech startups, or Wall Street.\nLink: https://www.acethedatascienceinterview.com/",
+    "text": "4.1 Build Your Career in Data Science\nYou are going to need more than technical knowledge to succeed as a data scientist. Build a Career in Data Science teaches you what school leaves out, from how to land your first job to the lifecycle of a data science project, and even how to become a manager.\nPaid: Paid $38\nLink: https://amzn.to/47W51Q9\nPhysical copy available: https://amzn.to/47W51Q9",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Career and Community</span>"
     ]
@@ -9533,8 +9533,8 @@
     "objectID": "chapters/Career and Community.html#conversations-on-data-science",
     "href": "chapters/Career and Community.html#conversations-on-data-science",
     "title": "4  Career and Community",
-    "section": "4.3 Conversations On Data Science",
-    "text": "4.3 Conversations On Data Science\n\nRoger Peng\nHilary Parker\n\nThis book collects many of their discussions from the podcast Not So Standard Deviations and distills them into a readable format.\nPaid: Pay what you want for the ebook, minimum $0\nLink: https://leanpub.com/conversationsondatascience",
+    "section": "4.2 Conversations On Data Science",
+    "text": "4.2 Conversations On Data Science\n\nRoger Peng\nHilary Parker\n\nThis book collects many of their discussions from the podcast Not So Standard Deviations and distills them into a readable format.\nPaid: Pay what you want for the ebook, minimum $0\nLink: https://leanpub.com/conversationsondatascience",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Career and Community</span>"
     ]
@@ -9543,8 +9543,8 @@
     "objectID": "chapters/Career and Community.html#essays-on-data-analysis",
     "href": "chapters/Career and Community.html#essays-on-data-analysis",
     "title": "4  Career and Community",
-    "section": "4.4 Essays on Data Analysis",
-    "text": "4.4 Essays on Data Analysis\n\nRoger Peng\n\nThis book draws a complete picture of the data analysis process, filling out many details that are missing from previous presentations. It presents a new perspective on what makes for a successful data analysis and how the quality of data analyses can be judged.\nPaid: Pay what you want for the ebook, minimum $0\nLink: https://leanpub.com/dataanalysisessays",
+    "section": "4.3 Essays on Data Analysis",
+    "text": "4.3 Essays on Data Analysis\n\nRoger Peng\n\nThis book draws a complete picture of the data analysis process, filling out many details that are missing from previous presentations. It presents a new perspective on what makes for a successful data analysis and how the quality of data analyses can be judged.\nPaid: Pay what you want for the ebook, minimum $0\nLink: https://leanpub.com/dataanalysisessays",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Career and Community</span>"
     ]
@@ -9553,8 +9553,8 @@
     "objectID": "chapters/Career and Community.html#executive-data-science",
     "href": "chapters/Career and Community.html#executive-data-science",
     "title": "4  Career and Community",
-    "section": "4.5 Executive Data Science",
-    "text": "4.5 Executive Data Science\n\nBrian Caffo\nRoger D. Peng\nJeffrey Leek\n\nA Guide to Training and Managing the Best Data Scientists. Learn what you need to know to begin assembling and leading a data science enterprise.\nPaid: Pay what you want for the PDF, minimum $0\nLink: https://leanpub.com/eds",
+    "section": "4.4 Executive Data Science",
+    "text": "4.4 Executive Data Science\n\nBrian Caffo\nRoger D. Peng\nJeffrey Leek\n\nA Guide to Training and Managing the Best Data Scientists. Learn what you need to know to begin assembling and leading a data science enterprise.\nPaid: Pay what you want for the PDF, minimum $0\nLink: https://leanpub.com/eds",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Career and Community</span>"
     ]
@@ -9563,8 +9563,8 @@
     "objectID": "chapters/Career and Community.html#getting-started-in-data-science",
     "href": "chapters/Career and Community.html#getting-started-in-data-science",
     "title": "4  Career and Community",
-    "section": "4.6 Getting Started in Data Science",
-    "text": "4.6 Getting Started in Data Science\n\nAyodele Odubela\n\nThis book is for anyone intersted in Data Science, but is unsure where to start. Cut through the noise and learn my best tips for understanding Machine Learning with insight from my 4 years of industry experience. Learn the math as it applies to real-life data projects and get an understanding of fairness, ethics, and accounability in AI.\nLink: https://gumroad.com/l/getting-started-in-data-science",
+    "section": "4.5 Getting Started in Data Science",
+    "text": "4.5 Getting Started in Data Science\n\nAyodele Odubela\n\nThis book is for anyone intersted in Data Science, but is unsure where to start. Cut through the noise and learn my best tips for understanding Machine Learning with insight from my 4 years of industry experience. Learn the math as it applies to real-life data projects and get an understanding of fairness, ethics, and accounability in AI.\nLink: https://gumroad.com/l/getting-started-in-data-science",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Career and Community</span>"
     ]
@@ -9573,8 +9573,8 @@
     "objectID": "chapters/Career and Community.html#hiring-data-scientists-and-machine-learning-engineers",
     "href": "chapters/Career and Community.html#hiring-data-scientists-and-machine-learning-engineers",
     "title": "4  Career and Community",
-    "section": "4.7 Hiring Data Scientists and Machine Learning Engineers",
-    "text": "4.7 Hiring Data Scientists and Machine Learning Engineers\n\nRoy Keyes\n\nIt’s quite possible that the only thing more confusing than defining data science is actually hiring data scientists. Hiring Data Scientists and Machine Learning Engineers is a concise, practical guide to cut through the confusion. Whether you’re the founder of a brand new startup, the senior vice president in charge of “digital transformation” at a global industrial company, the leader of a new analytics effort at a non-profit, or a junior manager of a machine learning team at a tech giant, this book will help walk you through the important questions you need to answer to determine what role and which skills you should hire for, how to source applicants, how to assess those applicants’ skills, and how to set your new hires up for success. Special emphasis is placed on in-office vs remote hiring situations.\nPaid: varies $25\nLink: https://dshiring.com",
+    "section": "4.6 Hiring Data Scientists and Machine Learning Engineers",
+    "text": "4.6 Hiring Data Scientists and Machine Learning Engineers\n\nRoy Keyes\n\nIt’s quite possible that the only thing more confusing than defining data science is actually hiring data scientists. Hiring Data Scientists and Machine Learning Engineers is a concise, practical guide to cut through the confusion. Whether you’re the founder of a brand new startup, the senior vice president in charge of “digital transformation” at a global industrial company, the leader of a new analytics effort at a non-profit, or a junior manager of a machine learning team at a tech giant, this book will help walk you through the important questions you need to answer to determine what role and which skills you should hire for, how to source applicants, how to assess those applicants’ skills, and how to set your new hires up for success. Special emphasis is placed on in-office vs remote hiring situations.\nPaid: varies $25\nLink: https://dshiring.com",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Career and Community</span>"
     ]
@@ -9583,8 +9583,8 @@
     "objectID": "chapters/Career and Community.html#introduction-to-machine-learning-interviews-book",
     "href": "chapters/Career and Community.html#introduction-to-machine-learning-interviews-book",
     "title": "4  Career and Community",
-    "section": "4.8 Introduction to Machine Learning Interviews Book",
-    "text": "4.8 Introduction to Machine Learning Interviews Book\n\nChip Huyen\n\nThis book is the result of the collective wisdom of many people who have sat on both sides of the table and who have spent a lot of time thinking about the hiring process. It was written with candidates in mind, but hiring managers who saw the early drafts told me that they found it helpful to learn how other companies are hiring, and to rethink their own process.\nThe book consists of two parts. The first part provides an overview of the machine learning interview process, what types of machine learning roles are available, what skills each role requires, what kinds of questions are often asked, and how to prepare for them. This part also explains the interviewers’ mindset and what kind of signals they look for.\nThe second part consists of over 200 knowledge questions, each noted with its level of difficulty – interviews for more senior roles should expect harder questions – that cover important concepts and common misconceptions in machine learning.\nLink: https://huyenchip.com/ml-interviews-book/",
+    "section": "4.7 Introduction to Machine Learning Interviews Book",
+    "text": "4.7 Introduction to Machine Learning Interviews Book\n\nChip Huyen\n\nThis book is the result of the collective wisdom of many people who have sat on both sides of the table and who have spent a lot of time thinking about the hiring process. It was written with candidates in mind, but hiring managers who saw the early drafts told me that they found it helpful to learn how other companies are hiring, and to rethink their own process.\nThe book consists of two parts. The first part provides an overview of the machine learning interview process, what types of machine learning roles are available, what skills each role requires, what kinds of questions are often asked, and how to prepare for them. This part also explains the interviewers’ mindset and what kind of signals they look for.\nThe second part consists of over 200 knowledge questions, each noted with its level of difficulty – interviews for more senior roles should expect harder questions – that cover important concepts and common misconceptions in machine learning.\nLink: https://huyenchip.com/ml-interviews-book/",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Career and Community</span>"
     ]
@@ -9593,8 +9593,8 @@
     "objectID": "chapters/Career and Community.html#project-management-fundamentals-for-data-analysts",
     "href": "chapters/Career and Community.html#project-management-fundamentals-for-data-analysts",
     "title": "4  Career and Community",
-    "section": "4.9 Project Management Fundamentals for Data Analysts",
-    "text": "4.9 Project Management Fundamentals for Data Analysts\n\nOscar Baruffa\n\nIn Project Management Fundamentals for Data Analysts, I’ve boiled the concepts down to the bare essentials which can be read in under 15 minutes – you can certainly fit that into your crazy schedule (and it will help your future schedule not be so chaotic!).\nThese concepts can be used to great effect on their own if you wish to never read another word on the topic. It’ll also provide a solid foundation if you want to dive deeper into more formal courses or sophisticated theory.\nPaid: Free if you sign up to my newsletter at https://oscarbaruffa.com/newsletter/ , otherwise: $12\nLink: https://oscarbaruffa.com/pm/",
+    "section": "4.8 Project Management Fundamentals for Data Analysts",
+    "text": "4.8 Project Management Fundamentals for Data Analysts\n\nOscar Baruffa\n\nIn Project Management Fundamentals for Data Analysts, I’ve boiled the concepts down to the bare essentials which can be read in under 15 minutes – you can certainly fit that into your crazy schedule (and it will help your future schedule not be so chaotic!).\nThese concepts can be used to great effect on their own if you wish to never read another word on the topic. It’ll also provide a solid foundation if you want to dive deeper into more formal courses or sophisticated theory.\nPaid: Free if you sign up to my newsletter at https://oscarbaruffa.com/newsletter/ , otherwise: $12\nLink: https://oscarbaruffa.com/pm/",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Career and Community</span>"
     ]
@@ -9603,8 +9603,8 @@
     "objectID": "chapters/Career and Community.html#public-speaking-for-data-and-tech-professionals",
     "href": "chapters/Career and Community.html#public-speaking-for-data-and-tech-professionals",
     "title": "4  Career and Community",
-    "section": "4.10 Public Speaking for Data and Tech Professionals",
-    "text": "4.10 Public Speaking for Data and Tech Professionals\n\nEva Murray\n\nMost people dread public speaking and they’re missing out on the benefits it can have for their personal and professional life and their career.\nWithout the right tools and frameworks to improve your preparation, build your confidence and get you on stage to tell your story, public speaking is hard.\nThis book helps you fix that.\nLink: https://evamurray.gumroad.com/l/public-speaking-fundamentals",
+    "section": "4.9 Public Speaking for Data and Tech Professionals",
+    "text": "4.9 Public Speaking for Data and Tech Professionals\n\nEva Murray\n\nMost people dread public speaking and they’re missing out on the benefits it can have for their personal and professional life and their career.\nWithout the right tools and frameworks to improve your preparation, build your confidence and get you on stage to tell your story, public speaking is hard.\nThis book helps you fix that.\nLink: https://evamurray.gumroad.com/l/public-speaking-fundamentals",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Career and Community</span>"
     ]
@@ -9613,8 +9613,8 @@
     "objectID": "chapters/Career and Community.html#telling-stories-with-data",
     "href": "chapters/Career and Community.html#telling-stories-with-data",
     "title": "4  Career and Community",
-    "section": "4.11 Telling Stories With Data",
-    "text": "4.11 Telling Stories With Data\n\nRohan Alexander\n\nThis aim of this book is to help you learn how to tell stories with data. It establishes a foundation on which you can build and share knowledge, based on data, about an aspect of the world of interest to you.\nIn this book we explore, prod, push, manipulate, knead, and ultimately, try to understand the implications of, data. The motto of the university from which I took my PhD is ‘Naturam primum cognoscere rerum’ or roughly ‘first to learn the nature of things,’ and we will indeed attempt to do that. But the original quote continues ‘temporis aeterni quoniam,’ or roughly ‘for eternal time,’ and it is tools, approaches, and workflows that enable you to establish lasting knowledge that I focus on in this book.\nLink: https://www.tellingstorieswithdata.com/",
+    "section": "4.10 Telling Stories With Data",
+    "text": "4.10 Telling Stories With Data\n\nRohan Alexander\n\nThis aim of this book is to help you learn how to tell stories with data. It establishes a foundation on which you can build and share knowledge, based on data, about an aspect of the world of interest to you.\nIn this book we explore, prod, push, manipulate, knead, and ultimately, try to understand the implications of, data. The motto of the university from which I took my PhD is ‘Naturam primum cognoscere rerum’ or roughly ‘first to learn the nature of things,’ and we will indeed attempt to do that. But the original quote continues ‘temporis aeterni quoniam,’ or roughly ‘for eternal time,’ and it is tools, approaches, and workflows that enable you to establish lasting knowledge that I focus on in this book.\nLink: https://www.tellingstorieswithdata.com/",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Career and Community</span>"
     ]
@@ -9623,8 +9623,8 @@
     "objectID": "chapters/Career and Community.html#the-programmers-brain-what-every-programmer-needs-to-know-about-cognition",
     "href": "chapters/Career and Community.html#the-programmers-brain-what-every-programmer-needs-to-know-about-cognition",
     "title": "4  Career and Community",
-    "section": "4.12 The Programmer’s Brain What every programmer needs to know about cognition",
-    "text": "4.12 The Programmer’s Brain What every programmer needs to know about cognition\n\nFelienne Hermans\n\nExplores the way your brain works when it’s thinking about code. In it, you’ll master practical ways to apply these cognitive principles to your daily programming life. You’ll improve your code comprehension by turning confusion into a learning tool, and pick up awesome techniques for reading code and quickly memorizing syntax. This practical guide includes tips for creating your own flashcards and study resources that can be applied to any new language you want to master. By the time you’re done, you’ll not only be better at teaching yourself—you’ll be an expert at bringing new colleagues and junior programmers up to speed.\nPaid: Free preview $30\nLink: https://www.manning.com/books/the-programmers-brain",
+    "section": "4.11 The Programmer’s Brain What every programmer needs to know about cognition",
+    "text": "4.11 The Programmer’s Brain What every programmer needs to know about cognition\n\nFelienne Hermans\n\nExplores the way your brain works when it’s thinking about code. In it, you’ll master practical ways to apply these cognitive principles to your daily programming life. You’ll improve your code comprehension by turning confusion into a learning tool, and pick up awesome techniques for reading code and quickly memorizing syntax. This practical guide includes tips for creating your own flashcards and study resources that can be applied to any new language you want to master. By the time you’re done, you’ll not only be better at teaching yourself—you’ll be an expert at bringing new colleagues and junior programmers up to speed.\nPaid: Free preview $30\nLink: https://www.manning.com/books/the-programmers-brain",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Career and Community</span>"
     ]
@@ -9633,8 +9633,8 @@
     "objectID": "chapters/Career and Community.html#the-turing-way",
     "href": "chapters/Career and Community.html#the-turing-way",
     "title": "4  Career and Community",
-    "section": "4.13 The Turing Way",
-    "text": "4.13 The Turing Way\n\nThe Turing Way Community\n\nThe Turing Way is a handbook to reproducible, ethical and collaborative data science. We involve and support a diverse community of contributors to make data science accessible, comprehensible and effective for everyone. Our goal is to provide all the information that researchers and data scientists in academia, industry and the public sector need at the start of their projects to ensure that they are easy to reproduce at the end.\nLink: https://the-turing-way.netlify.app",
+    "section": "4.12 The Turing Way",
+    "text": "4.12 The Turing Way\n\nThe Turing Way Community\n\nThe Turing Way is a handbook to reproducible, ethical and collaborative data science. We involve and support a diverse community of contributors to make data science accessible, comprehensible and effective for everyone. Our goal is to provide all the information that researchers and data scientists in academia, industry and the public sector need at the start of their projects to ensure that they are easy to reproduce at the end.\nLink: https://the-turing-way.netlify.app",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Career and Community</span>"
     ]
@@ -9674,7 +9674,7 @@
     "href": "chapters/Art.html",
     "title": "7  Art",
     "section": "",
-    "text": "7.1 Art from Code\nThis workshop provides a hands-on introduction to generative art in R. You’ll learn artistic techniques that generative artists use regularly in their work including flow fields, iterative function systems, and more. You’ll also learn about R packages specialised for generative art.\nLink: https://art-from-code.netlify.app/",
+    "text": "7.1 Thinking Outside The Grid - A “bare bones” intro to Rtistry concepts in R using ggplot.\nRecently I’ve discovered the courage to dive into creative coding and generative aRt in R. Something that the R community calls “Rtistry.” My Rtistry journey so far has been an amazing and tranquil expedition into a world that seemed intimidating and scary on the outside but is honestly just a bottomless pit of fun and creativity on the inside.\nI’m going to talk about some very basic concepts and perspectives you can think about while starting your own Rtistry journey in ggplot. This includes basics on geoms, aesthetics, layering, etc. But then I’m also going to walk you through two of my Rtistry examples and code to get you started.\nThis article is intended for those who have some experience with ggplot building in R but may not have realized how to transition from making “regular” visuals to Rtistry. This article goes over basic concepts that more seasoned users may already know.\nLink: https://thetidytrekker.com/post/thinking-outside-the-grid/thinking-outside-the-grid.html",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Art</span>"
     ]
@@ -14043,8 +14043,8 @@
     "objectID": "chapters/Career and Community.html#build-your-career-in-data-science",
     "href": "chapters/Career and Community.html#build-your-career-in-data-science",
     "title": "4  Career and Community",
-    "section": "4.2 Build Your Career in Data Science",
-    "text": "4.2 Build Your Career in Data Science\n\nEmily Robinson\nJacqueline Nolis\n\nYou are going to need more than technical knowledge to succeed as a data scientist. Build a Career in Data Science teaches you what school leaves out, from how to land your first job to the lifecycle of a data science project, and even how to become a manager.\nPaid: Paid $38\nLink: https://amzn.to/47W51Q9\nPhysical copy available: https://amzn.to/47W51Q9",
+    "section": "",
+    "text": "Emily Robinson\nJacqueline Nolis",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Career and Community</span>"
     ]
@@ -14073,8 +14073,8 @@
     "objectID": "chapters/Art.html#thinking-outside-the-grid---a-bare-bones-intro-to-rtistry-concepts-in-r-using-ggplot.",
     "href": "chapters/Art.html#thinking-outside-the-grid---a-bare-bones-intro-to-rtistry-concepts-in-r-using-ggplot.",
     "title": "7  Art",
-    "section": "7.2 Thinking Outside The Grid - A “bare bones” intro to Rtistry concepts in R using ggplot.",
-    "text": "7.2 Thinking Outside The Grid - A “bare bones” intro to Rtistry concepts in R using ggplot.\n\nMegan Harris\n\nRecently I’ve discovered the courage to dive into creative coding and generative aRt in R. Something that the R community calls “Rtistry.” My Rtistry journey so far has been an amazing and tranquil expedition into a world that seemed intimidating and scary on the outside but is honestly just a bottomless pit of fun and creativity on the inside.\nI’m going to talk about some very basic concepts and perspectives you can think about while starting your own Rtistry journey in ggplot. This includes basics on geoms, aesthetics, layering, etc. But then I’m also going to walk you through two of my Rtistry examples and code to get you started.\nThis article is intended for those who have some experience with ggplot building in R but may not have realized how to transition from making “regular” visuals to Rtistry. This article goes over basic concepts that more seasoned users may already know.\nLink: https://thetidytrekker.com/post/thinking-outside-the-grid/thinking-outside-the-grid.html",
+    "section": "",
+    "text": "Megan Harris",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Art</span>"
     ]
@@ -14347,26 +14347,6 @@
     "text": "Edwin Thoen",
     "crumbs": [
       "<span class='chapter-number'>37</span>  <span class='chapter-title'>Workflow</span>"
-    ]
-  },
-  {
-    "objectID": "chapters/Career and Community.html#ace-the-data-science-interview",
-    "href": "chapters/Career and Community.html#ace-the-data-science-interview",
-    "title": "4  Career and Community",
-    "section": "",
-    "text": "Kevin Huo\nNick Singh",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Career and Community</span>"
-    ]
-  },
-  {
-    "objectID": "chapters/Art.html#art-from-code",
-    "href": "chapters/Art.html#art-from-code",
-    "title": "7  Art",
-    "section": "",
-    "text": "Danielle Navarro",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Art</span>"
     ]
   }
 ]

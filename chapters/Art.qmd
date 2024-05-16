@@ -1,7 +1,6 @@
 # Art
 
 There are no books available covering art, but there are some blog posts available. This first one is is a good intro.
-
 ## Art from Code
 
 - Danielle Navarro
