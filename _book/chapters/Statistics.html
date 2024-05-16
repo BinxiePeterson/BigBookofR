@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script async="" defer="" data-domain="bigbookofr.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
-</head><body class="nav-sidebar floating fullcontent"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
+</head><body class="nav-sidebar floating"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
 
 
 <meta property="og:title" content="Big Book of R - 32&nbsp; Statistics">
@@ -85,6 +85,37 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://www.bigbookofr.com/images/big_book_social.png">
 
+<style>
+#quarto-sidebar .menu-text {
+  display: flex;
+}
+#quarto-sidebar .chapter-number {
+  display: block;
+  width: 1em;
+  text-align: right;
+}
+#quarto-sidebar .chapter-title {
+  display: block;
+  padding-left: 10px;
+  text-indent: -10px;
+  width: 100%;
+}
+#quarto-toc {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px; /* Adjust width as needed */
+  height: 100%;
+  overflow: auto;
+}
+#quarto-main {
+  margin-left: 210px; /* Adjust so content does not overlap with TOC */
+}
+/* CSS to hide the search widget */
+.quarto-search, .search-input {
+  display: none;
+}
+</style>
 
 
 
@@ -126,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Big Book of R</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome :)</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -356,7 +387,69 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#a-business-analysts-introduction-to-business-analytics" id="toc-a-business-analysts-introduction-to-business-analytics" class="nav-link active" data-scroll-target="#a-business-analysts-introduction-to-business-analytics"><span class="header-section-number">32.1</span> A Business Analyst’s Introduction to Business Analytics</a></li>
+  <li><a href="#a-little-book-of-r-for-multivariate-analysis" id="toc-a-little-book-of-r-for-multivariate-analysis" class="nav-link" data-scroll-target="#a-little-book-of-r-for-multivariate-analysis"><span class="header-section-number">32.2</span> A Little Book of R for Multivariate Analysis</a></li>
+  <li><a href="#a-little-book-of-r-for-time-series" id="toc-a-little-book-of-r-for-time-series" class="nav-link" data-scroll-target="#a-little-book-of-r-for-time-series"><span class="header-section-number">32.3</span> A Little Book of R for Time Series</a></li>
+  <li><a href="#advanced-regression-methods---companion-to-ber642" id="toc-advanced-regression-methods---companion-to-ber642" class="nav-link" data-scroll-target="#advanced-regression-methods---companion-to-ber642"><span class="header-section-number">32.4</span> Advanced Regression Methods - Companion to BER642</a></li>
+  <li><a href="#an-introduction-to-bayesian-reasoning-and-methods" id="toc-an-introduction-to-bayesian-reasoning-and-methods" class="nav-link" data-scroll-target="#an-introduction-to-bayesian-reasoning-and-methods"><span class="header-section-number">32.5</span> An Introduction to Bayesian Reasoning and Methods</a></li>
+  <li><a href="#an-introduction-to-statistical-learning" id="toc-an-introduction-to-statistical-learning" class="nav-link" data-scroll-target="#an-introduction-to-statistical-learning"><span class="header-section-number">32.6</span> An Introduction to Statistical Learning</a></li>
+  <li><a href="#an-introduction-to-statistical-and-data-sciences-via-r" id="toc-an-introduction-to-statistical-and-data-sciences-via-r" class="nav-link" data-scroll-target="#an-introduction-to-statistical-and-data-sciences-via-r"><span class="header-section-number">32.7</span> An Introduction to Statistical and Data Sciences via R</a></li>
+  <li><a href="#analysing-data-using-linear-models" id="toc-analysing-data-using-linear-models" class="nav-link" data-scroll-target="#analysing-data-using-linear-models"><span class="header-section-number">32.8</span> Analysing Data using Linear Models</a></li>
+  <li><a href="#answering-questions-with-data" id="toc-answering-questions-with-data" class="nav-link" data-scroll-target="#answering-questions-with-data"><span class="header-section-number">32.9</span> Answering questions with data</a></li>
+  <li><a href="#applied-statistics-with-r" id="toc-applied-statistics-with-r" class="nav-link" data-scroll-target="#applied-statistics-with-r"><span class="header-section-number">32.10</span> Applied Statistics with R</a></li>
+  <li><a href="#applied-longitudinal-data-analysis-in-brms-and-the-tidyverse" id="toc-applied-longitudinal-data-analysis-in-brms-and-the-tidyverse" class="nav-link" data-scroll-target="#applied-longitudinal-data-analysis-in-brms-and-the-tidyverse"><span class="header-section-number">32.11</span> Applied longitudinal data analysis in brms and the tidyverse</a></li>
+  <li><a href="#bayes-rules" id="toc-bayes-rules" class="nav-link" data-scroll-target="#bayes-rules"><span class="header-section-number">32.12</span> Bayes rules!</a></li>
+  <li><a href="#beyond-multiple-linear-regression-applied-generalized-linear-models-and-multilevel-models-in-r" id="toc-beyond-multiple-linear-regression-applied-generalized-linear-models-and-multilevel-models-in-r" class="nav-link" data-scroll-target="#beyond-multiple-linear-regression-applied-generalized-linear-models-and-multilevel-models-in-r"><span class="header-section-number">32.13</span> Beyond Multiple Linear Regression: Applied Generalized Linear Models and Multilevel Models in R</a></li>
+  <li><a href="#building-energy-statistical-modelling" id="toc-building-energy-statistical-modelling" class="nav-link" data-scroll-target="#building-energy-statistical-modelling"><span class="header-section-number">32.14</span> Building energy statistical modelling</a></li>
+  <li><a href="#causal-inference-the-mixtape" id="toc-causal-inference-the-mixtape" class="nav-link" data-scroll-target="#causal-inference-the-mixtape"><span class="header-section-number">32.15</span> Causal Inference: The Mixtape</a></li>
+  <li><a href="#common-statistical-tests-are-linear-models-a-work-through" id="toc-common-statistical-tests-are-linear-models-a-work-through" class="nav-link" data-scroll-target="#common-statistical-tests-are-linear-models-a-work-through"><span class="header-section-number">32.16</span> Common statistical tests are linear models a work through</a></li>
+  <li><a href="#data-analytics" id="toc-data-analytics" class="nav-link" data-scroll-target="#data-analytics"><span class="header-section-number">32.17</span> Data Analytics</a></li>
+  <li><a href="#doing-bayesian-data-analysis-in-brms-and-the-tidyverse" id="toc-doing-bayesian-data-analysis-in-brms-and-the-tidyverse" class="nav-link" data-scroll-target="#doing-bayesian-data-analysis-in-brms-and-the-tidyverse"><span class="header-section-number">32.18</span> Doing Bayesian Data Analysis in brms and the tidyverse</a></li>
+  <li><a href="#doing-meta-analysis-with-r-a-hands-on-guide" id="toc-doing-meta-analysis-with-r-a-hands-on-guide" class="nav-link" data-scroll-target="#doing-meta-analysis-with-r-a-hands-on-guide"><span class="header-section-number">32.19</span> Doing meta-analysis with R A hands-on guide</a></li>
+  <li><a href="#end-to-end-solved-problems-with-r-a-catalog-of-26-examples-using-statistical-inference" id="toc-end-to-end-solved-problems-with-r-a-catalog-of-26-examples-using-statistical-inference" class="nav-link" data-scroll-target="#end-to-end-solved-problems-with-r-a-catalog-of-26-examples-using-statistical-inference"><span class="header-section-number">32.20</span> End-to-End Solved Problems With R a catalog of 26 examples using statistical inference</a></li>
+  <li><a href="#flexible-regression-models" id="toc-flexible-regression-models" class="nav-link" data-scroll-target="#flexible-regression-models"><span class="header-section-number">32.21</span> Flexible Regression Models</a></li>
+  <li><a href="#foundations-of-statistics-with-r" id="toc-foundations-of-statistics-with-r" class="nav-link" data-scroll-target="#foundations-of-statistics-with-r"><span class="header-section-number">32.22</span> Foundations of Statistics with R</a></li>
+  <li><a href="#handbook-of-regression-modeling-in-people-analytics" id="toc-handbook-of-regression-modeling-in-people-analytics" class="nav-link" data-scroll-target="#handbook-of-regression-modeling-in-people-analytics"><span class="header-section-number">32.23</span> Handbook of Regression Modeling in People Analytics</a></li>
+  <li><a href="#islr-tidymodels-labs" id="toc-islr-tidymodels-labs" class="nav-link" data-scroll-target="#islr-tidymodels-labs"><span class="header-section-number">32.24</span> ISLR tidymodels Labs</a></li>
+  <li><a href="#introduction-to-empirical-bayes-examples-from-baseball-statistics" id="toc-introduction-to-empirical-bayes-examples-from-baseball-statistics" class="nav-link" data-scroll-target="#introduction-to-empirical-bayes-examples-from-baseball-statistics"><span class="header-section-number">32.25</span> Introduction to Empirical Bayes: Examples from Baseball Statistics</a></li>
+  <li><a href="#introduction-to-modern-statistics" id="toc-introduction-to-modern-statistics" class="nav-link" data-scroll-target="#introduction-to-modern-statistics"><span class="header-section-number">32.26</span> Introduction to Modern Statistics</a></li>
+  <li><a href="#learning-statistics-with-r-a-tutorial-for-psychology-students-and-other-beginners" id="toc-learning-statistics-with-r-a-tutorial-for-psychology-students-and-other-beginners" class="nav-link" data-scroll-target="#learning-statistics-with-r-a-tutorial-for-psychology-students-and-other-beginners"><span class="header-section-number">32.27</span> Learning statistics with R A tutorial for psychology students and other beginners</a></li>
+  <li><a href="#library-of-statistical-techniques" id="toc-library-of-statistical-techniques" class="nav-link" data-scroll-target="#library-of-statistical-techniques"><span class="header-section-number">32.28</span> Library of Statistical Techniques</a></li>
+  <li><a href="#mixed-models-with-r-getting-started-with-random-effects" id="toc-mixed-models-with-r-getting-started-with-random-effects" class="nav-link" data-scroll-target="#mixed-models-with-r-getting-started-with-random-effects"><span class="header-section-number">32.29</span> Mixed Models with R Getting started with random effects</a></li>
+  <li><a href="#model-estimation-by-example-demonstrations-with-r" id="toc-model-estimation-by-example-demonstrations-with-r" class="nav-link" data-scroll-target="#model-estimation-by-example-demonstrations-with-r"><span class="header-section-number">32.30</span> Model Estimation by Example Demonstrations with R</a></li>
+  <li><a href="#modern-statistical-methods-for-astronomy" id="toc-modern-statistical-methods-for-astronomy" class="nav-link" data-scroll-target="#modern-statistical-methods-for-astronomy"><span class="header-section-number">32.31</span> Modern Statistical Methods for Astronomy</a></li>
+  <li><a href="#modern-statistics-with-r" id="toc-modern-statistics-with-r" class="nav-link" data-scroll-target="#modern-statistics-with-r"><span class="header-section-number">32.32</span> Modern Statistics with R</a></li>
+  <li><a href="#one-way-anova-with-r-completely-randomized-design---between-groups" id="toc-one-way-anova-with-r-completely-randomized-design---between-groups" class="nav-link" data-scroll-target="#one-way-anova-with-r-completely-randomized-design---between-groups"><span class="header-section-number">32.33</span> One Way ANOVA with R Completely Randomized Design - Between Groups</a></li>
+  <li><a href="#openintro-statistics" id="toc-openintro-statistics" class="nav-link" data-scroll-target="#openintro-statistics"><span class="header-section-number">32.34</span> OpenIntro Statistics</a></li>
+  <li><a href="#partial-least-squares-structural-equation-modeling-pls-sem-using-r" id="toc-partial-least-squares-structural-equation-modeling-pls-sem-using-r" class="nav-link" data-scroll-target="#partial-least-squares-structural-equation-modeling-pls-sem-using-r"><span class="header-section-number">32.35</span> Partial Least Squares Structural Equation Modeling (PLS-SEM) Using R</a></li>
+  <li><a href="#power-analysis-with-superpower" id="toc-power-analysis-with-superpower" class="nav-link" data-scroll-target="#power-analysis-with-superpower"><span class="header-section-number">32.36</span> Power Analysis with Superpower</a></li>
+  <li><a href="#probability-and-bayesian-modeling" id="toc-probability-and-bayesian-modeling" class="nav-link" data-scroll-target="#probability-and-bayesian-modeling"><span class="header-section-number">32.37</span> Probability and Bayesian Modeling</a></li>
+  <li><a href="#r-for-data-analytics" id="toc-r-for-data-analytics" class="nav-link" data-scroll-target="#r-for-data-analytics"><span class="header-section-number">32.38</span> R for Data Analytics</a></li>
+  <li><a href="#recoding-introduction-to-mediation-moderation-and-conditional-process-analysis" id="toc-recoding-introduction-to-mediation-moderation-and-conditional-process-analysis" class="nav-link" data-scroll-target="#recoding-introduction-to-mediation-moderation-and-conditional-process-analysis"><span class="header-section-number">32.39</span> Recoding Introduction to Mediation, Moderation, and Conditional Process Analysis</a></li>
+  <li><a href="#regression-and-other-stories" id="toc-regression-and-other-stories" class="nav-link" data-scroll-target="#regression-and-other-stories"><span class="header-section-number">32.40</span> Regression and Other Stories</a></li>
+  <li><a href="#spatio-temporal-statistics-with-r" id="toc-spatio-temporal-statistics-with-r" class="nav-link" data-scroll-target="#spatio-temporal-statistics-with-r"><span class="header-section-number">32.41</span> Spatio-Temporal Statistics with R</a></li>
+  <li><a href="#statistical-rethinking" id="toc-statistical-rethinking" class="nav-link" data-scroll-target="#statistical-rethinking"><span class="header-section-number">32.42</span> Statistical Rethinking</a></li>
+  <li><a href="#statistical-rethinking-with-brms-ggplot2-and-the-tidyverse-second-edition" id="toc-statistical-rethinking-with-brms-ggplot2-and-the-tidyverse-second-edition" class="nav-link" data-scroll-target="#statistical-rethinking-with-brms-ggplot2-and-the-tidyverse-second-edition"><span class="header-section-number">32.43</span> Statistical Rethinking with brms, ggplot2, and the tidyverse Second edition</a></li>
+  <li><a href="#statistical-thinking-in-the-21st-century" id="toc-statistical-thinking-in-the-21st-century" class="nav-link" data-scroll-target="#statistical-thinking-in-the-21st-century"><span class="header-section-number">32.44</span> Statistical Thinking in the 21st Century</a></li>
+  <li><a href="#statistical-inference-for-data-science" id="toc-statistical-inference-for-data-science" class="nav-link" data-scroll-target="#statistical-inference-for-data-science"><span class="header-section-number">32.45</span> Statistical inference for data science</a></li>
+  <li><a href="#statistics-the-easier-way-with-r-3rd.-ed.-tidyversion" id="toc-statistics-the-easier-way-with-r-3rd.-ed.-tidyversion" class="nav-link" data-scroll-target="#statistics-the-easier-way-with-r-3rd.-ed.-tidyversion"><span class="header-section-number">32.46</span> Statistics (The Easier Way) With R, 3rd. Ed. (TIDYVERSION)</a></li>
+  <li><a href="#statistics-and-data-with-r-an-applied-approach-through-examples" id="toc-statistics-and-data-with-r-an-applied-approach-through-examples" class="nav-link" data-scroll-target="#statistics-and-data-with-r-an-applied-approach-through-examples"><span class="header-section-number">32.47</span> Statistics and Data with R An Applied Approach Through Examples</a></li>
+  <li><a href="#surrogates---gaussian-process-modeling-design-and-optimization-for-the-applied-sciences" id="toc-surrogates---gaussian-process-modeling-design-and-optimization-for-the-applied-sciences" class="nav-link" data-scroll-target="#surrogates---gaussian-process-modeling-design-and-optimization-for-the-applied-sciences"><span class="header-section-number">32.48</span> Surrogates - Gaussian process modeling, design and optimization for the applied sciences</a></li>
+  <li><a href="#teacups-giraffes-and-statistics" id="toc-teacups-giraffes-and-statistics" class="nav-link" data-scroll-target="#teacups-giraffes-and-statistics"><span class="header-section-number">32.49</span> Teacups, Giraffes and Statistics</a></li>
+  <li><a href="#the-effect-an-introduction-to-research-design-and-causality" id="toc-the-effect-an-introduction-to-research-design-and-causality" class="nav-link" data-scroll-target="#the-effect-an-introduction-to-research-design-and-causality"><span class="header-section-number">32.50</span> The Effect An Introduction to Research Design and Causality</a></li>
+  <li><a href="#the-grammar-of-experimental-designs" id="toc-the-grammar-of-experimental-designs" class="nav-link" data-scroll-target="#the-grammar-of-experimental-designs"><span class="header-section-number">32.51</span> The Grammar of Experimental Designs</a></li>
+  <li><a href="#the-hitchhikers-guide-to-linear-models" id="toc-the-hitchhikers-guide-to-linear-models" class="nav-link" data-scroll-target="#the-hitchhikers-guide-to-linear-models"><span class="header-section-number">32.52</span> The Hitchhiker’s Guide to Linear Models</a></li>
+  <li><a href="#the-saga-of-pls" id="toc-the-saga-of-pls" class="nav-link" data-scroll-target="#the-saga-of-pls"><span class="header-section-number">32.53</span> The Saga of PLS</a></li>
+  <li><a href="#translating-stata-to-r" id="toc-translating-stata-to-r" class="nav-link" data-scroll-target="#translating-stata-to-r"><span class="header-section-number">32.54</span> Translating Stata to R</a></li>
+  <li><a href="#using-r-for-bayesian-spatial-and-spatio-temporal-health-modeling" id="toc-using-r-for-bayesian-spatial-and-spatio-temporal-health-modeling" class="nav-link" data-scroll-target="#using-r-for-bayesian-spatial-and-spatio-temporal-health-modeling"><span class="header-section-number">32.55</span> Using R for Bayesian Spatial and Spatio-Temporal Health Modeling</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 

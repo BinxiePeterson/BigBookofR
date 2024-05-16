@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script async="" defer="" data-domain="bigbookofr.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
-</head><body class="nav-sidebar floating fullcontent"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
+</head><body class="nav-sidebar floating"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
 
 
 <meta property="og:title" content="Big Book of R - 30&nbsp; Social Science">
@@ -85,6 +85,37 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://www.bigbookofr.com/images/big_book_social.png">
 
+<style>
+#quarto-sidebar .menu-text {
+  display: flex;
+}
+#quarto-sidebar .chapter-number {
+  display: block;
+  width: 1em;
+  text-align: right;
+}
+#quarto-sidebar .chapter-title {
+  display: block;
+  padding-left: 10px;
+  text-indent: -10px;
+  width: 100%;
+}
+#quarto-toc {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px; /* Adjust width as needed */
+  height: 100%;
+  overflow: auto;
+}
+#quarto-main {
+  margin-left: 210px; /* Adjust so content does not overlap with TOC */
+}
+/* CSS to hide the search widget */
+.quarto-search, .search-input {
+  display: none;
+}
+</style>
 
 
 
@@ -126,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Big Book of R</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome :)</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -356,7 +387,38 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#apis-for-social-scientists-a-collaborative-review" id="toc-apis-for-social-scientists-a-collaborative-review" class="nav-link active" data-scroll-target="#apis-for-social-scientists-a-collaborative-review"><span class="header-section-number">30.1</span> APIs for social scientists: A collaborative review</a></li>
+  <li><a href="#an-r-exercise-in-data-collection-cleaning-and-merging-u.s.-census-data" id="toc-an-r-exercise-in-data-collection-cleaning-and-merging-u.s.-census-data" class="nav-link" data-scroll-target="#an-r-exercise-in-data-collection-cleaning-and-merging-u.s.-census-data"><span class="header-section-number">30.2</span> An R Exercise in Data Collection, Cleaning, and Merging U.S. Census Data</a></li>
+  <li><a href="#an-r-platform-for-social-scientists" id="toc-an-r-platform-for-social-scientists" class="nav-link" data-scroll-target="#an-r-platform-for-social-scientists"><span class="header-section-number">30.3</span> An R Platform for Social Scientists</a></li>
+  <li><a href="#an-introduction-to-psychometric-theory-with-applications-in-r" id="toc-an-introduction-to-psychometric-theory-with-applications-in-r" class="nav-link" data-scroll-target="#an-introduction-to-psychometric-theory-with-applications-in-r"><span class="header-section-number">30.4</span> An introduction to psychometric theory with applications in R</a></li>
+  <li><a href="#analyzing-us-census-data-methods-maps-and-models-in-r" id="toc-analyzing-us-census-data-methods-maps-and-models-in-r" class="nav-link" data-scroll-target="#analyzing-us-census-data-methods-maps-and-models-in-r"><span class="header-section-number">30.5</span> Analyzing US Census Data Methods, Maps, and Models in R</a></li>
+  <li><a href="#applied-demographic-data-analysis" id="toc-applied-demographic-data-analysis" class="nav-link" data-scroll-target="#applied-demographic-data-analysis"><span class="header-section-number">30.6</span> Applied Demographic Data Analysis</a></li>
+  <li><a href="#csss-508-introduction-to-r-for-social-scientists" id="toc-csss-508-introduction-to-r-for-social-scientists" class="nav-link" data-scroll-target="#csss-508-introduction-to-r-for-social-scientists"><span class="header-section-number">30.7</span> CSSS 508 Introduction to R for Social Scientists</a></li>
+  <li><a href="#complex-surveys-a-guide-to-analysis-using-r" id="toc-complex-surveys-a-guide-to-analysis-using-r" class="nav-link" data-scroll-target="#complex-surveys-a-guide-to-analysis-using-r"><span class="header-section-number">30.8</span> Complex Surveys: A Guide to Analysis Using R</a></li>
+  <li><a href="#composite-indicator-development-and-analysis-in-r-with-coinr" id="toc-composite-indicator-development-and-analysis-in-r-with-coinr" class="nav-link" data-scroll-target="#composite-indicator-development-and-analysis-in-r-with-coinr"><span class="header-section-number">30.9</span> Composite Indicator Development and Analysis in R with COINr</a></li>
+  <li><a href="#computational-analysis-of-communication" id="toc-computational-analysis-of-communication" class="nav-link" data-scroll-target="#computational-analysis-of-communication"><span class="header-section-number">30.10</span> Computational Analysis of Communication</a></li>
+  <li><a href="#computational-social-science-theory-application" id="toc-computational-social-science-theory-application" class="nav-link" data-scroll-target="#computational-social-science-theory-application"><span class="header-section-number">30.11</span> Computational Social Science: Theory &amp; Application</a></li>
+  <li><a href="#computing-for-the-social-sciences" id="toc-computing-for-the-social-sciences" class="nav-link" data-scroll-target="#computing-for-the-social-sciences"><span class="header-section-number">30.12</span> Computing for the Social Sciences</a></li>
+  <li><a href="#crime-by-the-numbers-a-criminologists-guide-to-r" id="toc-crime-by-the-numbers-a-criminologists-guide-to-r" class="nav-link" data-scroll-target="#crime-by-the-numbers-a-criminologists-guide-to-r"><span class="header-section-number">30.13</span> Crime by the Numbers A Criminologist’s Guide to R</a></li>
+  <li><a href="#introduction-to-r-for-social-scientistsa-tidy-programming-approach" id="toc-introduction-to-r-for-social-scientistsa-tidy-programming-approach" class="nav-link" data-scroll-target="#introduction-to-r-for-social-scientistsa-tidy-programming-approach"><span class="header-section-number">30.14</span> Introduction to R for Social ScientistsA Tidy Programming Approach</a></li>
+  <li><a href="#modern-statistical-methods-for-psychology" id="toc-modern-statistical-methods-for-psychology" class="nav-link" data-scroll-target="#modern-statistical-methods-for-psychology"><span class="header-section-number">30.15</span> Modern Statistical Methods for Psychology</a></li>
+  <li><a href="#psychometrics-in-exercises-using-r-and-rstudio" id="toc-psychometrics-in-exercises-using-r-and-rstudio" class="nav-link" data-scroll-target="#psychometrics-in-exercises-using-r-and-rstudio"><span class="header-section-number">30.16</span> Psychometrics in Exercises using R and RStudio</a></li>
+  <li><a href="#public-policy-analytics-code-context-for-data-science-in-government" id="toc-public-policy-analytics-code-context-for-data-science-in-government" class="nav-link" data-scroll-target="#public-policy-analytics-code-context-for-data-science-in-government"><span class="header-section-number">30.17</span> Public Policy Analytics Code &amp; Context for Data Science in Government</a></li>
+  <li><a href="#r-programming-for-psychometrics" id="toc-r-programming-for-psychometrics" class="nav-link" data-scroll-target="#r-programming-for-psychometrics"><span class="header-section-number">30.18</span> R Programming for Psychometrics</a></li>
+  <li><a href="#reproducible-statistics-for-psychologists-with-r-lab-tutorials" id="toc-reproducible-statistics-for-psychologists-with-r-lab-tutorials" class="nav-link" data-scroll-target="#reproducible-statistics-for-psychologists-with-r-lab-tutorials"><span class="header-section-number">30.19</span> Reproducible statistics for psychologists with R: Lab Tutorials</a></li>
+  <li><a href="#simulation-models-of-cultural-evolution-in-r" id="toc-simulation-models-of-cultural-evolution-in-r" class="nav-link" data-scroll-target="#simulation-models-of-cultural-evolution-in-r"><span class="header-section-number">30.20</span> Simulation Models of Cultural Evolution in R</a></li>
+  <li><a href="#text-mining-for-social-scientists" id="toc-text-mining-for-social-scientists" class="nav-link" data-scroll-target="#text-mining-for-social-scientists"><span class="header-section-number">30.21</span> Text Mining for Social Scientists</a></li>
+  <li><a href="#the-plain-persons-guide-to-plain-text-social-science" id="toc-the-plain-persons-guide-to-plain-text-social-science" class="nav-link" data-scroll-target="#the-plain-persons-guide-to-plain-text-social-science"><span class="header-section-number">30.22</span> The Plain Person’s Guide to Plain Text Social Science</a></li>
+  <li><a href="#using-r-for-data-analysis-in-social-sciences-a-research-project-oriented-approach" id="toc-using-r-for-data-analysis-in-social-sciences-a-research-project-oriented-approach" class="nav-link" data-scroll-target="#using-r-for-data-analysis-in-social-sciences-a-research-project-oriented-approach"><span class="header-section-number">30.23</span> Using R for Data Analysis in Social Sciences A Research Project-Oriented Approach</a></li>
+  <li><a href="#using-r-for-social-work-research" id="toc-using-r-for-social-work-research" class="nav-link" data-scroll-target="#using-r-for-social-work-research"><span class="header-section-number">30.24</span> Using R for Social Work Research</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 

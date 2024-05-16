@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script async="" defer="" data-domain="bigbookofr.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
-</head><body class="nav-sidebar floating fullcontent"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
+</head><body class="nav-sidebar floating"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
 
 
 <meta property="og:title" content="Big Book of R - 28&nbsp; R programming">
@@ -85,6 +85,37 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://www.bigbookofr.com/images/big_book_social.png">
 
+<style>
+#quarto-sidebar .menu-text {
+  display: flex;
+}
+#quarto-sidebar .chapter-number {
+  display: block;
+  width: 1em;
+  text-align: right;
+}
+#quarto-sidebar .chapter-title {
+  display: block;
+  padding-left: 10px;
+  text-indent: -10px;
+  width: 100%;
+}
+#quarto-toc {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px; /* Adjust width as needed */
+  height: 100%;
+  overflow: auto;
+}
+#quarto-main {
+  margin-left: 210px; /* Adjust so content does not overlap with TOC */
+}
+/* CSS to hide the search widget */
+.quarto-search, .search-input {
+  display: none;
+}
+</style>
 
 
 
@@ -126,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Big Book of R</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome :)</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -356,7 +387,61 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#a-survivors-guide-to-r" id="toc-a-survivors-guide-to-r" class="nav-link active" data-scroll-target="#a-survivors-guide-to-r"><span class="header-section-number">28.1</span> A Survivor’s Guide to R</a></li>
+  <li><a href="#a-sufficient-introduction-to-r" id="toc-a-sufficient-introduction-to-r" class="nav-link" data-scroll-target="#a-sufficient-introduction-to-r"><span class="header-section-number">28.2</span> A sufficient Introduction to R</a></li>
+  <li><a href="#advanced-object-oriented-programming-in-r" id="toc-advanced-object-oriented-programming-in-r" class="nav-link" data-scroll-target="#advanced-object-oriented-programming-in-r"><span class="header-section-number">28.3</span> Advanced Object-Oriented Programming in R</a></li>
+  <li><a href="#advanced-r" id="toc-advanced-r" class="nav-link" data-scroll-target="#advanced-r"><span class="header-section-number">28.4</span> Advanced R</a></li>
+  <li><a href="#advanced-r-solutions" id="toc-advanced-r-solutions" class="nav-link" data-scroll-target="#advanced-r-solutions"><span class="header-section-number">28.5</span> Advanced R Solutions</a></li>
+  <li><a href="#an-introduction-to-data-analysis" id="toc-an-introduction-to-data-analysis" class="nav-link" data-scroll-target="#an-introduction-to-data-analysis"><span class="header-section-number">28.6</span> An Introduction to Data Analysis</a></li>
+  <li><a href="#an-introduction-to-r" id="toc-an-introduction-to-r" class="nav-link" data-scroll-target="#an-introduction-to-r"><span class="header-section-number">28.7</span> An Introduction to R</a></li>
+  <li><a href="#another-introduction-to-r" id="toc-another-introduction-to-r" class="nav-link" data-scroll-target="#another-introduction-to-r"><span class="header-section-number">28.8</span> An(other) introduction to R</a></li>
+  <li><a href="#another-book-on-data-science-learn-r-and-python-in-parallel" id="toc-another-book-on-data-science-learn-r-and-python-in-parallel" class="nav-link" data-scroll-target="#another-book-on-data-science-learn-r-and-python-in-parallel"><span class="header-section-number">28.9</span> Another Book on Data Science Learn R and Python in Parallel</a></li>
+  <li><a href="#best-coding-practices-for-r" id="toc-best-coding-practices-for-r" class="nav-link" data-scroll-target="#best-coding-practices-for-r"><span class="header-section-number">28.10</span> Best Coding Practices for R</a></li>
+  <li><a href="#book-of-r-a-first-course-in-programming-and-statistics" id="toc-book-of-r-a-first-course-in-programming-and-statistics" class="nav-link" data-scroll-target="#book-of-r-a-first-course-in-programming-and-statistics"><span class="header-section-number">28.11</span> Book of R A First Course in Programming and Statistics</a></li>
+  <li><a href="#cookbook-for-r" id="toc-cookbook-for-r" class="nav-link" data-scroll-target="#cookbook-for-r"><span class="header-section-number">28.12</span> Cookbook for R</a></li>
+  <li><a href="#data-analytics-with-r-a-recipe-book" id="toc-data-analytics-with-r-a-recipe-book" class="nav-link" data-scroll-target="#data-analytics-with-r-a-recipe-book"><span class="header-section-number">28.13</span> Data Analytics with R A Recipe book</a></li>
+  <li><a href="#deep-r-programming" id="toc-deep-r-programming" class="nav-link" data-scroll-target="#deep-r-programming"><span class="header-section-number">28.14</span> Deep R Programming</a></li>
+  <li><a href="#domain-specific-languages-in-r" id="toc-domain-specific-languages-in-r" class="nav-link" data-scroll-target="#domain-specific-languages-in-r"><span class="header-section-number">28.15</span> Domain-Specific Languages in R</a></li>
+  <li><a href="#efficient-r-programming" id="toc-efficient-r-programming" class="nav-link" data-scroll-target="#efficient-r-programming"><span class="header-section-number">28.16</span> Efficient R programming</a></li>
+  <li><a href="#field-guide-to-the-r-ecosystem" id="toc-field-guide-to-the-r-ecosystem" class="nav-link" data-scroll-target="#field-guide-to-the-r-ecosystem"><span class="header-section-number">28.17</span> Field Guide to the R Ecosystem</a></li>
+  <li><a href="#functional-data-structures-in-r" id="toc-functional-data-structures-in-r" class="nav-link" data-scroll-target="#functional-data-structures-in-r"><span class="header-section-number">28.18</span> Functional Data Structures in R</a></li>
+  <li><a href="#functional-programming" id="toc-functional-programming" class="nav-link" data-scroll-target="#functional-programming"><span class="header-section-number">28.19</span> Functional Programming</a></li>
+  <li><a href="#functional-programming-in-r" id="toc-functional-programming-in-r" class="nav-link" data-scroll-target="#functional-programming-in-r"><span class="header-section-number">28.20</span> Functional Programming in R</a></li>
+  <li><a href="#hands-on-programming-with-r" id="toc-hands-on-programming-with-r" class="nav-link" data-scroll-target="#hands-on-programming-with-r"><span class="header-section-number">28.21</span> Hands-On Programming with R</a></li>
+  <li><a href="#introduction-to-programming-with-r" id="toc-introduction-to-programming-with-r" class="nav-link" data-scroll-target="#introduction-to-programming-with-r"><span class="header-section-number">28.22</span> Introduction to Programming with R</a></li>
+  <li><a href="#introduction-to-r---r-spatial" id="toc-introduction-to-r---r-spatial" class="nav-link" data-scroll-target="#introduction-to-r---r-spatial"><span class="header-section-number">28.23</span> Introduction to R - R spatial</a></li>
+  <li><a href="#mastering-software-development-in-r" id="toc-mastering-software-development-in-r" class="nav-link" data-scroll-target="#mastering-software-development-in-r"><span class="header-section-number">28.24</span> Mastering Software Development in R</a></li>
+  <li><a href="#metaprogramming-in-r" id="toc-metaprogramming-in-r" class="nav-link" data-scroll-target="#metaprogramming-in-r"><span class="header-section-number">28.25</span> Metaprogramming in R</a></li>
+  <li><a href="#modern-r-with-the-tidyverse" id="toc-modern-r-with-the-tidyverse" class="nav-link" data-scroll-target="#modern-r-with-the-tidyverse"><span class="header-section-number">28.26</span> Modern R with the tidyverse</a></li>
+  <li><a href="#r-basics" id="toc-r-basics" class="nav-link" data-scroll-target="#r-basics"><span class="header-section-number">28.27</span> R Basics</a></li>
+  <li><a href="#r-bytecode-book" id="toc-r-bytecode-book" class="nav-link" data-scroll-target="#r-bytecode-book"><span class="header-section-number">28.28</span> R Bytecode Book</a></li>
+  <li><a href="#r-cookbook---2nd-edition" id="toc-r-cookbook---2nd-edition" class="nav-link" data-scroll-target="#r-cookbook---2nd-edition"><span class="header-section-number">28.29</span> R Cookbook - 2nd edition</a></li>
+  <li><a href="#r-development-guide" id="toc-r-development-guide" class="nav-link" data-scroll-target="#r-development-guide"><span class="header-section-number">28.30</span> R Development Guide</a></li>
+  <li><a href="#r-for-excel-users" id="toc-r-for-excel-users" class="nav-link" data-scroll-target="#r-for-excel-users"><span class="header-section-number">28.31</span> R for Excel users</a></li>
+  <li><a href="#r-for-graduate-students" id="toc-r-for-graduate-students" class="nav-link" data-scroll-target="#r-for-graduate-students"><span class="header-section-number">28.32</span> R for Graduate Students</a></li>
+  <li><a href="#r-in-action-third-edition-data-analysis-and-graphics-with-r-and-tidyverse" id="toc-r-in-action-third-edition-data-analysis-and-graphics-with-r-and-tidyverse" class="nav-link" data-scroll-target="#r-in-action-third-edition-data-analysis-and-graphics-with-r-and-tidyverse"><span class="header-section-number">28.33</span> R in Action, Third Edition, Data analysis and graphics with R and Tidyverse</a></li>
+  <li><a href="#r-language-for-programmers" id="toc-r-language-for-programmers" class="nav-link" data-scroll-target="#r-language-for-programmers"><span class="header-section-number">28.34</span> R language for programmers</a></li>
+  <li><a href="#rcpp-for-everyone" id="toc-rcpp-for-everyone" class="nav-link" data-scroll-target="#rcpp-for-everyone"><span class="header-section-number">28.35</span> Rcpp for everyone</a></li>
+  <li><a href="#the-r-inferno" id="toc-the-r-inferno" class="nav-link" data-scroll-target="#the-r-inferno"><span class="header-section-number">28.36</span> The R Inferno</a></li>
+  <li><a href="#the-r-language" id="toc-the-r-language" class="nav-link" data-scroll-target="#the-r-language"><span class="header-section-number">28.37</span> The R Language</a></li>
+  <li><a href="#the-r-manuals" id="toc-the-r-manuals" class="nav-link" data-scroll-target="#the-r-manuals"><span class="header-section-number">28.38</span> The R Manuals</a></li>
+  <li><a href="#the-tidyverse-cookbook" id="toc-the-tidyverse-cookbook" class="nav-link" data-scroll-target="#the-tidyverse-cookbook"><span class="header-section-number">28.39</span> The Tidyverse Cookbook</a></li>
+  <li><a href="#the-tidyverse-style-guide" id="toc-the-tidyverse-style-guide" class="nav-link" data-scroll-target="#the-tidyverse-style-guide"><span class="header-section-number">28.40</span> The tidyverse style guide</a></li>
+  <li><a href="#tidy-evaluation" id="toc-tidy-evaluation" class="nav-link" data-scroll-target="#tidy-evaluation"><span class="header-section-number">28.41</span> Tidy evaluation</a></li>
+  <li><a href="#tidyverse-skills-for-data-science" id="toc-tidyverse-skills-for-data-science" class="nav-link" data-scroll-target="#tidyverse-skills-for-data-science"><span class="header-section-number">28.42</span> Tidyverse Skills for Data Science</a></li>
+  <li><a href="#tidyverse-design-guide" id="toc-tidyverse-design-guide" class="nav-link" data-scroll-target="#tidyverse-design-guide"><span class="header-section-number">28.43</span> Tidyverse design guide</a></li>
+  <li><a href="#what-they-forgot-to-teach-you-about-r" id="toc-what-they-forgot-to-teach-you-about-r" class="nav-link" data-scroll-target="#what-they-forgot-to-teach-you-about-r"><span class="header-section-number">28.44</span> What They Forgot to Teach You About R</a></li>
+  <li><a href="#writing-r-extensions" id="toc-writing-r-extensions" class="nav-link" data-scroll-target="#writing-r-extensions"><span class="header-section-number">28.45</span> Writing R extensions</a></li>
+  <li><a href="#yarrr-the-pirates-guide-to-r" id="toc-yarrr-the-pirates-guide-to-r" class="nav-link" data-scroll-target="#yarrr-the-pirates-guide-to-r"><span class="header-section-number">28.46</span> YaRrr! The Pirate’s Guide to R</a></li>
+  <li><a href="#stats545-data-wrangling-exploration-and-analysis-with-r" id="toc-stats545-data-wrangling-exploration-and-analysis-with-r" class="nav-link" data-scroll-target="#stats545-data-wrangling-exploration-and-analysis-with-r"><span class="header-section-number">28.47</span> stats545 Data wrangling, exploration, and analysis with R</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 

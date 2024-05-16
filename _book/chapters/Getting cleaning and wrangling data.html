@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script async="" defer="" data-domain="bigbookofr.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
-</head><body class="nav-sidebar floating fullcontent"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
+</head><body class="nav-sidebar floating"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
 
 
 <meta property="og:title" content="Big Book of R - 19&nbsp; Getting, cleaning and wrangling data">
@@ -85,6 +85,37 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://www.bigbookofr.com/images/big_book_social.png">
 
+<style>
+#quarto-sidebar .menu-text {
+  display: flex;
+}
+#quarto-sidebar .chapter-number {
+  display: block;
+  width: 1em;
+  text-align: right;
+}
+#quarto-sidebar .chapter-title {
+  display: block;
+  padding-left: 10px;
+  text-indent: -10px;
+  width: 100%;
+}
+#quarto-toc {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px; /* Adjust width as needed */
+  height: 100%;
+  overflow: auto;
+}
+#quarto-main {
+  margin-left: 210px; /* Adjust so content does not overlap with TOC */
+}
+/* CSS to hide the search widget */
+.quarto-search, .search-input {
+  display: none;
+}
+</style>
 
 
 
@@ -126,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Big Book of R</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome :)</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -356,7 +387,25 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#recipes-for-mining-twitter-data-with-rtweet" id="toc-recipes-for-mining-twitter-data-with-rtweet" class="nav-link active" data-scroll-target="#recipes-for-mining-twitter-data-with-rtweet"><span class="header-section-number">19.1</span> 21 Recipes for Mining Twitter Data with rtweet</a></li>
+  <li><a href="#a-beginners-guide-to-clean-data" id="toc-a-beginners-guide-to-clean-data" class="nav-link" data-scroll-target="#a-beginners-guide-to-clean-data"><span class="header-section-number">19.2</span> A Beginner’s Guide to Clean Data</a></li>
+  <li><a href="#data-wrangling-essentials" id="toc-data-wrangling-essentials" class="nav-link" data-scroll-target="#data-wrangling-essentials"><span class="header-section-number">19.3</span> Data Wrangling Essentials</a></li>
+  <li><a href="#data-wrangling-and-visualization-guide" id="toc-data-wrangling-and-visualization-guide" class="nav-link" data-scroll-target="#data-wrangling-and-visualization-guide"><span class="header-section-number">19.4</span> Data Wrangling and Visualization Guide</a></li>
+  <li><a href="#flexible-imputation-of-missing-data" id="toc-flexible-imputation-of-missing-data" class="nav-link" data-scroll-target="#flexible-imputation-of-missing-data"><span class="header-section-number">19.5</span> Flexible Imputation of Missing Data</a></li>
+  <li><a href="#fundamentals-of-wrangling-healthcare-data-with-r" id="toc-fundamentals-of-wrangling-healthcare-data-with-r" class="nav-link" data-scroll-target="#fundamentals-of-wrangling-healthcare-data-with-r"><span class="header-section-number">19.6</span> Fundamentals of Wrangling Healthcare Data with R</a></li>
+  <li><a href="#handling-strings-with-r" id="toc-handling-strings-with-r" class="nav-link" data-scroll-target="#handling-strings-with-r"><span class="header-section-number">19.7</span> Handling Strings With R</a></li>
+  <li><a href="#spreadsheet-munging-strategies" id="toc-spreadsheet-munging-strategies" class="nav-link" data-scroll-target="#spreadsheet-munging-strategies"><span class="header-section-number">19.8</span> Spreadsheet Munging Strategies</a></li>
+  <li><a href="#text-mining-with-tidy-data-principles" id="toc-text-mining-with-tidy-data-principles" class="nav-link" data-scroll-target="#text-mining-with-tidy-data-principles"><span class="header-section-number">19.9</span> Text Mining With Tidy Data Principles</a></li>
+  <li><a href="#text-mining-with-r" id="toc-text-mining-with-r" class="nav-link" data-scroll-target="#text-mining-with-r"><span class="header-section-number">19.10</span> Text Mining with R</a></li>
+  <li><a href="#web-scraping-with-r" id="toc-web-scraping-with-r" class="nav-link" data-scroll-target="#web-scraping-with-r"><span class="header-section-number">19.11</span> Web Scraping with R</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 

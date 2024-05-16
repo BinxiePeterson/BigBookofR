@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script async="" defer="" data-domain="bigbookofr.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
-</head><body class="nav-sidebar floating fullcontent"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
+</head><body class="nav-sidebar floating"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
 
 
 <meta property="og:title" content="Big Book of R - 8&nbsp; Big Data">
@@ -85,6 +85,37 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://www.bigbookofr.com/images/big_book_social.png">
 
+<style>
+#quarto-sidebar .menu-text {
+  display: flex;
+}
+#quarto-sidebar .chapter-number {
+  display: block;
+  width: 1em;
+  text-align: right;
+}
+#quarto-sidebar .chapter-title {
+  display: block;
+  padding-left: 10px;
+  text-indent: -10px;
+  width: 100%;
+}
+#quarto-toc {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px; /* Adjust width as needed */
+  height: 100%;
+  overflow: auto;
+}
+#quarto-main {
+  margin-left: 210px; /* Adjust so content does not overlap with TOC */
+}
+/* CSS to hide the search widget */
+.quarto-search, .search-input {
+  display: none;
+}
+</style>
 
 
 
@@ -126,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Big Book of R</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome :)</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -356,7 +387,20 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#big-data-analytics" id="toc-big-data-analytics" class="nav-link active" data-scroll-target="#big-data-analytics"><span class="header-section-number">8.1</span> Big Data Analytics</a></li>
+  <li><a href="#big-data-with-r---exercise-book" id="toc-big-data-with-r---exercise-book" class="nav-link" data-scroll-target="#big-data-with-r---exercise-book"><span class="header-section-number">8.2</span> Big Data with R - Exercise book</a></li>
+  <li><a href="#exploring-visualizing-and-modeling-big-data-with-r" id="toc-exploring-visualizing-and-modeling-big-data-with-r" class="nav-link" data-scroll-target="#exploring-visualizing-and-modeling-big-data-with-r"><span class="header-section-number">8.3</span> Exploring, Visualizing, and Modeling Big Data with R</a></li>
+  <li><a href="#larger-than-memory-data-workflows-with-apache-arrow" id="toc-larger-than-memory-data-workflows-with-apache-arrow" class="nav-link" data-scroll-target="#larger-than-memory-data-workflows-with-apache-arrow"><span class="header-section-number">8.4</span> Larger-Than-Memory Data Workflows with Apache Arrow</a></li>
+  <li><a href="#mastering-spark-with-r" id="toc-mastering-spark-with-r" class="nav-link" data-scroll-target="#mastering-spark-with-r"><span class="header-section-number">8.5</span> Mastering Spark with R</a></li>
+  <li><a href="#using-spark-from-r-for-performance-with-arbitrary-code" id="toc-using-spark-from-r-for-performance-with-arbitrary-code" class="nav-link" data-scroll-target="#using-spark-from-r-for-performance-with-arbitrary-code"><span class="header-section-number">8.6</span> Using Spark from R for performance with arbitrary code</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 

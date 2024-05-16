@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script async="" defer="" data-domain="bigbookofr.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
-</head><body class="nav-sidebar floating fullcontent"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
+</head><body class="nav-sidebar floating"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
 
 
 <meta property="og:title" content="Big Book of R - 21&nbsp; Life Sciences">
@@ -85,6 +85,37 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://www.bigbookofr.com/images/big_book_social.png">
 
+<style>
+#quarto-sidebar .menu-text {
+  display: flex;
+}
+#quarto-sidebar .chapter-number {
+  display: block;
+  width: 1em;
+  text-align: right;
+}
+#quarto-sidebar .chapter-title {
+  display: block;
+  padding-left: 10px;
+  text-indent: -10px;
+  width: 100%;
+}
+#quarto-toc {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px; /* Adjust width as needed */
+  height: 100%;
+  overflow: auto;
+}
+#quarto-main {
+  margin-left: 210px; /* Adjust so content does not overlap with TOC */
+}
+/* CSS to hide the search widget */
+.quarto-search, .search-input {
+  display: none;
+}
+</style>
 
 
 
@@ -126,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Big Book of R</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome :)</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -356,7 +387,44 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#a-little-book-of-r-for-bioinformatics" id="toc-a-little-book-of-r-for-bioinformatics" class="nav-link active" data-scroll-target="#a-little-book-of-r-for-bioinformatics"><span class="header-section-number">21.1</span> A Little Book of R for Bioinformatics</a></li>
+  <li><a href="#a-little-book-of-r-for-bioinformatics-2.0" id="toc-a-little-book-of-r-for-bioinformatics-2.0" class="nav-link" data-scroll-target="#a-little-book-of-r-for-bioinformatics-2.0"><span class="header-section-number">21.2</span> A Little Book of R for Bioinformatics 2.0</a></li>
+  <li><a href="#an-open-compendium-of-soil-datasets" id="toc-an-open-compendium-of-soil-datasets" class="nav-link" data-scroll-target="#an-open-compendium-of-soil-datasets"><span class="header-section-number">21.3</span> An Open Compendium of Soil Datasets</a></li>
+  <li><a href="#assigning-cell-types-with-singler" id="toc-assigning-cell-types-with-singler" class="nav-link" data-scroll-target="#assigning-cell-types-with-singler"><span class="header-section-number">21.4</span> Assigning cell types with SingleR</a></li>
+  <li><a href="#bayesian-hierarchical-models-in-ecology" id="toc-bayesian-hierarchical-models-in-ecology" class="nav-link" data-scroll-target="#bayesian-hierarchical-models-in-ecology"><span class="header-section-number">21.5</span> Bayesian Hierarchical Models in Ecology</a></li>
+  <li><a href="#biostatistics-for-biomedical-research" id="toc-biostatistics-for-biomedical-research" class="nav-link" data-scroll-target="#biostatistics-for-biomedical-research"><span class="header-section-number">21.6</span> Biostatistics for Biomedical Research</a></li>
+  <li><a href="#comparative-methods" id="toc-comparative-methods" class="nav-link" data-scroll-target="#comparative-methods"><span class="header-section-number">21.7</span> Comparative Methods</a></li>
+  <li><a href="#computational-genomics-with-r" id="toc-computational-genomics-with-r" class="nav-link" data-scroll-target="#computational-genomics-with-r"><span class="header-section-number">21.8</span> Computational Genomics with R</a></li>
+  <li><a href="#data-analysis-and-visualization-in-r-for-ecologists" id="toc-data-analysis-and-visualization-in-r-for-ecologists" class="nav-link" data-scroll-target="#data-analysis-and-visualization-in-r-for-ecologists"><span class="header-section-number">21.9</span> Data Analysis and Visualization in R for Ecologists</a></li>
+  <li><a href="#data-analysis-for-the-life-sciences" id="toc-data-analysis-for-the-life-sciences" class="nav-link" data-scroll-target="#data-analysis-for-the-life-sciences"><span class="header-section-number">21.10</span> Data Analysis for the Life Sciences</a></li>
+  <li><a href="#data-integration-manipulation-and-visualization-of-phylogenetic-trees" id="toc-data-integration-manipulation-and-visualization-of-phylogenetic-trees" class="nav-link" data-scroll-target="#data-integration-manipulation-and-visualization-of-phylogenetic-trees"><span class="header-section-number">21.11</span> Data Integration, Manipulation and Visualization of Phylogenetic Trees</a></li>
+  <li><a href="#data-science-for-the-biomedical-sciences" id="toc-data-science-for-the-biomedical-sciences" class="nav-link" data-scroll-target="#data-science-for-the-biomedical-sciences"><span class="header-section-number">21.12</span> Data Science for the Biomedical Sciences</a></li>
+  <li><a href="#experimental-design-for-laboratory-biologists-maximising-information-and-improving-reproducibility" id="toc-experimental-design-for-laboratory-biologists-maximising-information-and-improving-reproducibility" class="nav-link" data-scroll-target="#experimental-design-for-laboratory-biologists-maximising-information-and-improving-reproducibility"><span class="header-section-number">21.13</span> Experimental Design for Laboratory Biologists Maximising Information and Improving Reproducibility</a></li>
+  <li><a href="#fundamentals-of-wrangling-healthcare-data-with-r" id="toc-fundamentals-of-wrangling-healthcare-data-with-r" class="nav-link" data-scroll-target="#fundamentals-of-wrangling-healthcare-data-with-r"><span class="header-section-number">21.14</span> Fundamentals of Wrangling Healthcare Data with R</a></li>
+  <li><a href="#git-and-github-for-advanced-ecological-data-analysis" id="toc-git-and-github-for-advanced-ecological-data-analysis" class="nav-link" data-scroll-target="#git-and-github-for-advanced-ecological-data-analysis"><span class="header-section-number">21.15</span> Git and Github for Advanced Ecological Data Analysis</a></li>
+  <li><a href="#hydroinformatics-at-vt" id="toc-hydroinformatics-at-vt" class="nav-link" data-scroll-target="#hydroinformatics-at-vt"><span class="header-section-number">21.16</span> Hydroinformatics at VT</a></li>
+  <li><a href="#introduction-to-data-analysis-with-r" id="toc-introduction-to-data-analysis-with-r" class="nav-link" data-scroll-target="#introduction-to-data-analysis-with-r"><span class="header-section-number">21.17</span> Introduction to Data Analysis with R</a></li>
+  <li><a href="#little-book-of-r-for-biomedical-statistics" id="toc-little-book-of-r-for-biomedical-statistics" class="nav-link" data-scroll-target="#little-book-of-r-for-biomedical-statistics"><span class="header-section-number">21.18</span> Little Book of R for Biomedical Statistics</a></li>
+  <li><a href="#modern-statistics-for-modern-biology" id="toc-modern-statistics-for-modern-biology" class="nav-link" data-scroll-target="#modern-statistics-for-modern-biology"><span class="header-section-number">21.19</span> Modern Statistics for Modern Biology</a></li>
+  <li><a href="#numerical-ecology-with-r" id="toc-numerical-ecology-with-r" class="nav-link" data-scroll-target="#numerical-ecology-with-r"><span class="header-section-number">21.20</span> Numerical Ecology with R</a></li>
+  <li><a href="#orchestrating-single-cell-analysis-with-bioconductor" id="toc-orchestrating-single-cell-analysis-with-bioconductor" class="nav-link" data-scroll-target="#orchestrating-single-cell-analysis-with-bioconductor"><span class="header-section-number">21.21</span> Orchestrating Single-Cell Analysis with Bioconductor</a></li>
+  <li><a href="#population-health-data-science-with-r" id="toc-population-health-data-science-with-r" class="nav-link" data-scroll-target="#population-health-data-science-with-r"><span class="header-section-number">21.22</span> Population Health Data Science with R</a></li>
+  <li><a href="#practical-statistics-in-medicine-with-r" id="toc-practical-statistics-in-medicine-with-r" class="nav-link" data-scroll-target="#practical-statistics-in-medicine-with-r"><span class="header-section-number">21.23</span> Practical Statistics in Medicine with R</a></li>
+  <li><a href="#r-for-conservation-and-development-projects-a-primer-for-practitioners" id="toc-r-for-conservation-and-development-projects-a-primer-for-practitioners" class="nav-link" data-scroll-target="#r-for-conservation-and-development-projects-a-primer-for-practitioners"><span class="header-section-number">21.24</span> R for Conservation and Development Projects A Primer for Practitioners</a></li>
+  <li><a href="#r-for-health-data-science" id="toc-r-for-health-data-science" class="nav-link" data-scroll-target="#r-for-health-data-science"><span class="header-section-number">21.25</span> R for Health Data Science</a></li>
+  <li><a href="#r-for-applied-epidemiology-and-public-health" id="toc-r-for-applied-epidemiology-and-public-health" class="nav-link" data-scroll-target="#r-for-applied-epidemiology-and-public-health"><span class="header-section-number">21.26</span> R for applied epidemiology and public health</a></li>
+  <li><a href="#reproducible-medical-research-with-r" id="toc-reproducible-medical-research-with-r" class="nav-link" data-scroll-target="#reproducible-medical-research-with-r"><span class="header-section-number">21.27</span> Reproducible Medical Research with R</a></li>
+  <li><a href="#statistics-in-r-for-biodiversity-conservation-paperback" id="toc-statistics-in-r-for-biodiversity-conservation-paperback" class="nav-link" data-scroll-target="#statistics-in-r-for-biodiversity-conservation-paperback"><span class="header-section-number">21.28</span> Statistics in R for Biodiversity Conservation Paperback</a></li>
+  <li><a href="#using-r-for-bayesian-spatial-and-spatio-temporal-health-modeling" id="toc-using-r-for-bayesian-spatial-and-spatio-temporal-health-modeling" class="nav-link" data-scroll-target="#using-r-for-bayesian-spatial-and-spatio-temporal-health-modeling"><span class="header-section-number">21.29</span> Using R for Bayesian Spatial and Spatio-Temporal Health Modeling</a></li>
+  <li><a href="#wehi-intro-to-tidy-r-course" id="toc-wehi-intro-to-tidy-r-course" class="nav-link" data-scroll-target="#wehi-intro-to-tidy-r-course"><span class="header-section-number">21.30</span> WEHI Intro to Tidy R Course</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 

@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script async="" defer="" data-domain="bigbookofr.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
-</head><body class="nav-sidebar floating fullcontent"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
+</head><body class="nav-sidebar floating"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
 
 
 <meta property="og:title" content="Big Book of R - 37&nbsp; Workflow">
@@ -85,6 +85,37 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://www.bigbookofr.com/images/big_book_social.png">
 
+<style>
+#quarto-sidebar .menu-text {
+  display: flex;
+}
+#quarto-sidebar .chapter-number {
+  display: block;
+  width: 1em;
+  text-align: right;
+}
+#quarto-sidebar .chapter-title {
+  display: block;
+  padding-left: 10px;
+  text-indent: -10px;
+  width: 100%;
+}
+#quarto-toc {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px; /* Adjust width as needed */
+  height: 100%;
+  overflow: auto;
+}
+#quarto-main {
+  margin-left: 210px; /* Adjust so content does not overlap with TOC */
+}
+/* CSS to hide the search widget */
+.quarto-search, .search-input {
+  display: none;
+}
+</style>
 
 
 
@@ -126,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Big Book of R</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome :)</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -356,7 +387,25 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#agile-data-science-with-r" id="toc-agile-data-science-with-r" class="nav-link active" data-scroll-target="#agile-data-science-with-r"><span class="header-section-number">37.1</span> Agile Data Science with R</a></li>
+  <li><a href="#data-management-in-large-scale-education-research" id="toc-data-management-in-large-scale-education-research" class="nav-link" data-scroll-target="#data-management-in-large-scale-education-research"><span class="header-section-number">37.2</span> Data Management in Large-Scale Education Research</a></li>
+  <li><a href="#github-actions-with-r" id="toc-github-actions-with-r" class="nav-link" data-scroll-target="#github-actions-with-r"><span class="header-section-number">37.3</span> Github actions with R</a></li>
+  <li><a href="#how-i-use-r" id="toc-how-i-use-r" class="nav-link" data-scroll-target="#how-i-use-r"><span class="header-section-number">37.4</span> How I Use R</a></li>
+  <li><a href="#r-without-statistics" id="toc-r-without-statistics" class="nav-link" data-scroll-target="#r-without-statistics"><span class="header-section-number">37.5</span> R Without Statistics</a></li>
+  <li><a href="#r-workflow-for-reproducible-data-analysis-and-reporting" id="toc-r-workflow-for-reproducible-data-analysis-and-reporting" class="nav-link" data-scroll-target="#r-workflow-for-reproducible-data-analysis-and-reporting"><span class="header-section-number">37.6</span> R Workflow for Reproducible Data Analysis and Reporting</a></li>
+  <li><a href="#reproducible-analytical-pipelines-rap-companion" id="toc-reproducible-analytical-pipelines-rap-companion" class="nav-link" data-scroll-target="#reproducible-analytical-pipelines-rap-companion"><span class="header-section-number">37.7</span> Reproducible Analytical Pipelines (RAP) Companion</a></li>
+  <li><a href="#reproducible-analytical-pipelines---masters-of-data-science" id="toc-reproducible-analytical-pipelines---masters-of-data-science" class="nav-link" data-scroll-target="#reproducible-analytical-pipelines---masters-of-data-science"><span class="header-section-number">37.8</span> Reproducible Analytical Pipelines - Master’s of Data Science</a></li>
+  <li><a href="#the-data-validation-cookbook" id="toc-the-data-validation-cookbook" class="nav-link" data-scroll-target="#the-data-validation-cookbook"><span class="header-section-number">37.9</span> The Data Validation Cookbook</a></li>
+  <li><a href="#the-targets-r-package-design-specification" id="toc-the-targets-r-package-design-specification" class="nav-link" data-scroll-target="#the-targets-r-package-design-specification"><span class="header-section-number">37.10</span> The targets R Package Design Specification</a></li>
+  <li><a href="#the-targets-r-package-user-manual" id="toc-the-targets-r-package-user-manual" class="nav-link" data-scroll-target="#the-targets-r-package-user-manual"><span class="header-section-number">37.11</span> The targets R Package User Manual</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 

@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script async="" defer="" data-domain="bigbookofr.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
-</head><body class="nav-sidebar floating fullcontent"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
+</head><body class="nav-sidebar floating"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
 
 
 <meta property="og:title" content="Big Book of R - 24&nbsp; Packages">
@@ -85,6 +85,37 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://www.bigbookofr.com/images/big_book_social.png">
 
+<style>
+#quarto-sidebar .menu-text {
+  display: flex;
+}
+#quarto-sidebar .chapter-number {
+  display: block;
+  width: 1em;
+  text-align: right;
+}
+#quarto-sidebar .chapter-title {
+  display: block;
+  padding-left: 10px;
+  text-indent: -10px;
+  width: 100%;
+}
+#quarto-toc {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px; /* Adjust width as needed */
+  height: 100%;
+  overflow: auto;
+}
+#quarto-main {
+  margin-left: 210px; /* Adjust so content does not overlap with TOC */
+}
+/* CSS to hide the search widget */
+.quarto-search, .search-input {
+  display: none;
+}
+</style>
 
 
 
@@ -126,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Big Book of R</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome :)</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -356,7 +387,48 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#a-minimal-book-example" id="toc-a-minimal-book-example" class="nav-link active" data-scroll-target="#a-minimal-book-example"><span class="header-section-number">24.1</span> A Minimal Book Example</a></li>
+  <li><a href="#a-minimal-rtorch-book" id="toc-a-minimal-rtorch-book" class="nav-link" data-scroll-target="#a-minimal-rtorch-book"><span class="header-section-number">24.2</span> A Minimal rTorch Book</a></li>
+  <li><a href="#an-introduction-to-ggplot2" id="toc-an-introduction-to-ggplot2" class="nav-link" data-scroll-target="#an-introduction-to-ggplot2"><span class="header-section-number">24.3</span> An Introduction to ggplot2</a></li>
+  <li><a href="#apache-arrow-r-cookbook" id="toc-apache-arrow-r-cookbook" class="nav-link" data-scroll-target="#apache-arrow-r-cookbook"><span class="header-section-number">24.4</span> Apache Arrow R Cookbook</a></li>
+  <li><a href="#brailler-in-action" id="toc-brailler-in-action" class="nav-link" data-scroll-target="#brailler-in-action"><span class="header-section-number">24.5</span> BrailleR in Action</a></li>
+  <li><a href="#circular-visualization-in-r" id="toc-circular-visualization-in-r" class="nav-link" data-scroll-target="#circular-visualization-in-r"><span class="header-section-number">24.6</span> Circular Visualization in R</a></li>
+  <li><a href="#complexheatmap-complete-reference" id="toc-complexheatmap-complete-reference" class="nav-link" data-scroll-target="#complexheatmap-complete-reference"><span class="header-section-number">24.7</span> ComplexHeatmap Complete Reference</a></li>
+  <li><a href="#create-publish-and-analyze-personal-websites-using-r-and-rstudio" id="toc-create-publish-and-analyze-personal-websites-using-r-and-rstudio" class="nav-link" data-scroll-target="#create-publish-and-analyze-personal-websites-using-r-and-rstudio"><span class="header-section-number">24.8</span> Create, Publish, and Analyze Personal Websites Using R and RStudio</a></li>
+  <li><a href="#data-integration-manipulation-and-visualization-of-phylogenetic-trees" id="toc-data-integration-manipulation-and-visualization-of-phylogenetic-trees" class="nav-link" data-scroll-target="#data-integration-manipulation-and-visualization-of-phylogenetic-trees"><span class="header-section-number">24.9</span> Data Integration, Manipulation and Visualization of Phylogenetic Trees</a></li>
+  <li><a href="#deep-learning-and-scientific-computing-with-r-torch" id="toc-deep-learning-and-scientific-computing-with-r-torch" class="nav-link" data-scroll-target="#deep-learning-and-scientific-computing-with-r-torch"><span class="header-section-number">24.10</span> Deep Learning and Scientific Computing with R torch</a></li>
+  <li><a href="#flexible-imputation-of-missing-data" id="toc-flexible-imputation-of-missing-data" class="nav-link" data-scroll-target="#flexible-imputation-of-missing-data"><span class="header-section-number">24.11</span> Flexible Imputation of Missing Data</a></li>
+  <li><a href="#gt-cookbook" id="toc-gt-cookbook" class="nav-link" data-scroll-target="#gt-cookbook"><span class="header-section-number">24.12</span> GT Cookbook</a></li>
+  <li><a href="#gt-cookbook-advanced" id="toc-gt-cookbook-advanced" class="nav-link" data-scroll-target="#gt-cookbook-advanced"><span class="header-section-number">24.13</span> GT Cookbook Advanced</a></li>
+  <li><a href="#highcharter-cookbook" id="toc-highcharter-cookbook" class="nav-link" data-scroll-target="#highcharter-cookbook"><span class="header-section-number">24.14</span> Highcharter Cookbook</a></li>
+  <li><a href="#r-function-a-day" id="toc-r-function-a-day" class="nav-link" data-scroll-target="#r-function-a-day"><span class="header-section-number">24.15</span> R Function a Day</a></li>
+  <li><a href="#r-bookdownplus-textbook" id="toc-r-bookdownplus-textbook" class="nav-link" data-scroll-target="#r-bookdownplus-textbook"><span class="header-section-number">24.16</span> R bookdownplus Textbook</a></li>
+  <li><a href="#rcpp-for-everyone" id="toc-rcpp-for-everyone" class="nav-link" data-scroll-target="#rcpp-for-everyone"><span class="header-section-number">24.17</span> Rcpp for everyone</a></li>
+  <li><a href="#shiny-app-packages" id="toc-shiny-app-packages" class="nav-link" data-scroll-target="#shiny-app-packages"><span class="header-section-number">24.18</span> Shiny App-Packages</a></li>
+  <li><a href="#targeted-learning-in-r-causal-data-science-with-the-tlverse-software-ecosystem" id="toc-targeted-learning-in-r-causal-data-science-with-the-tlverse-software-ecosystem" class="nav-link" data-scroll-target="#targeted-learning-in-r-causal-data-science-with-the-tlverse-software-ecosystem"><span class="header-section-number">24.19</span> Targeted Learning in R: Causal Data Science with the tlverse Software Ecosystem</a></li>
+  <li><a href="#the-data-validation-cookbook" id="toc-the-data-validation-cookbook" class="nav-link" data-scroll-target="#the-data-validation-cookbook"><span class="header-section-number">24.20</span> The Data Validation Cookbook</a></li>
+  <li><a href="#the-grammar-of-experimental-designs" id="toc-the-grammar-of-experimental-designs" class="nav-link" data-scroll-target="#the-grammar-of-experimental-designs"><span class="header-section-number">24.21</span> The Grammar of Experimental Designs</a></li>
+  <li><a href="#the-tidyverse-cookbook" id="toc-the-tidyverse-cookbook" class="nav-link" data-scroll-target="#the-tidyverse-cookbook"><span class="header-section-number">24.22</span> The Tidyverse Cookbook</a></li>
+  <li><a href="#the-caret-package" id="toc-the-caret-package" class="nav-link" data-scroll-target="#the-caret-package"><span class="header-section-number">24.23</span> The caret Package</a></li>
+  <li><a href="#the-lidr-package" id="toc-the-lidr-package" class="nav-link" data-scroll-target="#the-lidr-package"><span class="header-section-number">24.24</span> The lidR package</a></li>
+  <li><a href="#the-targets-r-package-design-specification" id="toc-the-targets-r-package-design-specification" class="nav-link" data-scroll-target="#the-targets-r-package-design-specification"><span class="header-section-number">24.25</span> The targets R Package Design Specification</a></li>
+  <li><a href="#the-targets-r-package-user-manual" id="toc-the-targets-r-package-user-manual" class="nav-link" data-scroll-target="#the-targets-r-package-user-manual"><span class="header-section-number">24.26</span> The targets R Package User Manual</a></li>
+  <li><a href="#data.table-in-r-the-complete-beginners-guide" id="toc-data.table-in-r-the-complete-beginners-guide" class="nav-link" data-scroll-target="#data.table-in-r-the-complete-beginners-guide"><span class="header-section-number">24.27</span> data.table in R The Complete Beginners Guide</a></li>
+  <li><a href="#ggplot2-elegant-graphics-for-data-analysis" id="toc-ggplot2-elegant-graphics-for-data-analysis" class="nav-link" data-scroll-target="#ggplot2-elegant-graphics-for-data-analysis"><span class="header-section-number">24.28</span> ggplot2 Elegant Graphics for Data Analysis</a></li>
+  <li><a href="#knitr" id="toc-knitr" class="nav-link" data-scroll-target="#knitr"><span class="header-section-number">24.29</span> knitr</a></li>
+  <li><a href="#mlr3-book" id="toc-mlr3-book" class="nav-link" data-scroll-target="#mlr3-book"><span class="header-section-number">24.30</span> mlr3 book</a></li>
+  <li><a href="#officeverse" id="toc-officeverse" class="nav-link" data-scroll-target="#officeverse"><span class="header-section-number">24.31</span> officeverse</a></li>
+  <li><a href="#piper-tutorial" id="toc-piper-tutorial" class="nav-link" data-scroll-target="#piper-tutorial"><span class="header-section-number">24.32</span> pipeR Tutorial</a></li>
+  <li><a href="#reactablefmtr-cookbook" id="toc-reactablefmtr-cookbook" class="nav-link" data-scroll-target="#reactablefmtr-cookbook"><span class="header-section-number">24.33</span> reactablefmtr Cookbook</a></li>
+  <li><a href="#rlist-tutorial" id="toc-rlist-tutorial" class="nav-link" data-scroll-target="#rlist-tutorial"><span class="header-section-number">24.34</span> rlist Tutorial</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 

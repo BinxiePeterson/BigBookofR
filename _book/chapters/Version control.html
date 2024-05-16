@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script async="" defer="" data-domain="bigbookofr.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
-</head><body class="nav-sidebar floating fullcontent"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
+</head><body class="nav-sidebar floating"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
 
 
 <meta property="og:title" content="Big Book of R - 36&nbsp; Version control">
@@ -85,6 +85,37 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://www.bigbookofr.com/images/big_book_social.png">
 
+<style>
+#quarto-sidebar .menu-text {
+  display: flex;
+}
+#quarto-sidebar .chapter-number {
+  display: block;
+  width: 1em;
+  text-align: right;
+}
+#quarto-sidebar .chapter-title {
+  display: block;
+  padding-left: 10px;
+  text-indent: -10px;
+  width: 100%;
+}
+#quarto-toc {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px; /* Adjust width as needed */
+  height: 100%;
+  overflow: auto;
+}
+#quarto-main {
+  margin-left: 210px; /* Adjust so content does not overlap with TOC */
+}
+/* CSS to hide the search widget */
+.quarto-search, .search-input {
+  display: none;
+}
+</style>
 
 
 
@@ -126,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Big Book of R</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome :)</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -356,7 +387,20 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#git-and-github-for-advanced-ecological-data-analysis" id="toc-git-and-github-for-advanced-ecological-data-analysis" class="nav-link active" data-scroll-target="#git-and-github-for-advanced-ecological-data-analysis"><span class="header-section-number">36.1</span> Git and Github for Advanced Ecological Data Analysis</a></li>
+  <li><a href="#github-actions-with-r" id="toc-github-actions-with-r" class="nav-link" data-scroll-target="#github-actions-with-r"><span class="header-section-number">36.2</span> Github actions with R</a></li>
+  <li><a href="#github-learning-lab" id="toc-github-learning-lab" class="nav-link" data-scroll-target="#github-learning-lab"><span class="header-section-number">36.3</span> Github learning lab</a></li>
+  <li><a href="#happy-git-and-github-for-the-user" id="toc-happy-git-and-github-for-the-user" class="nav-link" data-scroll-target="#happy-git-and-github-for-the-user"><span class="header-section-number">36.4</span> Happy Git and GitHub for the useR</a></li>
+  <li><a href="#learn-version-control-with-git" id="toc-learn-version-control-with-git" class="nav-link" data-scroll-target="#learn-version-control-with-git"><span class="header-section-number">36.5</span> Learn Version Control with Git</a></li>
+  <li><a href="#the-beginners-guide-to-git-and-github" id="toc-the-beginners-guide-to-git-and-github" class="nav-link" data-scroll-target="#the-beginners-guide-to-git-and-github"><span class="header-section-number">36.6</span> The Beginner’s Guide to Git and GitHub</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 

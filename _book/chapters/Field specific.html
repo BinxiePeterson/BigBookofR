@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script async="" defer="" data-domain="bigbookofr.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
-</head><body class="nav-sidebar floating fullcontent"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
+</head><body class="nav-sidebar floating"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
 
 
 <meta property="og:title" content="Big Book of R - 16&nbsp; Field specific">
@@ -85,6 +85,37 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://www.bigbookofr.com/images/big_book_social.png">
 
+<style>
+#quarto-sidebar .menu-text {
+  display: flex;
+}
+#quarto-sidebar .chapter-number {
+  display: block;
+  width: 1em;
+  text-align: right;
+}
+#quarto-sidebar .chapter-title {
+  display: block;
+  padding-left: 10px;
+  text-indent: -10px;
+  width: 100%;
+}
+#quarto-toc {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px; /* Adjust width as needed */
+  height: 100%;
+  overflow: auto;
+}
+#quarto-main {
+  margin-left: 210px; /* Adjust so content does not overlap with TOC */
+}
+/* CSS to hide the search widget */
+.quarto-search, .search-input {
+  display: none;
+}
+</style>
 
 
 
@@ -126,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Big Book of R</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome :)</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -356,7 +387,35 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#an-open-source-active-learning-curriculum-for-data-science-in-engineering" id="toc-an-open-source-active-learning-curriculum-for-data-science-in-engineering" class="nav-link active" data-scroll-target="#an-open-source-active-learning-curriculum-for-data-science-in-engineering"><span class="header-section-number">16.1</span> An Open-Source Active Learning Curriculum for Data Science in Engineering</a></li>
+  <li><a href="#audit-analytics-with-r" id="toc-audit-analytics-with-r" class="nav-link" data-scroll-target="#audit-analytics-with-r"><span class="header-section-number">16.2</span> Audit Analytics with R</a></li>
+  <li><a href="#building-energy-statistical-modelling" id="toc-building-energy-statistical-modelling" class="nav-link" data-scroll-target="#building-energy-statistical-modelling"><span class="header-section-number">16.3</span> Building energy statistical modelling</a></li>
+  <li><a href="#computer-age-calculus-with-r" id="toc-computer-age-calculus-with-r" class="nav-link" data-scroll-target="#computer-age-calculus-with-r"><span class="header-section-number">16.4</span> Computer-age Calculus with R</a></li>
+  <li><a href="#computing-matrix-algebra" id="toc-computing-matrix-algebra" class="nav-link" data-scroll-target="#computing-matrix-algebra"><span class="header-section-number">16.5</span> Computing Matrix Algebra</a></li>
+  <li><a href="#crime-by-the-numbers-a-criminologists-guide-to-r" id="toc-crime-by-the-numbers-a-criminologists-guide-to-r" class="nav-link" data-scroll-target="#crime-by-the-numbers-a-criminologists-guide-to-r"><span class="header-section-number">16.6</span> Crime by the Numbers A Criminologist’s Guide to R</a></li>
+  <li><a href="#cryptocurrency-research-open-source-r-tutorial" id="toc-cryptocurrency-research-open-source-r-tutorial" class="nav-link" data-scroll-target="#cryptocurrency-research-open-source-r-tutorial"><span class="header-section-number">16.7</span> Cryptocurrency Research Open Source R Tutorial</a></li>
+  <li><a href="#data-science-in-education-using-r" id="toc-data-science-in-education-using-r" class="nav-link" data-scroll-target="#data-science-in-education-using-r"><span class="header-section-number">16.8</span> Data Science in Education Using R</a></li>
+  <li><a href="#data-skills-for-reproducible-science" id="toc-data-skills-for-reproducible-science" class="nav-link" data-scroll-target="#data-skills-for-reproducible-science"><span class="header-section-number">16.9</span> Data Skills for Reproducible Science</a></li>
+  <li><a href="#discrete-data-analysis-with-r-visualization-and-modeling-techniques-for-categorical-and-count-data" id="toc-discrete-data-analysis-with-r-visualization-and-modeling-techniques-for-categorical-and-count-data" class="nav-link" data-scroll-target="#discrete-data-analysis-with-r-visualization-and-modeling-techniques-for-categorical-and-count-data"><span class="header-section-number">16.10</span> Discrete Data Analysis with R Visualization and Modeling Techniques for Categorical and Count Data</a></li>
+  <li><a href="#hierarchical-compartmental-reserving-models" id="toc-hierarchical-compartmental-reserving-models" class="nav-link" data-scroll-target="#hierarchical-compartmental-reserving-models"><span class="header-section-number">16.11</span> Hierarchical Compartmental Reserving Models</a></li>
+  <li><a href="#how-to-be-a-modern-scientist" id="toc-how-to-be-a-modern-scientist" class="nav-link" data-scroll-target="#how-to-be-a-modern-scientist"><span class="header-section-number">16.12</span> How to be a modern scientist</a></li>
+  <li><a href="#introduction-to-econometrics-with-r" id="toc-introduction-to-econometrics-with-r" class="nav-link" data-scroll-target="#introduction-to-econometrics-with-r"><span class="header-section-number">16.13</span> Introduction to Econometrics with R</a></li>
+  <li><a href="#linear-algebra-for-data-science-with-examples-in-r" id="toc-linear-algebra-for-data-science-with-examples-in-r" class="nav-link" data-scroll-target="#linear-algebra-for-data-science-with-examples-in-r"><span class="header-section-number">16.14</span> Linear Algebra for Data Science with examples in R</a></li>
+  <li><a href="#open-forensic-science-in-r" id="toc-open-forensic-science-in-r" class="nav-link" data-scroll-target="#open-forensic-science-in-r"><span class="header-section-number">16.15</span> Open Forensic Science in R</a></li>
+  <li><a href="#public-policy-analytics-code-context-for-data-science-in-government" id="toc-public-policy-analytics-code-context-for-data-science-in-government" class="nav-link" data-scroll-target="#public-policy-analytics-code-context-for-data-science-in-government"><span class="header-section-number">16.16</span> Public Policy Analytics Code &amp; Context for Data Science in Government</a></li>
+  <li><a href="#r-programming-with-minecraft" id="toc-r-programming-with-minecraft" class="nav-link" data-scroll-target="#r-programming-with-minecraft"><span class="header-section-number">16.17</span> R Programming with Minecraft</a></li>
+  <li><a href="#r-for-excel-users" id="toc-r-for-excel-users" class="nav-link" data-scroll-target="#r-for-excel-users"><span class="header-section-number">16.18</span> R for Excel users</a></li>
+  <li><a href="#r-for-seo" id="toc-r-for-seo" class="nav-link" data-scroll-target="#r-for-seo"><span class="header-section-number">16.19</span> R for SEO</a></li>
+  <li><a href="#r-for-water-resources-data-science" id="toc-r-for-water-resources-data-science" class="nav-link" data-scroll-target="#r-for-water-resources-data-science"><span class="header-section-number">16.20</span> R for Water Resources Data Science</a></li>
+  <li><a href="#technical-foundations-of-informatics" id="toc-technical-foundations-of-informatics" class="nav-link" data-scroll-target="#technical-foundations-of-informatics"><span class="header-section-number">16.21</span> Technical Foundations of Informatics</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 

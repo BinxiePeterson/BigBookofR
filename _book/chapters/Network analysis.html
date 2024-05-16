@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script async="" defer="" data-domain="bigbookofr.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
-</head><body class="nav-sidebar floating fullcontent"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
+</head><body class="nav-sidebar floating"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
 
 
 <meta property="og:title" content="Big Book of R - 23&nbsp; Network analysis">
@@ -85,6 +85,37 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://www.bigbookofr.com/images/big_book_social.png">
 
+<style>
+#quarto-sidebar .menu-text {
+  display: flex;
+}
+#quarto-sidebar .chapter-number {
+  display: block;
+  width: 1em;
+  text-align: right;
+}
+#quarto-sidebar .chapter-title {
+  display: block;
+  padding-left: 10px;
+  text-indent: -10px;
+  width: 100%;
+}
+#quarto-toc {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px; /* Adjust width as needed */
+  height: 100%;
+  overflow: auto;
+}
+#quarto-main {
+  margin-left: 210px; /* Adjust so content does not overlap with TOC */
+}
+/* CSS to hide the search widget */
+.quarto-search, .search-input {
+  display: none;
+}
+</style>
 
 
 
@@ -126,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Big Book of R</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome :)</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -356,7 +387,18 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#awesome-network-analysis" id="toc-awesome-network-analysis" class="nav-link active" data-scroll-target="#awesome-network-analysis"><span class="header-section-number">23.1</span> Awesome network analysis</a></li>
+  <li><a href="#handbook-of-graphs-and-networks-in-people-analytics-with-examples-in-r-and-python" id="toc-handbook-of-graphs-and-networks-in-people-analytics-with-examples-in-r-and-python" class="nav-link" data-scroll-target="#handbook-of-graphs-and-networks-in-people-analytics-with-examples-in-r-and-python"><span class="header-section-number">23.2</span> Handbook of Graphs and Networks in People Analytics With Examples in R and Python</a></li>
+  <li><a href="#network-analysis-in-r-cookbook" id="toc-network-analysis-in-r-cookbook" class="nav-link" data-scroll-target="#network-analysis-in-r-cookbook"><span class="header-section-number">23.3</span> Network Analysis in R Cookbook</a></li>
+  <li><a href="#statistical-analysis-of-network-data-with-r" id="toc-statistical-analysis-of-network-data-with-r" class="nav-link" data-scroll-target="#statistical-analysis-of-network-data-with-r"><span class="header-section-number">23.4</span> Statistical Analysis of Network Data with R</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 

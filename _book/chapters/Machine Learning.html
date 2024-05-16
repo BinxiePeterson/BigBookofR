@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script async="" defer="" data-domain="bigbookofr.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
-</head><body class="nav-sidebar floating fullcontent"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
+</head><body class="nav-sidebar floating"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
 
 
 <meta property="og:title" content="Big Book of R - 22&nbsp; Machine Learning">
@@ -85,6 +85,37 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://www.bigbookofr.com/images/big_book_social.png">
 
+<style>
+#quarto-sidebar .menu-text {
+  display: flex;
+}
+#quarto-sidebar .chapter-number {
+  display: block;
+  width: 1em;
+  text-align: right;
+}
+#quarto-sidebar .chapter-title {
+  display: block;
+  padding-left: 10px;
+  text-indent: -10px;
+  width: 100%;
+}
+#quarto-toc {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px; /* Adjust width as needed */
+  height: 100%;
+  overflow: auto;
+}
+#quarto-main {
+  margin-left: 210px; /* Adjust so content does not overlap with TOC */
+}
+/* CSS to hide the search widget */
+.quarto-search, .search-input {
+  display: none;
+}
+</style>
 
 
 
@@ -126,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Big Book of R</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome :)</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -356,7 +387,35 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#a-minimal-rtorch-book" id="toc-a-minimal-rtorch-book" class="nav-link active" data-scroll-target="#a-minimal-rtorch-book"><span class="header-section-number">22.1</span> A Minimal rTorch Book</a></li>
+  <li><a href="#behavior-analysis-with-machine-learning-using-r" id="toc-behavior-analysis-with-machine-learning-using-r" class="nav-link" data-scroll-target="#behavior-analysis-with-machine-learning-using-r"><span class="header-section-number">22.2</span> Behavior Analysis with Machine Learning Using R</a></li>
+  <li><a href="#data-science-theories-models-algorithms-and-analytics" id="toc-data-science-theories-models-algorithms-and-analytics" class="nav-link" data-scroll-target="#data-science-theories-models-algorithms-and-analytics"><span class="header-section-number">22.3</span> Data Science: Theories, Models, Algorithms, and Analytics</a></li>
+  <li><a href="#deep-learning-and-scientific-computing-with-r-torch" id="toc-deep-learning-and-scientific-computing-with-r-torch" class="nav-link" data-scroll-target="#deep-learning-and-scientific-computing-with-r-torch"><span class="header-section-number">22.4</span> Deep Learning and Scientific Computing with R torch</a></li>
+  <li><a href="#explanatory-model-analysis" id="toc-explanatory-model-analysis" class="nav-link" data-scroll-target="#explanatory-model-analysis"><span class="header-section-number">22.5</span> Explanatory Model Analysis</a></li>
+  <li><a href="#feature-engineering-a-z" id="toc-feature-engineering-a-z" class="nav-link" data-scroll-target="#feature-engineering-a-z"><span class="header-section-number">22.6</span> Feature Engineering A-Z</a></li>
+  <li><a href="#feature-engineering-and-selection-a-practical-approach-for-predictive-models" id="toc-feature-engineering-and-selection-a-practical-approach-for-predictive-models" class="nav-link" data-scroll-target="#feature-engineering-and-selection-a-practical-approach-for-predictive-models"><span class="header-section-number">22.7</span> Feature Engineering and Selection A Practical Approach for Predictive Models</a></li>
+  <li><a href="#hands-on-machine-learning-with-r" id="toc-hands-on-machine-learning-with-r" class="nav-link" data-scroll-target="#hands-on-machine-learning-with-r"><span class="header-section-number">22.8</span> Hands-On Machine Learning with R</a></li>
+  <li><a href="#interpretable-machine-learning" id="toc-interpretable-machine-learning" class="nav-link" data-scroll-target="#interpretable-machine-learning"><span class="header-section-number">22.9</span> Interpretable Machine Learning</a></li>
+  <li><a href="#lightweight-machine-learning-classics-with-r-marek-gagolewski" id="toc-lightweight-machine-learning-classics-with-r-marek-gagolewski" class="nav-link" data-scroll-target="#lightweight-machine-learning-classics-with-r-marek-gagolewski"><span class="header-section-number">22.10</span> Lightweight Machine Learning Classics with R Marek Gagolewski</a></li>
+  <li><a href="#machine-learning-for-factor-investing" id="toc-machine-learning-for-factor-investing" class="nav-link" data-scroll-target="#machine-learning-for-factor-investing"><span class="header-section-number">22.11</span> Machine Learning for Factor Investing</a></li>
+  <li><a href="#mathematics-and-programming-for-machine-learning-with-r-from-the-ground-up-1st-edition-kindle" id="toc-mathematics-and-programming-for-machine-learning-with-r-from-the-ground-up-1st-edition-kindle" class="nav-link" data-scroll-target="#mathematics-and-programming-for-machine-learning-with-r-from-the-ground-up-1st-edition-kindle"><span class="header-section-number">22.12</span> Mathematics and Programming for Machine Learning with R From the Ground Up 1st Edition, Kindle</a></li>
+  <li><a href="#neural-cryptography-using-keras-in-r" id="toc-neural-cryptography-using-keras-in-r" class="nav-link" data-scroll-target="#neural-cryptography-using-keras-in-r"><span class="header-section-number">22.13</span> Neural Cryptography Using Keras in R</a></li>
+  <li><a href="#neural-networks-with-keras-in-r-a-quickstart-guide" id="toc-neural-networks-with-keras-in-r-a-quickstart-guide" class="nav-link" data-scroll-target="#neural-networks-with-keras-in-r-a-quickstart-guide"><span class="header-section-number">22.14</span> Neural Networks with Keras in R: A QuickStart Guide</a></li>
+  <li><a href="#supervised-machine-learning-for-text-analysis-in-r" id="toc-supervised-machine-learning-for-text-analysis-in-r" class="nav-link" data-scroll-target="#supervised-machine-learning-for-text-analysis-in-r"><span class="header-section-number">22.15</span> Supervised Machine Learning for Text Analysis in R</a></li>
+  <li><a href="#surrogates---gaussian-process-modeling-design-and-optimization-for-the-applied-sciences" id="toc-surrogates---gaussian-process-modeling-design-and-optimization-for-the-applied-sciences" class="nav-link" data-scroll-target="#surrogates---gaussian-process-modeling-design-and-optimization-for-the-applied-sciences"><span class="header-section-number">22.16</span> Surrogates - Gaussian process modeling, design and optimization for the applied sciences</a></li>
+  <li><a href="#the-hitchhikers-guide-to-responsible-machine-learning" id="toc-the-hitchhikers-guide-to-responsible-machine-learning" class="nav-link" data-scroll-target="#the-hitchhikers-guide-to-responsible-machine-learning"><span class="header-section-number">22.17</span> The Hitchhiker’s Guide to Responsible Machine Learning</a></li>
+  <li><a href="#the-caret-package" id="toc-the-caret-package" class="nav-link" data-scroll-target="#the-caret-package"><span class="header-section-number">22.18</span> The caret Package</a></li>
+  <li><a href="#tidy-modeling-with-r" id="toc-tidy-modeling-with-r" class="nav-link" data-scroll-target="#tidy-modeling-with-r"><span class="header-section-number">22.19</span> Tidy Modeling with R</a></li>
+  <li><a href="#mlr3-book" id="toc-mlr3-book" class="nav-link" data-scroll-target="#mlr3-book"><span class="header-section-number">22.20</span> mlr3 book</a></li>
+  <li><a href="#sits-data-analysis-and-machine-learning-on-earth-observation-data-cubes-with-satellite-image-time-series" id="toc-sits-data-analysis-and-machine-learning-on-earth-observation-data-cubes-with-satellite-image-time-series" class="nav-link" data-scroll-target="#sits-data-analysis-and-machine-learning-on-earth-observation-data-cubes-with-satellite-image-time-series"><span class="header-section-number">22.21</span> sits: Data Analysis and Machine Learning on Earth Observation Data Cubes with Satellite Image Time Series</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 

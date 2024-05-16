@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script async="" defer="" data-domain="bigbookofr.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
-</head><body class="nav-sidebar floating fullcontent"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
+</head><body class="nav-sidebar floating"><a rel="me" href="https://fosstodon.org/@OscarBaruffa"></a>
 
 
 <meta property="og:title" content="Big Book of R - 33&nbsp; Teaching">
@@ -85,6 +85,37 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://www.bigbookofr.com/images/big_book_social.png">
 
+<style>
+#quarto-sidebar .menu-text {
+  display: flex;
+}
+#quarto-sidebar .chapter-number {
+  display: block;
+  width: 1em;
+  text-align: right;
+}
+#quarto-sidebar .chapter-title {
+  display: block;
+  padding-left: 10px;
+  text-indent: -10px;
+  width: 100%;
+}
+#quarto-toc {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px; /* Adjust width as needed */
+  height: 100%;
+  overflow: auto;
+}
+#quarto-main {
+  margin-left: 210px; /* Adjust so content does not overlap with TOC */
+}
+/* CSS to hide the search widget */
+.quarto-search, .search-input {
+  display: none;
+}
+</style>
 
 
 
@@ -126,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Big Book of R</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome :)</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -356,7 +387,19 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#an-open-source-active-learning-curriculum-for-data-science-in-engineering" id="toc-an-open-source-active-learning-curriculum-for-data-science-in-engineering" class="nav-link active" data-scroll-target="#an-open-source-active-learning-curriculum-for-data-science-in-engineering"><span class="header-section-number">33.1</span> An Open-Source Active Learning Curriculum for Data Science in Engineering</a></li>
+  <li><a href="#data-science-in-a-box" id="toc-data-science-in-a-box" class="nav-link" data-scroll-target="#data-science-in-a-box"><span class="header-section-number">33.2</span> Data Science in a Box</a></li>
+  <li><a href="#teaching-tech-together" id="toc-teaching-tech-together" class="nav-link" data-scroll-target="#teaching-tech-together"><span class="header-section-number">33.3</span> Teaching Tech Together</a></li>
+  <li><a href="#what-they-forgot-to-teach-you-about-teaching-r" id="toc-what-they-forgot-to-teach-you-about-teaching-r" class="nav-link" data-scroll-target="#what-they-forgot-to-teach-you-about-teaching-r"><span class="header-section-number">33.4</span> What they forgot to teach you about teaching R</a></li>
+  <li><a href="#rstudio4edu" id="toc-rstudio4edu" class="nav-link" data-scroll-target="#rstudio4edu"><span class="header-section-number">33.5</span> rstudio4edu</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
