@@ -27,11 +27,6 @@ chapters <- books_source %>%
   distinct(chapters) %>%
   pull()
 
-# Re-arrange specific chapters if needed
-#first_chapter <- "Career and Community"
-#last_chapter <- "Other compendiums"
-#chapters <- c(first_chapter, setdiff(chapters, c(first_chapter, last_chapter)), last_chapter)
-
 # Generate .qmd files for each chapter
 for (chapter in chapters) {
   chapter_content <- books_source %>%
